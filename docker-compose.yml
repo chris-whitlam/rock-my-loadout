@@ -1,0 +1,37 @@
+version: '3.7'
+
+x-shared-volumes: &shared-volumes
+  - ./:/app:rw
+  - workspace_modules:/app/node_modules
+  - workspace_yarn_cache:/home/node/.cache/yarn
+  - equipment_service_modules:/app/packages/equipment-service/node_modules
+
+services:
+  equipment-service:
+    build: .
+    volumes:
+      - ./:/app:rw
+    working_dir: /app
+    command: yarn --cwd packages/equipment-service start:dev
+    ports:
+      - 4001:4001
+    environment:
+      PORT: 4001
+    depends_on:
+      - db
+
+  db:
+    image: postgres:10.7-alpine
+    ports:
+      - 5433:5432
+    environment:
+      POSTGRES_USER: test
+      POSTGRES_PASSWORD: test
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  workspace_modules:
+  workspace_yarn_cache:
+  equipment_service_modules:
+  postgres_data:
