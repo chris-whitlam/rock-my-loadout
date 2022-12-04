@@ -6,13 +6,6 @@ import { ApiTags } from '@nestjs/swagger';
 export class AppController {
   @Get('health')
   getHealth(): string {
-    console.log('sdasdf');
-    return 'All ok';
-  }
-
-  @Get('test')
-  getTest(): string {
-    console.log('sdasdf');
-    return 'waaa';
+    return 'All good';
   }
 }
