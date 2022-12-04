@@ -19,13 +19,15 @@
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
-    "typeorm:cli": "ts-node ./node_modules/typeorm/cli -f src/config/typeorm.config-migrations.ts",
-    "db:migrate:create": "yarn typeorm:cli  migration:create -n",
-    "db:migrate:generate": "yarn typeorm:cli migration:generate -n",
-    "db:migrate": "yarn typeorm:cli migration:run",
-    "db:rollback": "yarn typeorm:cli migration:revert"
+    "db:migration:generate": "./node_modules/.bin/ts-node ./node_modules/.bin/typeorm migration:generate -d ./src/database/data-source.ts",
+    "db:migration:create": "./node_modules/.bin/ts-node ./node_modules/.bin/typeorm migration:create ./src/migrations/$NAME",
+    "db:migration:run": "./node_modules/.bin/ts-node ./node_modules/.bin/typeorm migration:run -d ./src/database/data-source.ts",
+    "db:migration:rollback": "./node_modules/.bin/ts-node ./node_modules/.bin/typeorm migration:revert -d ./src/database/data-source.ts",
+    "db:seed:config": "./node_modules/.bin/ts-node ./node_modules/.bin/typeorm-seeding config",
+    "db:seed:run": "./node_modules/.bin/ts-node ./node_modules/.bin/typeorm-seeding seed"
   },
   "dependencies": {
+    "@faker-js/faker": "^7.6.0",
     "@nestjs/common": "^9.0.0",
     "@nestjs/config": "^2.2.0",
     "@nestjs/core": "^9.0.0",
@@ -34,12 +36,15 @@
     "@nestjs/typeorm": "^9.0.1",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.13.2",
+    "json-refs": "^3.0.15",
     "pg": "^8.8.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^7.2.0",
     "ts-node": "^10.0.0",
-    "typeorm": "^0.3.10"
+    "typeorm": "^0.3.10",
+    "typeorm-seeding": "^1.6.1",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@nestjs/cli": "^9.0.0",

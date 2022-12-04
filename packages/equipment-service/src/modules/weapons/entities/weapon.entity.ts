@@ -4,20 +4,23 @@ import {
   Column,
   ManyToOne,
   ManyToMany,
+  Generated,
+  JoinTable
 } from 'typeorm';
 import { Attachment } from './attachment.entity';
 import { Platform } from './platform.entity';
 
-enum WeaponType {
-  ASSAULT_RIFLE = 'Assault Rifle',
+export enum WeaponType {
+  ASSAULT_RIFLE = 'Assault Rifle'
 }
 
-@Entity()
+@Entity('weapons')
 export class Weapon {
   @PrimaryGeneratedColumn()
   id: number;
 
-  @Column()
+  @Column({ unique: true })
+  @Generated('uuid')
   uuid: string;
 
   @Column()
@@ -25,13 +28,17 @@ export class Weapon {
 
   @Column({
     type: 'enum',
-    enum: WeaponType,
+    enum: WeaponType
   })
   type: WeaponType;
 
-  @ManyToOne((type) => Platform, (platform) => platform.weapons)
+  @ManyToOne(() => Platform, (platform) => platform.weapons, {
+    cascade: ['insert'],
+    nullable: false
+  })
   platform: Platform;
 
-  @ManyToMany((type) => Attachment)
+  @ManyToMany(() => Attachment, { cascade: true, nullable: false })
+  @JoinTable({ name: 'weapon_attachments' })
   attachments: Attachment[];
 }

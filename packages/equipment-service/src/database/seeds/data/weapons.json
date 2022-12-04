@@ -1,0 +1,12 @@
+{
+  "M4": {
+    "name": "M4",
+    "type": "Assault Rifle",
+    "platform": {
+      "$ref": "#/platforms/M4"
+    },
+    "attachments": [
+      "VX_PINEAPPLE_VERT_GRIP" 
+    ]
+  }
+}

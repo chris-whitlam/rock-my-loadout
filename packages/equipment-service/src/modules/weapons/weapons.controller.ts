@@ -1,4 +1,4 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, Post } from '@nestjs/common';
 import { ApiOperation, ApiTags } from '@nestjs/swagger';
 import { Weapon } from './entities';
 import { WeaponService } from './weapons.service';
@@ -10,7 +10,10 @@ export class WeaponsController {
 
   @Get()
   @ApiOperation({ summary: 'Retrieves all weapons' })
-  getWeapons(): Promise<Weapon[]> {
-    return this.weaponService.getAllWeapons();
+  async getWeapons(): Promise<Weapon[]> {
+    console.log('sdfsdfsdf');
+    const weapons = await this.weaponService.getAllWeapons();
+
+    return weapons;
   }
 }

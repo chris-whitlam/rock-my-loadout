@@ -1,28 +1,56 @@
-import { Entity, PrimaryGeneratedColumn, Column, ManyToMany } from 'typeorm';
+import {
+  Entity,
+  PrimaryGeneratedColumn,
+  Column,
+  ManyToMany,
+  Generated
+} from 'typeorm';
 import { Weapon } from './weapon.entity';
 
 enum AttachmentSlot {
   BARREL = 'Barrel',
   MUZZLE = 'Muzzle',
+  UNDERBARREL = 'Underbarrel'
+}
+
+enum TuningUnit {
+  INCHES = 'in',
+  OUNCES = 'oz'
+}
+
+enum TuningMetric {
+  LENGTH = 'Length'
+}
+
+enum Tunable {
+  HIP_FIRE_ACCURACY = 'Hip Fire Accuracy',
+  AIM_DOWN_SIGHT_SPEED = 'Aim Down Sight Speed'
 }
 
 interface TuningSetting {
-  name: string;
-  max: number;
-  min: number;
+  name: Tunable;
+  value: number;
+}
+
+interface TuningOption {
+  unit: TuningUnit;
+  metric: TuningMetric;
+  max: TuningSetting;
+  min: TuningSetting;
 }
 
 interface Tuning {
-  x: TuningSetting;
-  y: TuningSetting;
+  x: TuningOption;
+  y: TuningOption;
 }
 
-@Entity()
+@Entity('attachments')
 export class Attachment {
   @PrimaryGeneratedColumn()
   id: number;
 
-  @Column()
+  @Column({ unique: true })
+  @Generated('uuid')
   uuid: string;
 
   @Column()
@@ -30,15 +58,16 @@ export class Attachment {
 
   @Column({
     type: 'enum',
-    enum: AttachmentSlot,
+    enum: AttachmentSlot
   })
   attachmentSlot: AttachmentSlot;
 
-  @ManyToMany((type) => Weapon)
+  @ManyToMany(() => Weapon, { cascade: true })
   weapons: Weapon[];
 
   @Column({
     type: 'jsonb',
+    nullable: true
   })
   tuning?: Tuning;
 }

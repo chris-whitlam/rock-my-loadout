@@ -8,10 +8,15 @@ import { Weapon } from './entities';
 export class WeaponService {
   constructor(
     @InjectRepository(Weapon)
-    private readonly weaponsRepository: Repository<Weapon>,
+    private readonly weaponsRepository: Repository<Weapon>
   ) {}
 
   getAllWeapons(): Promise<Weapon[]> {
-    return this.weaponsRepository.find();
+    console.log('sadfsdoisdf');
+    return this.weaponsRepository
+      .createQueryBuilder('weapon')
+      .leftJoinAndSelect('weapon.platform', 'platform')
+      .leftJoinAndSelect('weapon.attachments', 'attachments')
+      .getMany();
   }
 }

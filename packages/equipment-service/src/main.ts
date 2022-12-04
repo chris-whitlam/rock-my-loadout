@@ -9,7 +9,7 @@ async function bootstrap() {
   app.setGlobalPrefix('equipment');
   app.enableVersioning({
     defaultVersion: '1',
-    type: VersioningType.URI,
+    type: VersioningType.URI
   });
 
   const config = new DocumentBuilder()
@@ -19,6 +19,8 @@ async function bootstrap() {
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('/equipment/docs', app, document);
+
+  console.log('sdfiosdfoisoidfio');
 
   await app.listen(process.env.PORT || 3000);
 }

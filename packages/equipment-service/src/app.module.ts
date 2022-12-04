@@ -18,19 +18,19 @@ import entities from './entities';
         username: configService.get('DB_USERNAME'),
         password: configService.get('DB_PASSWORD'),
         database: configService.get('DB_NAME'),
-        synchronize: true,
+        synchronize: false,
         entities: [__dirname + '/**/*.entity{.ts,.js}'],
-        migrations: [__dirname + '/migrations'],
+        migrations: [__dirname + '/database/migrations'],
         cli: {
-          migrationsDir: __dirname + '/migrations',
+          migrationsDir: __dirname + '/database/migrations'
         },
-        logging: true,
+        logging: true
       }),
-      inject: [ConfigService],
+      inject: [ConfigService]
     }),
-    WeaponsModule,
+    WeaponsModule
   ],
   controllers: [AppController],
-  providers: [],
+  providers: []
 })
 export class AppModule {}

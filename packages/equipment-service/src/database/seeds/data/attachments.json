@@ -1,0 +1,32 @@
+{
+  "VX_PINEAPPLE_VERT_GRIP": {
+    "name": "VX Pineapple Vert Grip",
+    "attachmentSlot": "Underbarrel",
+    "tuning": {
+      "x": {
+        "unit": "in",
+        "metric": "Length",
+        "max": {
+          "name": "Hip Fire Accuracy",
+          "value": 0.4
+        },
+        "min": {
+          "name": "Aim Down Sight Speed",
+          "value": -0.4
+        }
+      },
+      "y": {
+        "unit": "oz",
+        "metric": "Weight",
+        "max": {
+          "name": "Hip Recoil Control",
+          "value": 0.77
+        },
+        "min": {
+          "name": "Hip Walking Speed",
+          "value": -0.77
+        }
+      }
+    }
+  }
+}

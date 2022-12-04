@@ -1,17 +1,26 @@
-import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from 'typeorm';
+import {
+  Entity,
+  PrimaryGeneratedColumn,
+  Column,
+  OneToMany,
+  Generated
+} from 'typeorm';
 import { Weapon } from './weapon.entity';
 
-@Entity()
+@Entity('platforms')
 export class Platform {
-  @PrimaryGeneratedColumn()
+  @PrimaryGeneratedColumn({ type: 'int' })
   id: number;
 
-  @Column()
+  @Column({ unique: true, type: 'varchar' })
+  @Generated('uuid')
   uuid: string;
 
-  @Column()
+  @Column({ type: 'varchar' })
   name: string;
 
-  @OneToMany((type) => Weapon, (weapon) => weapon.platform)
+  @OneToMany(() => Weapon, (weapon) => weapon.platform, {
+    cascade: ['insert', 'remove']
+  })
   weapons: Weapon[];
 }
