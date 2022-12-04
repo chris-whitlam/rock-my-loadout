@@ -3,7 +3,7 @@ build:
 	docker-compose -f docker-compose.yml build --no-cache
 
 up:
-	docker-compose -f docker-compose.yml up -d --force-recreate
+	docker-compose -f docker-compose.yml up -d --build --force-recreate
 
 down:
 	docker-compose -f docker-compose.yml down
@@ -21,4 +21,4 @@ nuke-from-orbit: down
 # Database Jobs
 
 psql:
-	docker-compose exec -e PGPASSWORD=test -e PGOPTIONS=--search_path=local db psql -U test postgres
+	docker-compose exec -e PGPASSWORD=test -e PGOPTIONS=--search_path=public db psql -U test postgres

@@ -10,9 +10,9 @@ services:
   equipment-service:
     build: .
     volumes:
-      - ./:/app:rw
-    working_dir: /app
+      - ./:/app
     command: yarn --cwd packages/equipment-service start:dev
+    working_dir: /app
     ports:
       - 4001:4001
     environment:
@@ -23,7 +23,7 @@ services:
   db:
     image: postgres:10.7-alpine
     ports:
-      - 5433:5432
+      - 5432:5432
     environment:
       POSTGRES_USER: test
       POSTGRES_PASSWORD: test
