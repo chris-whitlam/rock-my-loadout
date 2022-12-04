@@ -1,8 +1,9 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 import { Factory, Seeder } from 'typeorm-seeding';
 import { Connection } from 'typeorm';
-import { Weapon } from '../../modules/weapons/entities';
+import { Attachment, Platform, Weapon } from '../../modules/weapons/entities';
 import jsonRefs from 'json-refs';
+import { plainToInstance } from 'class-transformer';
 
 const weapons = require('./data/weapons.json');
 const platforms = require('./data/platforms.json');
@@ -17,31 +18,23 @@ export default class CreateWeapons implements Seeder {
     });
 
     const _resolved = resolved as {
-      platforms: any;
-      attachments: any;
-      weapons: any;
+      platforms: Platform[];
+      attachments: Attachment[];
+      weapons: Weapon[];
     };
 
-    const resolvedWeapons = Object.values(_resolved.weapons).map(
-      (weapon: any) => {
-        const weaponAttachments = weapon.attachments.map(
+    const resolvedWeapons: Weapon[] = Object.values(_resolved.weapons).map(
+      (weapon: Weapon) => {
+        const weaponAttachments: Attachment[] = weapon.attachments.map(
           (attachmentReference: any) =>
             _resolved.attachments[attachmentReference]
         );
-        weapon.attachments = weaponAttachments;
+        weapon.attachments = plainToInstance(Attachment, weaponAttachments);
 
         return weapon;
       }
     );
 
-    console.log(resolvedWeapons);
-    console.log(attachments);
-    console.log(resolvedWeapons[0].attachments);
-    await connection
-      .createQueryBuilder()
-      .insert()
-      .into(Weapon)
-      .values(resolvedWeapons)
-      .execute();
+    await connection.manager.save(plainToInstance(Weapon, resolvedWeapons));
   }
 }

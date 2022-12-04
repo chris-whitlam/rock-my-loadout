@@ -10,17 +10,17 @@ import { Weapon } from './weapon.entity';
 @Entity('platforms')
 export class Platform {
   @PrimaryGeneratedColumn({ type: 'int' })
-  id: number;
+  id!: number;
 
-  @Column({ unique: true, type: 'varchar' })
+  @Column({ type: 'varchar', unique: true, nullable: false })
   @Generated('uuid')
-  uuid: string;
+  uuid!: string;
 
-  @Column({ type: 'varchar' })
-  name: string;
+  @Column({ type: 'varchar', nullable: false })
+  name!: string;
 
   @OneToMany(() => Weapon, (weapon) => weapon.platform, {
-    cascade: ['insert', 'remove']
+    cascade: true
   })
-  weapons: Weapon[];
+  weapons!: Weapon[];
 }

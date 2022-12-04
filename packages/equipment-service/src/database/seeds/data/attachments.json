@@ -5,7 +5,7 @@
     "tuning": {
       "x": {
         "unit": "in",
-        "metric": "Length",
+        "property": "Length",
         "max": {
           "name": "Hip Fire Accuracy",
           "value": 0.4
@@ -17,7 +17,7 @@
       },
       "y": {
         "unit": "oz",
-        "metric": "Weight",
+        "property": "Weight",
         "max": {
           "name": "Hip Recoil Control",
           "value": 0.77

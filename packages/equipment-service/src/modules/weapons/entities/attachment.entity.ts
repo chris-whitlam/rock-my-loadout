@@ -3,7 +3,8 @@ import {
   PrimaryGeneratedColumn,
   Column,
   ManyToMany,
-  Generated
+  Generated,
+  JoinTable
 } from 'typeorm';
 import { Weapon } from './weapon.entity';
 
@@ -18,8 +19,9 @@ enum TuningUnit {
   OUNCES = 'oz'
 }
 
-enum TuningMetric {
-  LENGTH = 'Length'
+enum TuningProperty {
+  LENGTH = 'Length',
+  WEIGHT = 'Weight'
 }
 
 enum Tunable {
@@ -34,7 +36,7 @@ interface TuningSetting {
 
 interface TuningOption {
   unit: TuningUnit;
-  metric: TuningMetric;
+  metric: TuningProperty;
   max: TuningSetting;
   min: TuningSetting;
 }
@@ -46,28 +48,32 @@ interface Tuning {
 
 @Entity('attachments')
 export class Attachment {
-  @PrimaryGeneratedColumn()
-  id: number;
+  @PrimaryGeneratedColumn({ type: 'int' })
+  id!: number;
 
-  @Column({ unique: true })
+  @Column({ type: 'varchar', unique: true, nullable: false })
   @Generated('uuid')
-  uuid: string;
+  uuid!: string;
 
-  @Column()
-  name: string;
+  @Column({ type: 'varchar', nullable: false })
+  name!: string;
 
   @Column({
     type: 'enum',
-    enum: AttachmentSlot
+    enum: AttachmentSlot,
+    nullable: false
   })
-  attachmentSlot: AttachmentSlot;
-
-  @ManyToMany(() => Weapon, { cascade: true })
-  weapons: Weapon[];
+  attachmentSlot!: AttachmentSlot;
 
   @Column({
     type: 'jsonb',
     nullable: true
   })
   tuning?: Tuning;
+
+  @ManyToMany(() => Weapon, (weapon) => weapon.attachments, {
+    cascade: ['insert']
+  })
+  @JoinTable({ name: 'weapon_attachments' })
+  weapons!: Weapon[];
 }

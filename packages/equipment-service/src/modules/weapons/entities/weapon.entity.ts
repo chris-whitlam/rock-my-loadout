@@ -16,29 +16,33 @@ export enum WeaponType {
 
 @Entity('weapons')
 export class Weapon {
-  @PrimaryGeneratedColumn()
-  id: number;
+  @PrimaryGeneratedColumn({ type: 'int' })
+  id!: number;
 
-  @Column({ unique: true })
+  @Column({ type: 'varchar', unique: true, nullable: false })
   @Generated('uuid')
-  uuid: string;
+  uuid!: string;
 
-  @Column()
-  name: string;
+  @Column({ type: 'varchar', nullable: false })
+  name!: string;
 
   @Column({
     type: 'enum',
-    enum: WeaponType
+    enum: WeaponType,
+    nullable: false
   })
-  type: WeaponType;
+  type!: WeaponType;
 
   @ManyToOne(() => Platform, (platform) => platform.weapons, {
     cascade: ['insert'],
     nullable: false
   })
-  platform: Platform;
+  platform!: Platform;
 
-  @ManyToMany(() => Attachment, { cascade: true, nullable: false })
+  @ManyToMany(() => Attachment, (attachment) => attachment.weapons, {
+    cascade: true,
+    createForeignKeyConstraints: false
+  })
   @JoinTable({ name: 'weapon_attachments' })
-  attachments: Attachment[];
+  attachments!: Attachment[];
 }

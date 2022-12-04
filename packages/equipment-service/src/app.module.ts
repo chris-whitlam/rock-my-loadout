@@ -4,7 +4,6 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 
 import { AppController } from './app.controller';
 import { WeaponsModule } from './modules';
-import entities from './entities';
 
 @Module({
   imports: [

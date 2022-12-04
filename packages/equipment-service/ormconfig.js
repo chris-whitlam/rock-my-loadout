@@ -6,7 +6,7 @@ module.exports = {
   username: process.env.DB_USER || 'test',
   password: process.env.DB_PASSWORD || 'test',
   database: process.env.DB_NAME || 'equipment_service',
-  logging: false,
+  logging: true,
   synchronize: false,
   entities: ['src/**/**.entity.ts'],
   migrations: ['src/database/migrations/**/*.ts'],
