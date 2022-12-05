@@ -1,0 +1,12 @@
+{
+  "SPECTER": {
+    "uuid": "aa298253-6888-4562-8238-4b33eaae6904",
+    "name": "Specter",
+    "perks": [
+      "DOUBLE_TIME",
+      "TRACKER",
+      "SPOTTER",
+      "GHOST"
+    ]
+  }
+}

@@ -1,4 +1,4 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, Param } from '@nestjs/common';
 import { ApiOperation, ApiTags } from '@nestjs/swagger';
 import { Weapon } from './entities';
 import { WeaponService } from './weapons.service';
@@ -14,5 +14,13 @@ export class WeaponsController {
     const weapons = await this.weaponService.getAllWeapons();
 
     return weapons;
+  }
+
+  @Get(':weaponUUID')
+  @ApiOperation({ summary: `Retrieves a weapon based on it's uuid` })
+  async getWeaponByUUID(
+    @Param('weaponUUID') weaponUUID: string
+  ): Promise<Weapon> {
+    return this.weaponService.getWeaponByUUID(weaponUUID);
   }
 }
