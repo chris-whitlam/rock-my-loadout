@@ -3,7 +3,7 @@ build:
 	docker-compose -f docker-compose.yml build --no-cache
 
 up:
-	docker-compose -f docker-compose.yml up -d --build --force-recreate
+	docker-compose -f docker-compose.yml up -d --force-recreate
 
 down:
 	docker-compose -f docker-compose.yml down
