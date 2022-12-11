@@ -5,6 +5,7 @@ x-shared-volumes: &shared-volumes
   - workspace_modules:/app/node_modules
   - workspace_yarn_cache:/home/node/.cache/yarn
   - equipment_service_modules:/app/packages/equipment-service/node_modules
+  - loadout_service_modules:/app/packages/loadout-service/node_modules
 
 services:
   equipment-service:
@@ -20,6 +21,22 @@ services:
     depends_on:
       - db
 
+  loadout-service:
+    build: .
+    volumes:
+      - ./:/app
+    command: yarn --cwd packages/loadout-service start:dev
+    working_dir: /app
+    ports:
+      - 4002:4002
+    environment:
+      PORT: 4002
+      AWS_REGION: eu-west-2
+      AWS_ACCESS_KEY_ID: test
+      AWS_SECRET_ACCESS_KEY: test
+      DYNAMODB_ENDPOINT: http://dynamodb:8000
+      EQUIPMENT_SERVICE_BASE_URL: http://equipment-service:4001/equipment/v1
+
   db:
     image: postgres:10.7-alpine
     ports:
@@ -30,8 +47,28 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
 
+  dynamodb:
+    image: amazon/dynamodb-local:latest
+    working_dir: /home/dynamodblocal
+    command: "-jar DynamoDBLocal.jar -sharedDb -dbPath ."
+    ports:
+      - 8000:8000
+    volumes:
+      - dynamodb_data:/home/dynamodblocal
+
+  dynamodb-admin:
+    image: aaronshaf/dynamodb-admin:latest
+    ports:
+      - 8001:8001
+    environment:
+      DYNAMO_ENDPOINT: http://dynamodb:8000
+    depends_on:
+      - dynamodb
+
 volumes:
   workspace_modules:
   workspace_yarn_cache:
   equipment_service_modules:
+  loadout_service_modules:
   postgres_data:
+  dynamodb_data:

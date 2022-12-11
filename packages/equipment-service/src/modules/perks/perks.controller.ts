@@ -14,12 +14,6 @@ export class PerksController {
     return this.perksService.getAllPerks();
   }
 
-  @Get(':perkUUID')
-  @ApiOperation({ summary: `Retrieves a perk based on it's uuid` })
-  async getPerkByUUID(@Param('perkUUID') perkUUID: string): Promise<Perk> {
-    return this.perksService.getPerkByUUID(perkUUID);
-  }
-
   @Get('packages')
   @ApiOperation({ summary: `Retrieves all perk packages` })
   async getAllPerkPackages(): Promise<PerkPackage[]> {
@@ -32,5 +26,11 @@ export class PerksController {
     @Param('perkPackageUUID') perkPackageUUID: string
   ): Promise<PerkPackage> {
     return this.perksService.getPerkPackageByUUID(perkPackageUUID);
+  }
+
+  @Get(':perkUUID')
+  @ApiOperation({ summary: `Retrieves a perk based on it's uuid` })
+  async getPerkByUUID(@Param('perkUUID') perkUUID: string): Promise<Perk> {
+    return this.perksService.getPerkByUUID(perkUUID);
   }
 }

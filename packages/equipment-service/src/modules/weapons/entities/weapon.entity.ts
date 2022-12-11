@@ -34,7 +34,7 @@ export class Weapon {
   type!: WeaponType;
 
   @ManyToOne(() => Platform, (platform) => platform.weapons, {
-    cascade: ['insert'],
+    // cascade: ['insert', 'update'],
     nullable: false
   })
   platform!: Platform;

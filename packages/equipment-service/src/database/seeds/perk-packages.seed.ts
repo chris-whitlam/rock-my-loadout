@@ -8,7 +8,7 @@ import { Perk, PerkPackage } from '../../modules/perks/entities';
 const perkPackages = require('./data/perk-packages.json');
 const perks = require('./data/perks.json');
 
-export default class CreateWeapons implements Seeder {
+export default class CreatePerkPackages implements Seeder {
   public async run(factory: Factory, connection: Connection): Promise<any> {
     const { resolved } = await jsonRefs.resolveRefs({
       perkPackages,

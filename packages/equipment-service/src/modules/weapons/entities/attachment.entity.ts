@@ -3,8 +3,7 @@ import {
   PrimaryGeneratedColumn,
   Column,
   ManyToMany,
-  Generated,
-  JoinTable
+  Generated
 } from 'typeorm';
 import { Weapon } from './weapon.entity';
 
@@ -71,9 +70,6 @@ export class Attachment {
   })
   tuning?: Tuning;
 
-  @ManyToMany(() => Weapon, (weapon) => weapon.attachments, {
-    cascade: ['insert']
-  })
-  @JoinTable({ name: 'weapon_attachments' })
+  @ManyToMany(() => Weapon, (weapon) => weapon.attachments)
   weapons!: Weapon[];
 }

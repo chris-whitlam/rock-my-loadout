@@ -4,6 +4,10 @@ import { Repository } from 'typeorm';
 
 import { Weapon } from './entities';
 
+export interface FilterOptions {
+  weaponUUIDs: string[];
+}
+
 @Injectable()
 export class WeaponService {
   constructor(
@@ -11,7 +15,7 @@ export class WeaponService {
     private readonly weaponsRepository: Repository<Weapon>
   ) {}
 
-  getAllWeapons(): Promise<Weapon[]> {
+  getAllWeapons(filterOptions: FilterOptions): Promise<Weapon[]> {
     return this.weaponsRepository.find({
       relations: {
         platform: true,
