@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { DynamoDBService, EquipmentService } from '../services';
 import { CreateLoadoutDto } from './dto/createLoadout.dto';
-import { Loadout } from './types/loadout.type';
+import { Loadout } from './types/loadout';
 
 @Injectable()
 export class LoadoutsService {
@@ -14,11 +14,8 @@ export class LoadoutsService {
     return [];
   }
 
-  public getLoadoutByUUID(uuid: string) {
+  public async getLoadoutByUUID(uuid: string) {
     const storedLoadout = await this.dynamoDBService.getLoadoutByUUID(uuid);
-    const fetchPrimaryWeapon = this.equipmentService;
-
-    const [primaryWeapon, secondaryWeapon] = Promise.all();
   }
 
   public createLoadout(data: CreateLoadoutDto) {

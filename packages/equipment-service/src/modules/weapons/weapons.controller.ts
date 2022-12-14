@@ -14,7 +14,7 @@ export class WeaponsController {
     @Query('weaponUUIDs') weaponUUIDs?: string
   ): Promise<Weapon[]> {
     const filterOptions: FilterOptions = {
-      weaponUUIDs: weaponUUIDs.split(',')
+      weaponUUIDs: weaponUUIDs ? weaponUUIDs.split(',') : []
     };
 
     return this.weaponService.getAllWeapons(filterOptions);

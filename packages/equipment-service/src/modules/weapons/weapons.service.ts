@@ -1,8 +1,8 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Repository } from 'typeorm';
 
 import { Weapon } from './entities';
+import { WeaponsRepository } from './weapons.repository';
 
 export interface FilterOptions {
   weaponUUIDs: string[];
@@ -12,16 +12,11 @@ export interface FilterOptions {
 export class WeaponService {
   constructor(
     @InjectRepository(Weapon)
-    private readonly weaponsRepository: Repository<Weapon>
+    private readonly weaponsRepository: WeaponsRepository
   ) {}
 
   getAllWeapons(filterOptions: FilterOptions): Promise<Weapon[]> {
-    return this.weaponsRepository.find({
-      relations: {
-        platform: true,
-        attachments: true
-      }
-    });
+    return this.weaponsRepository.getWeapons(filterOptions);
   }
 
   getWeaponByUUID(uuid: string): Promise<Weapon> {
