@@ -1,13 +1,16 @@
+import { Exclude, Expose } from 'class-transformer';
 import {
   Entity,
   PrimaryGeneratedColumn,
   Column,
-  ManyToMany,
-  Generated
+  Generated,
+  ManyToOne,
+  ManyToMany
 } from 'typeorm';
+import { Platform } from './platform.entity';
 import { Weapon } from './weapon.entity';
 
-enum AttachmentSlot {
+export enum AttachmentSlot {
   BARREL = 'Barrel',
   MUZZLE = 'Muzzle',
   UNDERBARREL = 'Underbarrel'
@@ -45,18 +48,22 @@ interface Tuning {
   y: TuningOption;
 }
 
+@Exclude()
 @Entity('attachments')
 export class Attachment {
   @PrimaryGeneratedColumn({ type: 'int' })
   id!: number;
 
+  @Expose()
   @Column({ type: 'varchar', unique: true, nullable: false })
   @Generated('uuid')
   uuid!: string;
 
+  @Expose()
   @Column({ type: 'varchar', nullable: false })
   name!: string;
 
+  @Expose()
   @Column({
     type: 'enum',
     enum: AttachmentSlot,
@@ -64,12 +71,20 @@ export class Attachment {
   })
   attachmentSlot!: AttachmentSlot;
 
+  @Expose()
   @Column({
     type: 'jsonb',
     nullable: true
   })
   tuning?: Tuning;
 
-  @ManyToMany(() => Weapon, (weapon) => weapon.attachments)
+  @Expose()
+  @ManyToOne(() => Platform, (platform) => platform.attachments, {
+    cascade: ['insert', 'update'],
+    nullable: true // Null means its a universal attachment
+  })
+  platform!: Platform;
+
+  @Expose()
   weapons!: Weapon[];
 }

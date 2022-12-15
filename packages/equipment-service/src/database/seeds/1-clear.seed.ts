@@ -7,7 +7,6 @@ export default class Clear implements Seeder {
     await connection.query('DELETE FROM perk_packages');
     await connection.query('DELETE FROM perks');
     await connection.query('DELETE FROM perk_package_perks');
-    await connection.query('DELETE FROM weapon_attachments');
     await connection.query('DELETE FROM attachments');
     await connection.query('DELETE FROM weapons');
     await connection.query('DELETE FROM platforms');

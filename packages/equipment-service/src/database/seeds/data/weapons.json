@@ -3,18 +3,12 @@
     "uuid": "8ce4561b-70b4-476d-afba-5d466004359c",
     "name": "M4",
     "type": "Assault Rifle",
-    "platform": "M4",
-    "attachments": [
-      "VX_PINEAPPLE_VERT_GRIP" 
-    ]
+    "platform": "M4"
   },
   "FTAC_RECON": {
     "uuid": "4b53410e-7cdd-4f11-8661-371d4a03f079",
     "name": "FTAC Recon",
     "type": "Assault Rifle",
-    "platform": "M4",
-    "attachments": [
-      "VX_PINEAPPLE_VERT_GRIP" 
-    ]
+    "platform": "M4"
   }
 }
