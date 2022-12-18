@@ -22,14 +22,11 @@ export default class CreateAttachments implements Seeder {
         attachment.platform = plainToInstance(Platform, platform, {
           ignoreDecorators: true
         });
-        if (!attachment.tuning) {
-          attachment.tuning = null;
-        }
+
         const attachmentInstance = plainToInstance(Attachment, attachment, {
           ignoreDecorators: true
         });
 
-        console.log(attachmentInstance);
         return attachmentInstance;
       })
     );

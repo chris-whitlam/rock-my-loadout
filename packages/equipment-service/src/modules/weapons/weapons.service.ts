@@ -21,7 +21,9 @@ export class WeaponService {
     if (weapon.platform.attachments?.length) {
       const attachmentSlots = weapon.attachmentSlots?.length
         ? weapon.attachmentSlots
-        : attachmentSlotsMap[weapon.type];
+        : attachmentSlotsMap[weapon.type] || attachmentSlotsMap['DEFAULT'];
+
+      console.log(attachmentSlots);
       const weaponAttachments = weapon.platform.attachments.filter(
         (attachment) => attachmentSlots.includes(attachment.attachmentSlot)
       );
