@@ -18,24 +18,12 @@ services:
       - 4001:4001
     environment:
       PORT: 4001
-    depends_on:
-      - db
-
-  loadout-service:
-    build: .
-    volumes:
-      - ./:/app
-    command: yarn --cwd packages/loadout-service start:dev
-    working_dir: /app
-    ports:
-      - 4002:4002
-    environment:
-      PORT: 4002
       AWS_REGION: eu-west-2
       AWS_ACCESS_KEY_ID: test
       AWS_SECRET_ACCESS_KEY: test
       DYNAMODB_ENDPOINT: http://dynamodb:8000
-      EQUIPMENT_SERVICE_BASE_URL: http://equipment-service:4001/equipment/v1
+    depends_on:
+      - db
 
   db:
     image: postgres:10.7-alpine
