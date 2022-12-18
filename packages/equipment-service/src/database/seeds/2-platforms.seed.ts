@@ -6,7 +6,7 @@ import { plainToInstance } from 'class-transformer';
 
 const platforms = require('./data/platforms.json');
 
-export default class CreateWeapons implements Seeder {
+export default class CreatePlatforms implements Seeder {
   public async run(factory: Factory, connection: Connection): Promise<any> {
     await connection.manager.save(
       plainToInstance(Platform, Object.values(platforms))

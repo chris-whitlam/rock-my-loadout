@@ -19,16 +19,21 @@ export default class CreateAttachments implements Seeder {
           .getRepository(Platform)
           .findOneBy(attachmentPlatformUUID);
 
-        attachment.platform = plainToInstance(Platform, platform);
+        attachment.platform = plainToInstance(Platform, platform, {
+          ignoreDecorators: true
+        });
+        if (!attachment.tuning) {
+          attachment.tuning = null;
+        }
+        const attachmentInstance = plainToInstance(Attachment, attachment, {
+          ignoreDecorators: true
+        });
 
-        return attachment;
+        console.log(attachmentInstance);
+        return attachmentInstance;
       })
     );
 
-    await Promise.all(
-      resolvedAttachments.map(async (attachment) => {
-        await connection.manager.save(plainToInstance(Attachment, attachment));
-      })
-    );
+    await connection.manager.save(resolvedAttachments);
   }
 }

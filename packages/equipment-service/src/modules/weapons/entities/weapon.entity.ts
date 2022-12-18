@@ -1,35 +1,36 @@
-import { Exclude, Expose } from 'class-transformer';
 import {
   Entity,
   PrimaryGeneratedColumn,
   Column,
   ManyToOne,
-  Generated,
-  ManyToMany
+  Generated
 } from 'typeorm';
-import { Attachment } from './attachment.entity';
+import { Attachment, AttachmentSlot } from './attachment.entity';
 import { Platform } from './platform.entity';
 
 export enum WeaponType {
-  ASSAULT_RIFLE = 'Assault Rifle'
+  ASSAULT_RIFLE = 'Assault Rifle',
+  BATTLE_RIFLE = 'Battle Rifle',
+  SMG = 'SMG',
+  SHOTGUN = 'Shotgun',
+  LMG = 'LMG',
+  MARKSMAN_RIFLE = 'Marksman Rifle',
+  SNIPER_RIFLE = 'Sniper Rifle',
+  MELEE = 'Melee'
 }
 
-@Exclude()
 @Entity('weapons')
 export class Weapon {
   @PrimaryGeneratedColumn({ type: 'int' })
   id!: number;
 
-  @Expose()
   @Column({ type: 'varchar', unique: true, nullable: false })
   @Generated('uuid')
   uuid!: string;
 
-  @Expose()
   @Column({ type: 'varchar', nullable: false })
   name!: string;
 
-  @Expose()
   @Column({
     type: 'enum',
     enum: WeaponType,
@@ -37,13 +38,14 @@ export class Weapon {
   })
   type!: WeaponType;
 
-  @Expose()
-  @ManyToOne(() => Platform, (platform) => platform.weapons, {
-    // cascade: ['insert', 'update'],
-    nullable: false
-  })
-  platform!: Platform;
+  @Column({ type: 'jsonb', nullable: true })
+  attachmentSlots?: AttachmentSlot[]; // If null, will use default for that weapon type, otherwise use what's defined here
 
-  @Expose()
+  @ManyToOne(() => Platform, (platform) => platform.weapons, {
+    cascade: ['insert', 'update'],
+    nullable: true // Because riot shield
+  })
+  platform: Platform;
+
   attachments!: Attachment[];
 }

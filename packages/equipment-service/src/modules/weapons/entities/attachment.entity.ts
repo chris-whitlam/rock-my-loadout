@@ -1,11 +1,9 @@
-import { Exclude, Expose } from 'class-transformer';
 import {
   Entity,
   PrimaryGeneratedColumn,
   Column,
   Generated,
-  ManyToOne,
-  ManyToMany
+  ManyToOne
 } from 'typeorm';
 import { Platform } from './platform.entity';
 import { Weapon } from './weapon.entity';
@@ -13,7 +11,17 @@ import { Weapon } from './weapon.entity';
 export enum AttachmentSlot {
   BARREL = 'Barrel',
   MUZZLE = 'Muzzle',
-  UNDERBARREL = 'Underbarrel'
+  UNDERBARREL = 'Underbarrel',
+  STOCK = 'Stock',
+  REAR_GRIP = 'Rear Grip',
+  MAGAZINE = 'Magazine',
+  LASER = 'Laser',
+  AMMUNITION = 'Ammunition',
+  OPTIC = 'Optic',
+  GUARD = 'Guard',
+  COMB = 'Comb',
+  BOLT = 'Bolt',
+  RAIL = 'Rail'
 }
 
 enum TuningUnit {
@@ -37,6 +45,7 @@ interface TuningSetting {
 }
 
 interface TuningOption {
+  value?: number;
   unit: TuningUnit;
   metric: TuningProperty;
   max: TuningSetting;
@@ -48,22 +57,18 @@ interface Tuning {
   y: TuningOption;
 }
 
-@Exclude()
 @Entity('attachments')
 export class Attachment {
   @PrimaryGeneratedColumn({ type: 'int' })
   id!: number;
 
-  @Expose()
   @Column({ type: 'varchar', unique: true, nullable: false })
   @Generated('uuid')
   uuid!: string;
 
-  @Expose()
   @Column({ type: 'varchar', nullable: false })
   name!: string;
 
-  @Expose()
   @Column({
     type: 'enum',
     enum: AttachmentSlot,
@@ -71,20 +76,17 @@ export class Attachment {
   })
   attachmentSlot!: AttachmentSlot;
 
-  @Expose()
   @Column({
     type: 'jsonb',
     nullable: true
   })
   tuning?: Tuning;
 
-  @Expose()
   @ManyToOne(() => Platform, (platform) => platform.attachments, {
-    cascade: ['insert', 'update'],
+    cascade: false,
     nullable: true // Null means its a universal attachment
   })
   platform!: Platform;
 
-  @Expose()
   weapons!: Weapon[];
 }

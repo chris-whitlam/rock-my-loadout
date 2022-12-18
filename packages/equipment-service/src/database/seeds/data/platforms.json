@@ -2,5 +2,49 @@
   "M4": {
     "uuid": "4a9e2815-0fc3-4b5d-bc31-cbb31d7a8d8a",
     "name": "M4"
+  },
+  "TACTIQUE_VERTE": {
+    "uuid": "750d368f-f899-43cd-872b-58686d3025c5",
+    "name": "Tactique Verte"
+  },
+  "KASTOVIA": {
+    "uuid": "4e69cb22-29b8-4ccb-825d-4b9a2a6a6f4c",
+    "name": "Kastovia"
+  },
+  "LACHMANN_AND_MEER": {
+    "uuid": "421cf608-d8b9-432a-a28b-3e43bb80d70f",
+    "name": "Lachman & Meer"
+  },
+  "BRUEN_BULLPUP": {
+    "uuid": "47175a6d-721e-4fcd-996e-112ce2ada1eb",
+    "name": "Bruen Bullpup"
+  },
+  "BRUEN_OPS": {
+    "uuid": "a9076a81-e4dd-4f7e-a478-ebf2d98b9c4b",
+    "name": "Bruen Ops"
+  },
+  "ORDNANCE": {
+    "uuid": "a0839cfa-a1f9-4da7-b028-7bd3a8a91c92",
+    "name": "Ordnance"
+  },
+  "LMP": {
+    "uuid": "a6688ca0-8fec-463d-bba6-0ead0cd7a1df",
+    "name": "LMP"
+  },
+  "TACTIQUE_DEFENSE": {
+    "uuid": "571add33-5cc0-432d-9808-138765dcbc2d",
+    "name": "Tactique Defense"
+  },
+  "LOCKWOOD_SPORT": {
+    "uuid": "f5396cb7-3ef3-466d-ab11-8d85b2106fe5",
+    "name": "Lockwood Sport"
+  },
+  "EXPEDITE": {
+    "uuid": "66c176eb-7375-44cb-a58e-dc65848d9df7",
+    "name": "Expedite"
+  },
+  "BRYSON_800_SERIES": {
+    "uuid": "986f7ec3-3dcd-42f5-a0f4-7b0843266cd4",
+    "name": "Bryson 800 Series"
   }
 }

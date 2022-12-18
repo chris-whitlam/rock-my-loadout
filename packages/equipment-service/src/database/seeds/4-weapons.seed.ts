@@ -16,16 +16,16 @@ export default class CreateWeapons implements Seeder {
           .getRepository(Platform)
           .findOne({ where: { uuid: weaponPlatformUUID } });
 
-        weapon.platform = plainToInstance(Platform, platform);
+        weapon.platform = plainToInstance(Platform, platform, {
+          ignoreDecorators: true
+        });
 
-        return weapon;
+        return plainToInstance(Weapon, weapon, {
+          ignoreDecorators: true
+        });
       })
     );
 
-    await Promise.all(
-      resolvedWeapons.map(async (weapon) => {
-        await connection.manager.save(plainToInstance(Weapon, weapon));
-      })
-    );
+    await connection.manager.save(resolvedWeapons);
   }
 }

@@ -12,7 +12,7 @@ async function bootstrap() {
     type: VersioningType.URI
   });
 
-  app.useGlobalInterceptors(new ClassSerializerInterceptor(app.get(Reflector)));
+  // app.useGlobalInterceptors(new ClassSerializerInterceptor(app.get(Reflector)));
 
   const config = new DocumentBuilder()
     .setTitle('Equipment Service')

@@ -1,34 +1,128 @@
 {
+  "HIGHTOWER_20_BARREL": {
+    "uuid": "8770b0db-5d52-42e7-ac9e-d475ef587c76",
+    "name": "Hightower 20\" Barrel",
+    "platform": "M4",
+    "attachmentSlot": "Barrel"
+  },
+  "419MM_EXF_BARREL": {
+    "uuid": "5d4f5dc2-584e-4b50-96bb-cc211d9ac18a",
+    "name": "419MM EXF Barrel",
+    "platform": "M4",
+    "attachmentSlot": "Barrel"
+  },
+  "14_CARBINE_SHROUD": {
+    "uuid": "4b034f03-f3e0-4c33-b862-45472b7322f9",
+    "name": "14\" Carbine Shroud",
+    "platform": "M4",
+    "attachmentSlot": "Barrel"
+  },
+  "11.5_T-H4_BARREL": {
+    "uuid": "9d68269d-2aea-4d56-8d7e-0ffff2c7a49b",
+    "name": "11.5\" T-H4 Barrel",
+    "platform": "M4",
+    "attachmentSlot": "Barrel"
+  },
+  "11.5_CARBINE_SHROUD": {
+    "uuid": "2bc2f29b-6bbd-41a4-8ce1-337dc313094a",
+    "name": "11.5\" Carbine Shroud",
+    "platform": "M4",
+    "attachmentSlot": "Barrel"
+  },
+  "TEMPUS_TRENCH_PRO": {
+    "uuid": "87b8545d-8d22-405c-93d4-65a06efcde5b",
+    "name": "Tempus Trench Pro",
+    "platform": "M4",
+    "attachmentSlot": "Barrel"
+  },
+  "7.5_TEMPUS_FIREBRAND": {
+    "uuid": "12233db3-eed5-41fc-983b-84cc81e6b8c7",
+    "name": "7.5\" Tempus Firebrand",
+    "platform": "M4",
+    "attachmentSlot": "Barrel"
+  },
+  "RAVAGE-8": {
+    "uuid": "0aaead86-abce-4ceb-80fa-a058b1269ce3",
+    "name": "Ravage-8",
+    "platform": "M4",
+    "attachmentSlot": "Stock"
+  },
+  "DEMO_FADE_PRO_STOCK": {
+    "uuid": "d3c4e43b-c6ee-4961-b7f3-ab38ad60c7bc",
+    "name": "Demo Fade Pro Stock",
+    "platform": "M4",
+    "attachmentSlot": "Stock"
+  },
+  "TEMPUS_P80_STRIKE_STOCK": {
+    "uuid": "d79cd3ab-0e28-40ea-a3c0-b24813e0b681",
+    "name": "Tempus P80 Strike Stock",
+    "platform": "M4",
+    "attachmentSlot": "Stock"
+  },
+  "DEMO_PRECISION_ELITE_FACTORY": {
+    "uuid": "77dfa7ab-35be-44b4-9478-337d2cdf1c7f",
+    "name": "Demo Precision Elite Factory",
+    "platform": "M4",
+    "attachmentSlot": "Stock"
+  },
+  "CORIO_PRECIO_FACTORY": {
+    "uuid": "fb6ad42a-7e21-4730-9da1-9c636253e6dd",
+    "name": "Corio Precio Factory",
+    "platform": "M4",
+    "attachmentSlot": "Stock"
+  },
+  "DEMO_D50_BUFFER_TUBE": {
+    "uuid": "a9184df7-55b3-487d-8b97-bb3942338ed6",
+    "name": "Demo D50 Buffer Tube",
+    "platform": "M4",
+    "attachmentSlot": "Stock"
+  },
+  "D15_GRIP": {
+    "uuid": "e0ab7b77-1af6-462f-9461-5b304ddb6b51",
+    "name": "D15 Grip",
+    "platform": "M4",
+    "attachmentSlot": "Rear Grip"
+  },
+  "SAKIN_ZX_GRIP": {
+    "uuid": "dcb065d9-b998-457a-8c4c-9dcfb520a2e0",
+    "name": "Sakin ZX Grip",
+    "platform": "M4",
+    "attachmentSlot": "Rear Grip"
+  },
+  "XTEN_GRIP": {
+    "uuid": "a20771be-8c36-42ce-871b-5274cb51c07c",
+    "name": "XTEN Grip",
+    "platform": "M4",
+    "attachmentSlot": "Rear Grip"
+  },
+  "PHANTOM_GRIP": {
+    "uuid": "2fcbb00d-ecae-4872-bde1-40df20571704",
+    "name": "Phantom Grip",
+    "platform": "M4",
+    "attachmentSlot": "Rear Grip"
+  },
+  "SUPPORT_CP90_GRIP": {
+    "uuid": "40262c79-58e1-4374-b781-3079f46b8118",
+    "name": "Support CP90 Grip",
+    "platform": "M4",
+    "attachmentSlot": "Rear Grip"
+  },
+  "45_ROUND_MAG": {
+    "uuid": "e0814b50-d19c-4dac-b68e-61b0d68aa6af",
+    "name": "45 Round Mag",
+    "platform": "M4",
+    "attachmentSlot": "Magazine"
+  },
+  "60_ROUND_MAG": {
+    "uuid": "5f55c78f-ac61-4d7e-996a-07ce8b749a3a",
+    "name": "60 Round Mag",
+    "platform": "M4",
+    "attachmentSlot": "Magazine"
+  },
   "VX_PINEAPPLE_VERT_GRIP": {
     "uuid": "65680658-c1b1-477c-b55d-1a64139e4a52",
-    "platform": "M4",
     "name": "VX Pineapple Vert Grip",
-    "attachmentSlot": "Underbarrel",
-    "tuning": {
-      "x": {
-        "unit": "in",
-        "property": "Length",
-        "max": {
-          "name": "Hip Fire Accuracy",
-          "value": 0.4
-        },
-        "min": {
-          "name": "Aim Down Sight Speed",
-          "value": -0.4
-        }
-      },
-      "y": {
-        "unit": "oz",
-        "property": "Weight",
-        "max": {
-          "name": "Hip Recoil Control",
-          "value": 0.77
-        },
-        "min": {
-          "name": "Hip Walking Speed",
-          "value": -0.77
-        }
-      }
-    }
+    "platform": "M4",
+    "attachmentSlot": "Underbarrel"
   }
 }

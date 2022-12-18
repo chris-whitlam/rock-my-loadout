@@ -3,8 +3,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 
 import { AppController } from './app.controller';
-import { WeaponsModule } from './modules';
-import { PerksModule } from './modules/perks';
+import { WeaponsModule, LoadoutsModule, PerksModule } from './modules';
 
 @Module({
   imports: [
@@ -29,7 +28,8 @@ import { PerksModule } from './modules/perks';
       inject: [ConfigService]
     }),
     WeaponsModule,
-    PerksModule
+    PerksModule,
+    LoadoutsModule
   ],
   controllers: [AppController],
   providers: []

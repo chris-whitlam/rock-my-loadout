@@ -18,23 +18,30 @@ export class WeaponService {
   ) {}
 
   private transformWeapon(weapon: Weapon) {
-    const weaponAttachments = weapon.platform.attachments.filter((attachment) =>
-      attachmentSlotsMap[weapon.type].includes(attachment.attachmentSlot)
-    );
+    if (weapon.platform.attachments?.length) {
+      const attachmentSlots = weapon.attachmentSlots?.length
+        ? weapon.attachmentSlots
+        : attachmentSlotsMap[weapon.type];
+      const weaponAttachments = weapon.platform.attachments.filter(
+        (attachment) => attachmentSlots.includes(attachment.attachmentSlot)
+      );
 
-    weapon.attachments = weaponAttachments;
+      weapon.attachments = weaponAttachments;
+    }
+
     delete weapon.platform.attachments;
     return weapon;
   }
 
   async getAllWeapons(filterOptions: FilterOptions): Promise<Weapon[]> {
     const weapons = await this.weaponsRepository.getWeapons(filterOptions);
+    console.log(weapons);
     return weapons.map(this.transformWeapon);
   }
 
   async getWeaponByUUID(uuid: string): Promise<Weapon> {
     const weapon = await this.weaponsRepository.getWeaponByUUID(uuid);
-
+    console.log(weapon);
     return this.transformWeapon(weapon);
   }
 }
