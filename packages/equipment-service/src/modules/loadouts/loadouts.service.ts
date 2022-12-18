@@ -50,6 +50,10 @@ export class LoadoutsService {
 
   private async validateLoadout(loadoutDto: LoadoutDto) {
     // TO DO
+    // Can't have more than one of each attachmentSlot
+    // Can't have attachments for incompatible attachmentSlots
+    // Can't have tuning on an attachment that doesn't have tuning
+    // Must have a name, primary, secondary, lethal, tactical and perk package
   }
 
   public async getLoadoutByUUID(uuid: string): Promise<Loadout> {
