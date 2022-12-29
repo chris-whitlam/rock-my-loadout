@@ -1,0 +1,22 @@
+{
+  "PILA": {
+    "uuid": "56286f27-9cf7-4978-bfa8-acd7a901a3ce",
+    "name": "Pila",
+    "type": "Launcher"
+  },
+  "STRELA-P": {
+    "uuid": "489f1054-a42d-44f0-9d1f-88b4223cf25b",
+    "name": "STRELA-P",
+    "type": "Launcher"
+  },
+  "JOKR": {
+    "uuid": "9a20c9fe-c145-4025-a4e4-2f5e34e24e0a",
+    "name": "JOKR",
+    "type": "Launcher"
+  },
+  "RPG-7": {
+    "uuid": "96b33e92-0cf3-40e8-b9d2-814273b76d2a",
+    "name": "RPG-7",
+    "type": "Launcher"
+  }
+}

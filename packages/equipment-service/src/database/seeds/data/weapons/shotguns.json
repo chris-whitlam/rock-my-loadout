@@ -1,0 +1,28 @@
+{
+  "LOCKWOOD_300": {
+    "uuid": "2884c7e7-08f3-4ea5-85ef-0b4d1474dee3",
+    "name": "Lockwood 300",
+    "type": "Shotgun",
+    "platform": "LOCKWOOD_SPORT"
+  },
+  "EXPEDITE_12": {
+    "uuid": "368ad59c-bd93-4591-8ba5-aed82eb1163c",
+    "name": "Expedite 12",
+    "type": "Shotgun",
+    "attachmentSlots": ["Muzzle", "Barrel", "Laser", "Optic", "Stock", "Bolt", "Rear Grip", "Guard", "Ammunition", "Underbarrel"],
+    "platform": "EXPEDITE"
+  },
+  "BRYSON_800": {
+    "uuid": "812f0b99-7c72-4d59-80b5-8ef0761e7fb9",
+    "name": "Bryson 800",
+    "type": "Shotgun",
+    "platform": "BRYSON_800_SERIES"
+  },
+  "BRYSON_890": {
+    "uuid": "1a2cdd2e-15c9-4ef8-a213-3a8d611a8bc8",
+    "name": "Bryson 890",
+    "type": "Shotgun",
+    "attachmentSlots": ["Muzzle", "Barrel", "Laser", "Optic", "Stock", "Guard", "Magazine", "Ammunition", "Underbarrel"],
+    "platform": "BRYSON_800_SERIES"
+  }
+}

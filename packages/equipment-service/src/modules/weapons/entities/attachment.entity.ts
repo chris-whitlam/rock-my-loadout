@@ -21,7 +21,8 @@ export enum AttachmentSlot {
   GUARD = 'Guard',
   COMB = 'Comb',
   BOLT = 'Bolt',
-  RAIL = 'Rail'
+  RAIL = 'Rail',
+  TRIGGER_ACTION = 'Trigger Action'
 }
 
 enum TuningUnit {

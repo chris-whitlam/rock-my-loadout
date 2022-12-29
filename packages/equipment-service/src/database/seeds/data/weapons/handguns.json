@@ -1,0 +1,35 @@
+{
+  "P890": {
+    "uuid": "8c811ec7-eb92-4430-9d5f-e7848e2d2089",
+    "name": "P890",
+    "type": "Handgun",
+    "platform": "BRUEN_890"
+  },
+  ".50_GS": {
+    "uuid": "4010e543-d642-48fa-a61a-65890f9c342e",
+    "name": ".50 GS",
+    "type": "Handgun",
+    "platform": "SAKIN_G_SERIES"
+  },
+  "X12": {
+    "uuid": "48c11ce7-3f96-4bdf-9a7e-8fdd66069da3",
+    "name": "X12",
+    "type": "Handgun",
+    "attachmentSlots": ["Muzzle", "Barrel", "Laser", "Optic", "Stock", "Rear Grip", "Magazine", "Ammunition", "Trigger Action"],
+    "platform": "XRK"
+  },
+  "BASILISK": {
+    "uuid": "6e31b359-73da-44eb-a86d-79a2f2d16e8e",
+    "name": "Basilisk",
+    "type": "Handgun",
+    "attachmentSlots": ["Muzzle", "Barrel", "Laser", "Optic", "Rear Grip", "Loader", "Ammunition", "Trigger Action"],
+    "platform": "BASILISK_500"
+  },
+  "X13_AUTO": {
+    "uuid": "25a87592-caa2-4cd0-846e-78fc96b50f7e",
+    "name": "X13 Auto",
+    "type": "Handgun",
+    "attachmentSlots": ["Muzzle", "Barrel", "Laser", "Optic", "Stock", "Rear Grip", "Magazine", "Ammunition", "Underbarrel"],
+    "platform": "XRK"
+  }
+}

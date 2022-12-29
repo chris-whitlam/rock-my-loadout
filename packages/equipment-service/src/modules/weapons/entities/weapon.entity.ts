@@ -16,7 +16,9 @@ export enum WeaponType {
   LMG = 'LMG',
   MARKSMAN_RIFLE = 'Marksman Rifle',
   SNIPER_RIFLE = 'Sniper Rifle',
-  MELEE = 'Melee'
+  MELEE = 'Melee',
+  HANDGUN = 'Handgun',
+  LAUNCHER = 'Launcher'
 }
 
 @Entity('weapons')

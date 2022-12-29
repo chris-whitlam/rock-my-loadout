@@ -18,13 +18,7 @@ export const customWeaponRepositoryMethods: Pick<
     this: Repository<Weapon>,
     { weaponUUIDs }
   ): Promise<Weapon[]> {
-    const query = this.createQueryBuilder('weapons')
-      .leftJoinAndSelect('weapons.platform', 'platform')
-      .leftJoinAndSelect(
-        'platform.attachments',
-        'attachments',
-        'attachments.platformId = platform.id OR attachments.platformId IS NULL'
-      );
+    const query = this.createQueryBuilder('weapons');
 
     if (weaponUUIDs.length) {
       query.andWhere('weapons.uuid IN (:...weaponUUIDs)', { weaponUUIDs });

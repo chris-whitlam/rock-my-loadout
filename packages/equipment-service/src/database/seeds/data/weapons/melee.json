@@ -1,0 +1,12 @@
+{
+  "RIOT_SHIELD": {
+    "uuid": "655c0c4a-c89d-4fbd-9295-0b14cc2054f7",
+    "name": "Riot Shield",
+    "type": "Melee"
+  },
+  "COMBAT_KNIFE": {
+    "uuid": "ce40a139-0909-4b46-8800-75d55b903399",
+    "name": "Combat Knife",
+    "type": "Melee"
+  }
+}

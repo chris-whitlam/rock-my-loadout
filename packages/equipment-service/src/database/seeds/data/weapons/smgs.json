@@ -1,0 +1,59 @@
+{
+  "VEL_46": {
+    "uuid": "016479a0-99f6-44e4-9600-804ddbd98764",
+    "name": "Vel 46",
+    "type": "SMG",
+    "platform": "LMP"
+  },
+  "MX9": {
+    "uuid": "47ef304b-8059-48b5-a336-c242404d0537",
+    "name": "MX9",
+    "type": "SMG",
+    "attachmentSlots": ["Muzzle", "Barrel", "Laser", "Optic", "Stock", "Comb", "Rear Grip", "Magazine", "Ammunition"],
+    "platform": "BRUEN_BULLPUP"
+  },
+  "LACHMANN_SUB": {
+    "uuid": "c8b85e82-4665-44c8-8ae6-1922cd827136",
+    "name": "Lachmann Sub",
+    "type": "SMG",
+    "platform": "LACHMANN_AND_MEER"
+  },
+  "VAZNEV-9K": {
+    "uuid": "113a331c-c3d4-4d54-b51c-1d956cc69fa9",
+    "name": "Vaznev-9K",
+    "type": "SMG",
+    "platform": "KASTOVIA"
+  },
+  "FFS_HURRICANE": {
+    "uuid": "569eed8a-1f6b-4921-8ed7-37bed7e8e692",
+    "name": "FFS Hurricane",
+    "type": "SMG",
+    "platform": "M4"
+  },
+  "MINIBAK": {
+    "uuid": "022f8071-6bbf-42d8-9615-fc77de37b9f0",
+    "name": "Minibak",
+    "type": "SMG",
+    "attachmentSlots": ["Muzzle", "Barrel", "Laser", "Optic", "Stock", "Rear Grip", "Magazine", "Ammunition"],
+    "platform": "KASTOVIA"
+  },
+  "BAS-P": {
+    "uuid": "11b74180-d629-4df4-be34-3a7e24e0aa56",
+    "name": "BAS-P",
+    "type": "SMG",
+    "platform": "BRUEN_OPS"
+  },
+  "PDSW_528": {
+    "uuid": "cb2e36e8-2255-4a24-8b2b-02302ccb7470",
+    "name": "PDSW 528",
+    "type": "SMG",
+    "attachmentSlots": ["Muzzle", "Barrel", "Laser", "Optic", "Stock", "Comb", "Rear Grip", "Rail", "Ammunition", "Underbarrel"],
+    "platform": "TACTIQUE_DEFENSE"
+  },
+  "FENNEC_45": {
+    "uuid": "10e5528c-f616-43e5-87aa-25891958f290",
+    "name": "Fennec 45",
+    "type": "SMG",
+    "platform": "FENNEC"
+  }
+}

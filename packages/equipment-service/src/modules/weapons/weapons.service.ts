@@ -18,12 +18,11 @@ export class WeaponService {
   ) {}
 
   private transformWeapon(weapon: Weapon) {
-    if (weapon.platform.attachments?.length) {
-      const attachmentSlots = weapon.attachmentSlots?.length
-        ? weapon.attachmentSlots
-        : attachmentSlotsMap[weapon.type] || attachmentSlotsMap['DEFAULT'];
+    const attachmentSlots = weapon.attachmentSlots?.length
+      ? weapon.attachmentSlots
+      : attachmentSlotsMap[weapon.type] || attachmentSlotsMap['DEFAULT'];
 
-      console.log(attachmentSlots);
+    if (weapon.platform?.attachments?.length) {
       const weaponAttachments = weapon.platform.attachments.filter(
         (attachment) => attachmentSlots.includes(attachment.attachmentSlot)
       );
@@ -31,13 +30,13 @@ export class WeaponService {
       weapon.attachments = weaponAttachments;
     }
 
-    delete weapon.platform.attachments;
+    delete weapon.platform?.attachments;
+
     return weapon;
   }
 
   async getAllWeapons(filterOptions: FilterOptions): Promise<Weapon[]> {
     const weapons = await this.weaponsRepository.getWeapons(filterOptions);
-    console.log(weapons);
     return weapons.map(this.transformWeapon);
   }
 

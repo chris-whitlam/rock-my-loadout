@@ -1,0 +1,39 @@
+{
+  "SAKIN_MG38": {
+    "uuid": "45be39f0-6de4-4aee-a3bd-ff7a2833a6dd",
+    "name": "Sakin MG38",
+    "type": "LMG",
+    "platform": "SAKIN_MG"
+  },
+  "HCR_56": {
+    "uuid": "dd69947d-ac4b-4728-9942-173dfdc52f4d",
+    "name": "HCR 56",
+    "type": "LMG",
+    "attachmentSlots": ["Muzzle", "Barrel", "Laser", "Optic", "Stock", "Comb", "Magazine", "Ammunition", "Underbarrel"],
+    "platform": "BRUEN_BULLPUP"
+  },
+  "556_ICARUS": {
+    "uuid": "9c678a6a-a442-4aa1-afc2-8412486c8a19",
+    "name": "556 Icarus",
+    "type": "LMG",
+    "platform": "M4"
+  },
+  "RAAL_MG": {
+    "uuid": "be43b988-fdc5-49fd-9eeb-8d33c503b4fb",
+    "name": "RAAL MG",
+    "type": "LMG",
+    "platform": "RAAL"
+  },
+  "RPK": {
+    "uuid": "968e5265-5522-434c-a07d-d6854fe15d2f",
+    "name": "RPK",
+    "type": "LMG",
+    "platform": "KASTOVIA"
+  },
+  "RAPP_H": {
+    "uuid": "78613aec-21f6-44cb-8548-777c5e291f5e",
+    "name": "RAPP H",
+    "type": "LMG",
+    "platform": "LACHMANN_AND_MEER"
+  }
+}

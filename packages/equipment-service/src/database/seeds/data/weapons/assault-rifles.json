@@ -1,0 +1,63 @@
+{
+  "M4": {
+    "uuid": "8ce4561b-70b4-476d-afba-5d466004359c",
+    "name": "M4",
+    "type": "Assault Rifle",
+    "platform": "M4"
+  },
+  "TAQ-56": {
+    "uuid": "f9ac5b99-628d-4971-bd8a-a2898fe25e64",
+    "name": "TAQ-56",
+    "type": "Assault Rifle",
+    "platform": "TACTIQUE_VERTE"
+  },
+  "KASTOV_762": {
+    "uuid": "1543db64-29aa-4ec3-adf3-5f475573d5d3",
+    "name": "Kastov 762",
+    "type": "Assault Rifle",
+    "platform": "KASTOVIA"
+  },
+  "LACHMANN-566": {
+    "uuid": "b3637328-cba0-4066-b86c-a2cb3688120a",
+    "name": "Lachmann-566",
+    "type": "Assault Rifle",
+    "platform": "LACHMANN_AND_MEER"
+  },
+  "STB_556": {
+    "uuid": "12412024-df94-4cc1-9905-56a5ddc9f5d9",
+    "name": "STB 556",
+    "type": "Assault Rifle",
+    "attachmentSlots": ["Muzzle", "Barrel", "Underbarrel", "Ammunition", "Magazine", "Laser", "Optic", "Stock", "Comb", "Rear Grip"],
+    "platform": "BRUEN_BULLPUP"
+  },
+  "M16": {
+    "uuid": "1127169f-1be2-40b9-9ed6-40644487f21a",
+    "name": "M16",
+    "type": "Assault Rifle",
+    "platform": "M4"
+  },
+  "KASTOV-74U": {
+    "uuid": "deb3da9d-0061-4be7-b9ce-0923b3ffd34e",
+    "name": "Kastov-74U",
+    "type": "Assault Rifle",
+    "platform": "KASTOVIA"
+  },
+  "KASTOV_545": {
+    "uuid": "ce83af25-ec42-4b05-902f-de9643f7bdc0",
+    "name": "Kastov 545",
+    "type": "Assault Rifle",
+    "platform": "KASTOVIA"
+  },
+  "CHIMERA": {
+    "uuid": "b2d2d3f1-3ba7-4461-a27e-cbdb138100f2",
+    "name": "Chimera",
+    "type": "Assault Rifle",
+    "platform": "BRUEN_OPS"
+  },
+  "M13B": {
+    "uuid": "515013af-e1d5-411c-b4a2-33e50ad96572",
+    "name": "M13B",
+    "type": "Assault Rifle",
+    "platform": "BRUEN_OPS"
+  }
+}

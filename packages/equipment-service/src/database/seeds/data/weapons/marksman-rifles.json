@@ -1,0 +1,42 @@
+{
+  "EBR-14": {
+    "uuid": "45a3a498-5436-4f0b-9dbd-11e0baebc226",
+    "name": "EBR-14",
+    "type": "Marksman Rifle",
+    "attachmentSlots": ["Muzzle", "Barrel", "Laser", "Optic", "Stock", "Comb", "Rear Grip", "Magazine", "Ammunition", "Underbarrel"],
+    "platform": "ORDNANCE"
+  },
+  "SP-R": {
+    "uuid": "a87d455d-696d-4c1f-9526-b495c43d6169",
+    "name": "SP-R",
+    "type": "Marksman Rifle",
+    "attachmentSlots": ["Muzzle", "Barrel", "Laser", "Optic", "Stock", "Comb", "Bolt", "Magazine", "Ammunition", "Underbarrel"],
+    "platform": "BRYSON_LONG_RIFLE"
+  },
+  "LOCKWOOD_MK2": {
+    "uuid": "a5844e00-cc7b-458b-b027-476d6044628f",
+    "name": "Lockwood MK2",
+    "type": "Marksman Rifle",
+    "attachmentSlots": ["Muzzle", "Barrel", "Laser", "Optic", "Stock", "Comb", "Lever", "Guard", "Ammunition", "Underbarrel"],
+    "platform": "MARK_2"
+  },
+  "LM-S": {
+    "uuid": "de5b2210-e80c-4b81-9e0c-3dfd0d63757f",
+    "name": "LM-S",
+    "type": "Marksman Rifle",
+    "platform": "LACHMANN_AND_MEER"
+  },
+  "SA-B_50": {
+    "uuid": "02a7230f-7061-4ee2-9b46-a0d41eaa472b",
+    "name": "SA-B 50",
+    "type": "Marksman Rifle",
+    "attachmentSlots": ["Muzzle", "Barrel", "Laser", "Optic", "Stock", "Rear Grip", "Bolt", "Magazine", "Ammunition", "Underbarrel"],
+    "platform": "BRYSON_LONG_RIFLE"
+  },
+  "TAQ-M": {
+    "uuid": "2686d362-6443-4f3a-85ca-b83e418bfaef",
+    "name": "TAQ-M",
+    "type": "Marksman Rifle",
+    "platform": "TACTIQUE_VERTE"
+  }
+}
