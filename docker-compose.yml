@@ -22,8 +22,22 @@ services:
       AWS_ACCESS_KEY_ID: test
       AWS_SECRET_ACCESS_KEY: test
       DYNAMODB_ENDPOINT: http://dynamodb:8000
+      CORS_ORIGIN: http://localhost:4000
     depends_on:
       - db
+
+  ui:
+    build: .
+    volumes:
+      - ./:/app
+    command: yarn --cwd packages/ui dev
+    working_dir: /app
+    ports:
+      - 4000:4000
+    environment:
+      PORT: 4000
+    depends_on:
+      - equipment-service
 
   db:
     image: postgres:10.7-alpine
