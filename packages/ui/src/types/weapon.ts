@@ -1,3 +1,5 @@
+import { Attachment } from './attachment';
+
 export enum WeaponType {
   ASSAULT_RIFLE = 'Assault Rifle',
   BATTLE_RIFLE = 'Battle Rifle',
@@ -11,9 +13,21 @@ export enum WeaponType {
   LAUNCHER = 'Launcher'
 }
 
-export interface Weapon {
+export interface BaseWeapon {
   uuid: string;
   name: string;
   type: WeaponType;
-  attachmentSlots: string[];
+}
+
+export enum WeaponSlot {
+  PRIMARY = 'primary',
+  SECONDARY = 'secondary'
+}
+
+export interface Weapon extends BaseWeapon {
+  attachments: Record<string, Attachment[]>;
+}
+
+export interface LoadoutWeapon extends BaseWeapon {
+  attachments?: Record<string, Attachment>;
 }

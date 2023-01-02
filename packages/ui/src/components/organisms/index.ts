@@ -1,2 +1,3 @@
 export * from './WeaponSelect';
-export * from './AttachmentsSelect';
+export * from './Gunsmith';
+export * from './AttachmentSelect';

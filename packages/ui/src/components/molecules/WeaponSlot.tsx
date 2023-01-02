@@ -1,19 +1,40 @@
 import { FC } from 'react';
-import { Weapon as WeaponT } from '@types';
+import type { Loadout, WeaponSlot as WeaponSlotT } from '@types';
+import { Button } from '@atoms';
 
 interface Props {
-  name: string;
-  weapon?: WeaponT;
-  onClick: (name: string) => void;
+  label: string;
+  name: WeaponSlotT;
+  loadout?: Loadout;
+  onClick: (name: WeaponSlotT) => void;
+  onClickGunsmith: (name: WeaponSlotT) => void;
 }
 
-export const WeaponSlot: FC<Props> = ({ name, weapon, onClick }) => {
+export const WeaponSlot: FC<Props> = ({
+  label,
+  name,
+  loadout,
+  onClick,
+  onClickGunsmith
+}) => {
+  if (!loadout) return null;
+
+  const loadoutWeapon = loadout[name];
+
   return (
-    <div>
-      <span>{name}</span>
-      <div className="bg-tertiary p-10" onClick={() => onClick(name)}>
-        {weapon?.name || 'None'}
-      </div>
+    <div className="w-full">
+      <span>{label}</span>
+      <button
+        className="bg-tertiary p-10 mt-2 text-center w-full"
+        onClick={() => onClick(name)}
+      >
+        {loadoutWeapon?.name || 'None'}
+      </button>
+      {!!loadoutWeapon && (
+        <Button onClick={() => onClickGunsmith(name)} className="w-full">
+          Gunsmith
+        </Button>
+      )}
     </div>
   );
 };

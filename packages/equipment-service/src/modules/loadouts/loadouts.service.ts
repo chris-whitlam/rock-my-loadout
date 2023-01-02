@@ -12,23 +12,23 @@ export class LoadoutsService {
     private readonly weaponService: WeaponService
   ) {}
 
-  private populateWeaponDetails(weapon: Weapon, weaponDto: WeaponDto) {
-    const attachments = weaponDto.attachments.map(
-      (attachmentDto: AttachmentDto) => {
-        const attachment = weapon.attachments.find(
-          ({ uuid }) => uuid === attachmentDto.uuid
-        );
+  // private populateWeaponDetails(weapon: Weapon, weaponDto: WeaponDto) {
+  //   const attachments = weaponDto.attachments.map(
+  //     (attachmentDto: AttachmentDto) => {
+  //       const attachment = weapon.attachments.find(
+  //         ({ uuid }) => uuid === attachmentDto.uuid
+  //       );
 
-        attachment.tuning.x.value = attachmentDto.tuning.x;
-        attachment.tuning.y.value = attachmentDto.tuning.y;
+  //       attachment.tuning.x.value = attachmentDto.tuning.x;
+  //       attachment.tuning.y.value = attachmentDto.tuning.y;
 
-        return attachment;
-      }
-    );
+  //       return attachment;
+  //     }
+  //   );
 
-    weapon.attachments = attachments;
-    return weapon;
-  }
+  //   // weapon.attachments = attachments;
+  //   return weapon;
+  // }
 
   private async buildLoadout(uuid: string, storedLoadout: LoadoutDto) {
     const [primaryWeaponData, secondaryWeaponData] = await Promise.all([
@@ -36,16 +36,16 @@ export class LoadoutsService {
       this.weaponService.getWeaponByUUID(storedLoadout.secondaryWeapon.uuid)
     ]);
 
-    const primaryWeapon = this.populateWeaponDetails(
-      primaryWeaponData,
-      storedLoadout.primaryWeapon
-    );
-    const secondaryWeapon = this.populateWeaponDetails(
-      secondaryWeaponData,
-      storedLoadout.secondaryWeapon
-    );
+    // const primaryWeapon = this.populateWeaponDetails(
+    //   primaryWeaponData,
+    //   storedLoadout.primaryWeapon
+    // );
+    // const secondaryWeapon = this.populateWeaponDetails(
+    //   secondaryWeaponData,
+    //   storedLoadout.secondaryWeapon
+    // );
 
-    return new Loadout(uuid, primaryWeapon, secondaryWeapon);
+    return new Loadout(uuid, primaryWeaponData, secondaryWeaponData);
   }
 
   private async validateLoadout(loadoutDto: LoadoutDto) {

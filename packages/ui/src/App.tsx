@@ -4,7 +4,6 @@ import { router } from './router';
 
 function App() {
   const { data = [], isFetching } = useFetchWeaponsQuery();
-  console.log(data);
   return <RouterProvider router={router}></RouterProvider>;
 }
 

@@ -31,6 +31,8 @@
       "@types/*": ["types/*"],
       "@store": ["store"],
       "@store/*": ["store/*"],
+      "@utils": ["utils"],
+      "@utils/*": ["utils/*"],
       "@": ["/"],
       "@/*": ["/*"],
     },

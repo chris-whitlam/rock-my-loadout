@@ -1,19 +1,23 @@
 import { FC } from 'react';
-import { Weapon as WeaponT } from '@types';
+import { Attachment } from '@types';
 
 interface Props {
   name: string;
-  weapon?: WeaponT;
-  onClick: (name: string) => void;
+  attachment?: Attachment;
+  onClick: (slotName: string) => void;
 }
 
-export const AttachmentSlot: FC<Props> = ({ name, weapon, onClick }) => {
+export const AttachmentSlot: FC<Props> = ({ name, attachment, onClick }) => {
   return (
-    <div>
-      <span>{name}</span>
-      <div className="bg-tertiary p-10" onClick={() => onClick(name)}>
-        {weapon?.name || 'None'}
-      </div>
-    </div>
+    <button
+      className="p-4 border-solid border-2 text-left w-1/6"
+      onClick={() => onClick(name)}
+    >
+      <span className="text-primary">
+        {name}
+        <br />
+      </span>
+      <span>{attachment?.name || 'None'}</span>
+    </button>
   );
 };

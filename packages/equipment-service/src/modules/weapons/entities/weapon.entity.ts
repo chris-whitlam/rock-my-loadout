@@ -49,5 +49,5 @@ export class Weapon {
   })
   platform: Platform;
 
-  attachments!: Attachment[];
+  attachments!: Record<string, Attachment[]>;
 }

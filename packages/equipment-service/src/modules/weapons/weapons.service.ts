@@ -22,16 +22,28 @@ export class WeaponService {
       ? weapon.attachmentSlots
       : attachmentSlotsMap[weapon.type] || attachmentSlotsMap['DEFAULT'];
 
-    weapon.attachmentSlots = attachmentSlots;
     if (weapon.platform?.attachments?.length) {
       const weaponAttachments = weapon.platform.attachments.filter(
         (attachment) => attachmentSlots.includes(attachment.attachmentSlot)
       );
 
-      weapon.attachments = weaponAttachments;
+      const attachments = weaponAttachments.reduce(
+        (attachments, attachment) => {
+          attachments[attachment.attachmentSlot] = [
+            ...(attachments[attachment.attachmentSlot] || []),
+            ...[attachment]
+          ];
+
+          return attachments;
+        },
+        {}
+      );
+
+      weapon.attachments = attachments;
     }
 
     delete weapon.platform?.attachments;
+    delete weapon.attachmentSlots;
 
     return weapon;
   }
@@ -43,7 +55,6 @@ export class WeaponService {
 
   async getWeaponByUUID(uuid: string): Promise<Weapon> {
     const weapon = await this.weaponsRepository.getWeaponByUUID(uuid);
-    console.log(weapon);
     return this.transformWeapon(weapon);
   }
 }

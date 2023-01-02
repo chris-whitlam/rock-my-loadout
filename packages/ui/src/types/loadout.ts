@@ -1,6 +1,6 @@
-import { Weapon } from './weapon';
+import { LoadoutWeapon, WeaponSlot } from './weapon';
 
 export interface Loadout {
-  primaryWeapon: Weapon;
-  secondaryWeapon: Weapon;
+  [WeaponSlot.PRIMARY]: LoadoutWeapon;
+  [WeaponSlot.SECONDARY]: LoadoutWeapon;
 }

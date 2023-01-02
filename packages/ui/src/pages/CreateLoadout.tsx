@@ -1,60 +1,84 @@
-import { PageTitle } from '@atoms';
-import { useAppDispatch, useAppSelector } from '@hooks';
-import { AttachmentsSelect, WeaponSelect } from '@organisms';
+import { Button, PageTitle } from '@atoms';
+import { useAppDispatch, useAppSelector, useLoadout } from '@hooks';
+import { Gunsmith, WeaponSelect } from '@organisms';
 import { FC, useState } from 'react';
 import { setPrimaryWeapon, setSecondaryWeapon } from '@store';
 import { WeaponSlot } from '@molecules';
-import { Weapon } from '@types';
+import { BaseWeapon, Loadout, WeaponSlot as WeaponSlotT } from '@types';
 
 export const CreateLoadout: FC = () => {
-  const [currentWeapon, setCurrentWeapon] = useState<Weapon>();
-  const [currentSlot, setCurrentSlot] = useState<string>();
   const dispatch = useAppDispatch();
   const { loadout } = useAppSelector((state) => state);
-  console.log(loadout);
 
-  const onSelectWeapon = (weapon: Weapon) => {
+  const [currentSlot, setCurrentSlot] = useState<WeaponSlotT | null>(null);
+  const [currentMenu, setCurrentMenu] = useState<string | null>(null);
+  const [{ isLoading }, saveLoadout] = useLoadout();
+
+  const onSelectWeapon = (weapon: BaseWeapon) => {
     switch (currentSlot) {
-      case 'Primary':
+      case WeaponSlotT.PRIMARY:
         dispatch(setPrimaryWeapon(weapon));
         break;
-      case 'Secondary':
+      case WeaponSlotT.SECONDARY:
         dispatch(setSecondaryWeapon(weapon));
         break;
     }
-    setCurrentWeapon(weapon);
+    setCurrentMenu(null);
+  };
+
+  const onClickGunsmith = (slotName: WeaponSlotT) => {
+    const menuReference = `Gunsmith-${slotName}`;
+    if (currentMenu === menuReference) {
+      setCurrentMenu(null);
+    } else {
+      setCurrentMenu(menuReference);
+      setCurrentSlot(slotName);
+    }
+  };
+
+  const onWeaponSlotClick = (slotName: WeaponSlotT) => {
+    const menuReference = `WeaponSelect-${slotName}`;
+    if (currentSlot && menuReference === currentSlot) {
+      setCurrentMenu(null);
+      setCurrentSlot(null);
+    } else {
+      setCurrentMenu(menuReference);
+      setCurrentSlot(slotName);
+    }
   };
 
   return (
     <>
-      <PageTitle>Create a Loadout</PageTitle>
+      <div className="flex justify-between">
+        <PageTitle>Create a Loadout</PageTitle>
+        <Button onClick={saveLoadout} isLoading={isLoading} className="w-32">
+          Save
+        </Button>
+      </div>
       <div className="my-5 grid grid-cols-5 gap-10">
         <WeaponSlot
-          name="Primary"
-          weapon={loadout.primaryWeapon}
-          onClick={(slotName) => {
-            setCurrentSlot(slotName);
-          }}
+          label="Primary"
+          name={WeaponSlotT.PRIMARY}
+          loadout={loadout as Loadout}
+          onClick={onWeaponSlotClick}
+          onClickGunsmith={onClickGunsmith}
         />
         <WeaponSlot
-          name="Secondary"
-          weapon={loadout.secondaryWeapon}
-          onClick={(slotName) => {
-            setCurrentSlot(slotName);
-          }}
+          label="Secondary"
+          name={WeaponSlotT.SECONDARY}
+          loadout={loadout as Loadout}
+          onClick={onWeaponSlotClick}
+          onClickGunsmith={onClickGunsmith}
         />
       </div>
-      {currentSlot && !currentWeapon && (
+      {currentMenu?.includes('WeaponSelect') && currentSlot && (
         <WeaponSelect
           currentSlot={currentSlot}
           onSelectWeapon={onSelectWeapon}
         />
       )}
-      {currentWeapon && (
-        <AttachmentsSelect
-          weaponUUID={currentWeapon?.uuid}
-          onSelectWeapon={onSelectWeapon}
-        />
+      {currentMenu?.includes('Gunsmith') && currentSlot && (
+        <Gunsmith currentSlot={currentSlot} loadout={loadout as Loadout} />
       )}
     </>
   );

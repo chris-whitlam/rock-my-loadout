@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { Loadout, Weapon } from '@types';
+import { BaseWeapon, Loadout, LoadoutWeapon, Weapon } from '@types';
 
 const initialState: Partial<Loadout> = {};
 
@@ -7,11 +7,11 @@ const loadoutSlice = createSlice({
   name: 'loadout',
   initialState,
   reducers: {
-    setPrimaryWeapon(state, action: PayloadAction<Weapon>) {
-      state.primaryWeapon = action.payload;
+    setPrimaryWeapon(state, action: PayloadAction<LoadoutWeapon>) {
+      state.primary = action.payload;
     },
-    setSecondaryWeapon(state, action: PayloadAction<Weapon>) {
-      state.secondaryWeapon = action.payload;
+    setSecondaryWeapon(state, action: PayloadAction<LoadoutWeapon>) {
+      state.secondary = action.payload;
     }
   }
 });
