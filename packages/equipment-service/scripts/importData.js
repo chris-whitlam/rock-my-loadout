@@ -20,7 +20,6 @@ const main = async () => {
       .readFileSync(inputFile, { encoding: 'utf8' })
       .replace(/(\r)/gm, '')
       .split('\n');
-    // console.log(data);
 
     data.forEach((line) => {
       if (!line) {

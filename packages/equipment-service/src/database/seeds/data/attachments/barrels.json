@@ -54,11 +54,6 @@
         "name": "13.5\" Lonestar Barrel",
         "attachmentSlot": "Barrel"
     },
-    "14.5\"_TUNDRA_PRO_BARREL": {
-        "uuid": "09afb34f-7386-4061-9d62-139d07c75664",
-        "name": "14.5\" Tundra Pro Barrel",
-        "attachmentSlot": "Barrel"
-    },
     "14\"_BRUEN_ECHELON": {
         "uuid": "08c73f46-87a0-4f67-b000-3a91b7712aa1",
         "name": "14\" Bruen Echelon",
@@ -122,6 +117,11 @@
     "17.5\"_ORCA_BARREL": {
         "uuid": "8d7e969e-508e-4181-82e1-c7eea7858fa9",
         "name": "17.5\" Orca Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "17.5\"_TUNDRA_PRO_BARREL": {
+        "uuid": "db4302c2-9efc-45be-95bd-eed52113eac3",
+        "name": "17.5\" Tundra Pro Barrel",
         "attachmentSlot": "Barrel"
     },
     "17\"_CORVUS_PRORANGE": {
