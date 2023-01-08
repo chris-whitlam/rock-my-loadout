@@ -26,12 +26,12 @@ export const WeaponSelect: FC<Props> = ({ currentSlot, onSelectWeapon }) => {
     setWeaponType(event.currentTarget.value);
   };
 
-  if (!weapons) return null;
-
   const weaponSlotLabel = useMemo(
     () => capitalizeFirstLetter(currentSlot),
     [currentSlot, capitalizeFirstLetter]
   );
+
+  if (!weapons) return null;
 
   return (
     <Section title={`Select a ${weaponSlotLabel} Weapon`}>

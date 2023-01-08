@@ -1,0 +1,32 @@
+{
+    "CRONEN_B85_BOLT": {
+        "uuid": "745d83d0-ac3a-4d50-9367-845722ad2beb",
+        "name": "Cronen B85 Bolt",
+        "attachmentSlot": "Bolt"
+    },
+    "CRONEN_SMOOTH_BOLT": {
+        "uuid": "7e58ada2-17d8-4cd7-a5e4-22aecd393811",
+        "name": "Cronen Smooth Bolt",
+        "attachmentSlot": "Bolt"
+    },
+    "EXPEDITE_HZ3_BOLT": {
+        "uuid": "85b74fd5-5703-4cb3-8321-2bed27ec3f26",
+        "name": "Expedite HZ3 Bolt",
+        "attachmentSlot": "Bolt"
+    },
+    "EXPEDITE_L-BOLT": {
+        "uuid": "b1c329a2-41e5-444f-8e31-dc998da2b7a5",
+        "name": "Expedite L-Bolt",
+        "attachmentSlot": "Bolt"
+    },
+    "FSS_ST87_BOLT": {
+        "uuid": "99abe17b-d548-4e5b-9715-9223012d2362",
+        "name": "FSS ST87 Bolt",
+        "attachmentSlot": "Bolt"
+    },
+    "ZLR_REINFORCED_LOCKBOLT": {
+        "uuid": "7dcc1e14-fb48-4759-afcb-fe44ab21eecb",
+        "name": "ZLR Reinforced Lockbolt",
+        "attachmentSlot": "Bolt"
+    }
+}

@@ -1,10 +1,14 @@
 import { Exclude, Expose } from 'class-transformer';
 import { PerkPackage } from '../../perks/entities';
-import { Weapon } from '../../weapons/entities';
+import { WeaponDto } from '../../weapons/dtos';
 
 @Exclude()
 export class Loadout {
-  constructor(uuid: string, primaryWeapon: Weapon, secondaryWeapon: Weapon) {
+  constructor(
+    uuid: string,
+    primaryWeapon: WeaponDto,
+    secondaryWeapon: WeaponDto
+  ) {
     this.uuid = uuid;
     this.primaryWeapon = primaryWeapon;
     this.secondaryWeapon = secondaryWeapon;
@@ -14,10 +18,10 @@ export class Loadout {
   uuid!: string;
 
   @Expose()
-  primaryWeapon!: Weapon;
+  primaryWeapon!: WeaponDto;
 
   @Expose()
-  secondaryWeapon!: Weapon;
+  secondaryWeapon!: WeaponDto;
 
   @Expose()
   perkPackage?: PerkPackage;

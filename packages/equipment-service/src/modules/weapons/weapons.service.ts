@@ -1,9 +1,9 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { plainToClass, plainToInstance } from 'class-transformer';
+import { plainToClass } from 'class-transformer';
+import { WeaponDto } from './dtos';
 
-import { AttachmentSlot, Weapon, WeaponType } from './entities';
-import { attachmentSlotsMap } from './utils';
+import { Attachment, AttachmentSlot, Weapon } from './entities';
 import { WeaponsRepository } from './weapons.repository';
 
 export interface FilterOptions {
@@ -17,43 +17,30 @@ export class WeaponService {
     private readonly weaponsRepository: WeaponsRepository
   ) {}
 
-  private transformWeapon(weapon: Weapon) {
-    const attachmentSlots = weapon.attachmentSlots?.length
-      ? weapon.attachmentSlots
-      : attachmentSlotsMap[weapon.type] || attachmentSlotsMap['DEFAULT'];
+  private transformWeapon(weapon: Weapon): WeaponDto {
+    const attachments: Partial<Record<AttachmentSlot, Attachment[]>> = {};
+    weapon.attachments.forEach((attachment) => {
+      attachments[attachment.attachmentSlot] = [
+        ...(attachments[attachment.attachmentSlot] || []),
+        attachment
+      ];
+    });
 
-    if (weapon.platform?.attachments?.length) {
-      const weaponAttachments = weapon.platform.attachments.filter(
-        (attachment) => attachmentSlots.includes(attachment.attachmentSlot)
-      );
-
-      const attachments = weaponAttachments.reduce(
-        (attachments, attachment) => {
-          attachments[attachment.attachmentSlot] = [
-            ...(attachments[attachment.attachmentSlot] || []),
-            ...[attachment]
-          ];
-
-          return attachments;
-        },
-        {}
-      );
-
-      weapon.attachments = attachments;
-    }
-
-    delete weapon.platform?.attachments;
-    delete weapon.attachmentSlots;
-
-    return weapon;
+    return plainToClass(WeaponDto, {
+      uuid: weapon.uuid,
+      name: weapon.name,
+      type: weapon.type,
+      attachments: attachments,
+      attachmentSlots: Object.keys(attachments)
+    });
   }
 
-  async getAllWeapons(filterOptions: FilterOptions): Promise<Weapon[]> {
+  async getAllWeapons(filterOptions: FilterOptions): Promise<WeaponDto[]> {
     const weapons = await this.weaponsRepository.getWeapons(filterOptions);
     return weapons.map(this.transformWeapon);
   }
 
-  async getWeaponByUUID(uuid: string): Promise<Weapon> {
+  async getWeaponByUUID(uuid: string): Promise<WeaponDto> {
     const weapon = await this.weaponsRepository.getWeaponByUUID(uuid);
     return this.transformWeapon(weapon);
   }

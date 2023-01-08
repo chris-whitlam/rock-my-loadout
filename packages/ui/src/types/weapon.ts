@@ -25,7 +25,7 @@ export enum WeaponSlot {
 }
 
 export interface Weapon extends BaseWeapon {
-  attachments: Record<string, Attachment[]>;
+  attachments: Attachment;
 }
 
 export interface LoadoutWeapon extends BaseWeapon {

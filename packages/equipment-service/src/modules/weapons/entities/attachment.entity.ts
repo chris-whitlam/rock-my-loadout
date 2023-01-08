@@ -1,12 +1,4 @@
-import {
-  Entity,
-  PrimaryGeneratedColumn,
-  Column,
-  Generated,
-  ManyToOne
-} from 'typeorm';
-import { Platform } from './platform.entity';
-import { Weapon } from './weapon.entity';
+import { Entity, PrimaryGeneratedColumn, Column, Generated } from 'typeorm';
 
 export enum AttachmentSlot {
   BARREL = 'Barrel',
@@ -82,12 +74,4 @@ export class Attachment {
     nullable: true
   })
   tuning?: Tuning;
-
-  @ManyToOne(() => Platform, (platform) => platform.attachments, {
-    cascade: false,
-    nullable: true // Null means its a universal attachment
-  })
-  platform!: Platform;
-
-  weapons!: Weapon[];
 }

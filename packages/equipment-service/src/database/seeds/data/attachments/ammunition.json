@@ -1,0 +1,462 @@
+{
+    ".300_ARMOR_PIERCING": {
+        "uuid": "16c6eec4-99fd-4713-b5fa-831e237157c8",
+        "name": ".300 Armor Piercing",
+        "attachmentSlot": "Ammunition"
+    },
+    ".300_BLK_ARMOR_PIERCING": {
+        "uuid": "c2c9d43d-2927-453a-ab21-c8e62dfbe81e",
+        "name": ".300 BLK Armor Piercing",
+        "attachmentSlot": "Ammunition"
+    },
+    ".300_BLK_FRANGIBLE": {
+        "uuid": "79cca535-2d25-4633-aaa9-17c42df9721c",
+        "name": ".300 BLK Frangible",
+        "attachmentSlot": "Ammunition"
+    },
+    ".300_BLK_HOLLOWPOINT": {
+        "uuid": "e237705a-1b8e-4669-9f21-7c66379b7534",
+        "name": ".300 BLK Hollowpoint",
+        "attachmentSlot": "Ammunition"
+    },
+    ".300_BLK_OVERPRESSURED_+P": {
+        "uuid": "1fd61160-cf7e-40e3-994b-d4bcb680e4de",
+        "name": ".300 BLK Overpressured +P",
+        "attachmentSlot": "Ammunition"
+    },
+    ".300_FRANGIBLE": {
+        "uuid": "24cc13c0-a985-4236-a923-37001c11ecbc",
+        "name": ".300 Frangible",
+        "attachmentSlot": "Ammunition"
+    },
+    ".300_HIGH_VELOCITY": {
+        "uuid": "00bb0e29-9c4a-494c-8464-c5d0b743ca3c",
+        "name": ".300 High Velocity",
+        "attachmentSlot": "Ammunition"
+    },
+    ".300_HOLLOWPOINT": {
+        "uuid": "e68f00b7-6f9f-44d1-a3af-48d2885f466e",
+        "name": ".300 Hollowpoint",
+        "attachmentSlot": "Ammunition"
+    },
+    ".300_INCENDIARY": {
+        "uuid": "27cb2104-8e63-4910-bbb8-6fc05cc92465",
+        "name": ".300 Incendiary",
+        "attachmentSlot": "Ammunition"
+    },
+    ".300_OVERPRESSURED_+P": {
+        "uuid": "4fe3596f-d7f7-4ffe-a7dd-a3b3a112189a",
+        "name": ".300 Overpressured +P",
+        "attachmentSlot": "Ammunition"
+    },
+    ".308_ARMOR_PIERCING": {
+        "uuid": "e782b584-c0f6-453e-b346-941ee9cd6a68",
+        "name": ".308 Armor Piercing",
+        "attachmentSlot": "Ammunition"
+    },
+    ".308_FRANGIBLE": {
+        "uuid": "2abe11e7-fe03-4ddd-8a17-1540d3b91ba0",
+        "name": ".308 Frangible",
+        "attachmentSlot": "Ammunition"
+    },
+    ".308_HIGH_VELOCITY": {
+        "uuid": "5a474133-6456-4966-a7a9-e5c428b7af2d",
+        "name": ".308 High Velocity",
+        "attachmentSlot": "Ammunition"
+    },
+    ".308_HOLLOW_POINT": {
+        "uuid": "41e382ed-7bdb-40bc-b911-21836a9e5413",
+        "name": ".308 Hollow Point",
+        "attachmentSlot": "Ammunition"
+    },
+    ".308_INCENDIARY": {
+        "uuid": "981ef4ff-9a7a-4f17-84fd-696db46c2c5c",
+        "name": ".308 Incendiary",
+        "attachmentSlot": "Ammunition"
+    },
+    ".308_OVERPRESSURED_+P": {
+        "uuid": "639f3701-c862-47dc-9cb9-5e7ee7192b32",
+        "name": ".308 Overpressured +P",
+        "attachmentSlot": "Ammunition"
+    },
+    ".338_MAG_ARMOR_PIERCING": {
+        "uuid": "7df1d10d-42d6-4ef7-a065-c166bd3d7732",
+        "name": ".338 Mag Armor Piercing",
+        "attachmentSlot": "Ammunition"
+    },
+    ".338_MAG_FRANGIBLE": {
+        "uuid": "f46c7725-11dc-4039-924f-eeddcb313995",
+        "name": ".338 Mag Frangible",
+        "attachmentSlot": "Ammunition"
+    },
+    ".338_MAG_HIGH_VELOCITY": {
+        "uuid": "fcb8a72a-526e-4179-b8f7-1af08e327f10",
+        "name": ".338 Mag High Velocity",
+        "attachmentSlot": "Ammunition"
+    },
+    ".338_MAG_HOLLOWPOINT": {
+        "uuid": "228c0130-0e3d-44be-a806-521417a9ba58",
+        "name": ".338 Mag Hollowpoint",
+        "attachmentSlot": "Ammunition"
+    },
+    ".338_MAG_INCENDIARY": {
+        "uuid": "3ac1bd27-866a-44dc-863d-d1ccde4b1714",
+        "name": ".338 Mag Incendiary",
+        "attachmentSlot": "Ammunition"
+    },
+    ".338_MAG_OVERPRESSURED_+P": {
+        "uuid": "0fe266e8-adb0-4520-91aa-e077f10606cc",
+        "name": ".338 Mag Overpressured +P",
+        "attachmentSlot": "Ammunition"
+    },
+    ".45_AUTO_ARMOR_PIERCING": {
+        "uuid": "9d67866c-b5f1-4149-a0ab-7c9b2cf3fcdc",
+        "name": ".45 Auto Armor Piercing",
+        "attachmentSlot": "Ammunition"
+    },
+    ".45_AUTO_FRANGIBLE": {
+        "uuid": "203c357a-b0ce-4f84-820e-83e6a9d539c5",
+        "name": ".45 Auto Frangible",
+        "attachmentSlot": "Ammunition"
+    },
+    ".45_AUTO_HOLLOWPOINT": {
+        "uuid": "95979722-0654-421c-a679-0d811c739af1",
+        "name": ".45 Auto Hollowpoint",
+        "attachmentSlot": "Ammunition"
+    },
+    ".45_AUTO_OVERPRESSURED_+P": {
+        "uuid": "5313cb41-1ff5-469e-a4b9-d9d9cec3793b",
+        "name": ".45 Auto Overpressured +P",
+        "attachmentSlot": "Ammunition"
+    },
+    ".45_GVT_ARMOR_PIERCING": {
+        "uuid": "34b2a8b1-ac88-4e1f-ae3f-8d83fa3da150",
+        "name": ".45 GVT Armor Piercing",
+        "attachmentSlot": "Ammunition"
+    },
+    ".45_GVT_FRANGIBLE": {
+        "uuid": "81fcdbb2-c80e-4e94-b9df-818bcbf869b1",
+        "name": ".45 GVT Frangible",
+        "attachmentSlot": "Ammunition"
+    },
+    ".45_GVT_HIGH_VELOCITY": {
+        "uuid": "4c89cdee-3d22-48ef-b717-9f997ef7960b",
+        "name": ".45 GVT High Velocity",
+        "attachmentSlot": "Ammunition"
+    },
+    ".45_GVT_HOLLOWPOINT": {
+        "uuid": "7e4c9601-7aeb-4b2b-9c15-5cf5e0dbd7a8",
+        "name": ".45 GVT Hollowpoint",
+        "attachmentSlot": "Ammunition"
+    },
+    ".45_GVT_INCENDIARY": {
+        "uuid": "e881baa9-721b-4d8a-9ea0-8c967b113a24",
+        "name": ".45 GVT Incendiary",
+        "attachmentSlot": "Ammunition"
+    },
+    ".45_GVT_OVERPRESSURED_+P": {
+        "uuid": "a71a3764-d751-49b3-ba4e-bf88c9139d5a",
+        "name": ".45 GVT Overpressured +P",
+        "attachmentSlot": "Ammunition"
+    },
+    ".458_ARMOR_PIERCING": {
+        "uuid": "1482ddc5-4124-4725-b0c4-30f51f2c534b",
+        "name": ".458 Armor Piercing",
+        "attachmentSlot": "Ammunition"
+    },
+    ".458_FRANGIBLE": {
+        "uuid": "7c22c45f-ae9b-4885-8ab7-1e856a604cd9",
+        "name": ".458 Frangible",
+        "attachmentSlot": "Ammunition"
+    },
+    ".458_HIGH_VELOCITY": {
+        "uuid": "7a876005-2894-4b57-a030-774438732b90",
+        "name": ".458 High Velocity",
+        "attachmentSlot": "Ammunition"
+    },
+    ".458_HOLLOW_POINT": {
+        "uuid": "48b19ae4-28e7-4cc1-988a-2b315a7cdc24",
+        "name": ".458 Hollow Point",
+        "attachmentSlot": "Ammunition"
+    },
+    ".458_OVERPRESSURED_+P": {
+        "uuid": "e6b8390e-6191-4bb5-bfe2-f3d6719fa11a",
+        "name": ".458 Overpressured +P",
+        "attachmentSlot": "Ammunition"
+    },
+    ".50_CAL_ARMOR_PIERCING": {
+        "uuid": "0d727f22-4e27-430d-ac90-b97a3825a92b",
+        "name": ".50 CAL Armor Piercing",
+        "attachmentSlot": "Ammunition"
+    },
+    ".50_CAL_EXPLOSIVE": {
+        "uuid": "fd71e073-1f89-4d76-82fd-ec4eb8e7e25e",
+        "name": ".50 CAL Explosive",
+        "attachmentSlot": "Ammunition"
+    },
+    ".50_CAL_FRANGIBLE": {
+        "uuid": "11143fdd-efe4-4ac6-a096-dc8e4c3ce1fd",
+        "name": ".50 CAL Frangible",
+        "attachmentSlot": "Ammunition"
+    },
+    ".50_CAL_HIGH_VELOCITY": {
+        "uuid": "f0c911bd-530a-4bc7-9a25-52db02a87fa3",
+        "name": ".50 CAL High Velocity",
+        "attachmentSlot": "Ammunition"
+    },
+    ".50_CAL_INCENDIARY": {
+        "uuid": "d96c7bdf-b736-49b3-b51f-785119d12abf",
+        "name": ".50 CAL Incendiary",
+        "attachmentSlot": "Ammunition"
+    },
+    ".50_PISTOL_ARMOR_PIERCING": {
+        "uuid": "e5f31f84-46f9-4625-a26a-0bec6468b58d",
+        "name": ".50 Pistol Armor Piercing",
+        "attachmentSlot": "Ammunition"
+    },
+    ".50_PISTOL_FRANGIBLE": {
+        "uuid": "ac48bbf6-83d2-4cfe-98aa-97cf09a80cb3",
+        "name": ".50 Pistol Frangible",
+        "attachmentSlot": "Ammunition"
+    },
+    ".50_PISTOL_HOLLOWPOINT": {
+        "uuid": "f00ecdca-3af6-4381-8c33-29f60f760bec",
+        "name": ".50 Pistol Hollowpoint",
+        "attachmentSlot": "Ammunition"
+    },
+    ".50_PISTOL_OVERPRESSURED_+P": {
+        "uuid": "58d28704-21f5-463a-a5cf-ebcbb530c669",
+        "name": ".50 Pistol Overpressured +P",
+        "attachmentSlot": "Ammunition"
+    },
+    ".500_ARMOR_PIERCING": {
+        "uuid": "28da7f5f-9607-44f9-916d-05db91b7ed9e",
+        "name": ".500 Armor Piercing",
+        "attachmentSlot": "Ammunition"
+    },
+    ".500_FRANGIBLE": {
+        "uuid": "069ee060-5f97-4e6f-ab36-a8eb3fb09142",
+        "name": ".500 Frangible",
+        "attachmentSlot": "Ammunition"
+    },
+    ".500_HOLLOWPOINT": {
+        "uuid": "be87d19b-429f-4b88-980a-94847a950377",
+        "name": ".500 Hollowpoint",
+        "attachmentSlot": "Ammunition"
+    },
+    ".500_OVERPRESSURED_+P": {
+        "uuid": "f941b217-443e-4171-8eba-61f7d9ceeccb",
+        "name": ".500 Overpressured +P",
+        "attachmentSlot": "Ammunition"
+    },
+    ".500_SNAKESHOT": {
+        "uuid": "0ec44179-767f-453b-96bb-f4c476c693c7",
+        "name": ".500 SnakeShot",
+        "attachmentSlot": "Ammunition"
+    },
+    "12_GAUGE_DRAGON'S_BREATH": {
+        "uuid": "6a98f293-9151-4cd6-97f6-f880e4e46bfe",
+        "name": "12 Gauge Dragon's Breath",
+        "attachmentSlot": "Ammunition"
+    },
+    "12_GAUGE_EXPLOSIVE": {
+        "uuid": "fee4ac63-c6e7-4aae-ae7b-62180a62d265",
+        "name": "12 Gauge Explosive",
+        "attachmentSlot": "Ammunition"
+    },
+    "12_GAUGE_SLUG": {
+        "uuid": "84a2eeb9-f643-4a61-8fbc-7708370ba18d",
+        "name": "12 Gauge Slug",
+        "attachmentSlot": "Ammunition"
+    },
+    "4.6MM_ARMOR_PIERCING": {
+        "uuid": "0387af04-bb10-485a-8b5a-7435d4e9baa7",
+        "name": "4.6mm Armor Piercing",
+        "attachmentSlot": "Ammunition"
+    },
+    "4.6MM_FRANGIBLE": {
+        "uuid": "a342d707-d1f8-4914-a879-1aa74da1dd58",
+        "name": "4.6mm Frangible",
+        "attachmentSlot": "Ammunition"
+    },
+    "4.6MM_HOLLOWPOINT": {
+        "uuid": "fe85024f-e924-44c3-97d1-1bff2ce89cd9",
+        "name": "4.6mm Hollowpoint",
+        "attachmentSlot": "Ammunition"
+    },
+    "4.6MM_OVERPRESSURED_+P": {
+        "uuid": "5097d01f-8466-4f99-9013-1812cc57855f",
+        "name": "4.6mm Overpressured +P",
+        "attachmentSlot": "Ammunition"
+    },
+    "5.45_ARMOR_PIERCING": {
+        "uuid": "e413e281-4554-4f55-8e37-c1f0c58bb6d9",
+        "name": "5.45 Armor Piercing",
+        "attachmentSlot": "Ammunition"
+    },
+    "5.45_FRANGIBLE": {
+        "uuid": "10b68a71-f80c-42fd-9bd7-1f5422c4dd9d",
+        "name": "5.45 Frangible",
+        "attachmentSlot": "Ammunition"
+    },
+    "5.45_HIGH_VELOCITY": {
+        "uuid": "b28dc414-bd0c-4e86-a4ea-16b80e7766ad",
+        "name": "5.45 High Velocity",
+        "attachmentSlot": "Ammunition"
+    },
+    "5.45_HOLLOWPOINT": {
+        "uuid": "70e556bc-9b7a-4234-b1e2-9de65bd146b3",
+        "name": "5.45 Hollowpoint",
+        "attachmentSlot": "Ammunition"
+    },
+    "5.45_OVERPRESSURED_+P": {
+        "uuid": "b80ce1af-6f43-4401-8d59-384bd52ec20c",
+        "name": "5.45 Overpressured +P",
+        "attachmentSlot": "Ammunition"
+    },
+    "5.56_ARMOR_PIERCING": {
+        "uuid": "d9b027e9-79fd-4f3a-971e-4ead0b620505",
+        "name": "5.56 Armor Piercing",
+        "attachmentSlot": "Ammunition"
+    },
+    "5.56_FRANGIBLE": {
+        "uuid": "8d7220d3-5345-4470-acc3-f056de70487b",
+        "name": "5.56 Frangible",
+        "attachmentSlot": "Ammunition"
+    },
+    "5.56_HIGH_VELOCITY": {
+        "uuid": "6ad03f49-3776-47f8-8d7b-0146da4e72b5",
+        "name": "5.56 High Velocity",
+        "attachmentSlot": "Ammunition"
+    },
+    "5.56_HOLLOWPOINT": {
+        "uuid": "c8e2ea34-9871-4661-9105-228813b78746",
+        "name": "5.56 Hollowpoint",
+        "attachmentSlot": "Ammunition"
+    },
+    "5.56_OVERPRESSURED_+P": {
+        "uuid": "92a978d0-2dab-4082-9b6b-da4aa79d201d",
+        "name": "5.56 Overpressured +P",
+        "attachmentSlot": "Ammunition"
+    },
+    "5.7X28MM_ARMOR_PIERCING": {
+        "uuid": "25fe1da4-1b7f-4273-8ea4-00e5c34a33eb",
+        "name": "5.7x28mm Armor Piercing",
+        "attachmentSlot": "Ammunition"
+    },
+    "5.7X28MM_FRANGIBLE": {
+        "uuid": "324948b1-6342-4810-bcfa-e74a71547b1e",
+        "name": "5.7x28mm Frangible",
+        "attachmentSlot": "Ammunition"
+    },
+    "5.7X28MM_HOLLOW_POINT": {
+        "uuid": "99c60838-f5e7-45fa-ad77-deecf7cee6fa",
+        "name": "5.7x28mm Hollow Point",
+        "attachmentSlot": "Ammunition"
+    },
+    "5.7X28MM_OVERPRESSURED_+P": {
+        "uuid": "b35f933a-f2d8-4df6-bda1-a0144749a3e9",
+        "name": "5.7x28mm Overpressured +P",
+        "attachmentSlot": "Ammunition"
+    },
+    "6.5MM_ARMOR_PIERCING": {
+        "uuid": "6f48370a-066f-4c9d-b623-7ed22a45c40f",
+        "name": "6.5mm Armor Piercing",
+        "attachmentSlot": "Ammunition"
+    },
+    "6.5MM_FRANGIBLE": {
+        "uuid": "ac6a3fad-f572-40a7-8ee7-b097a91487b2",
+        "name": "6.5mm Frangible",
+        "attachmentSlot": "Ammunition"
+    },
+    "6.5MM_HIGH_VELOCITY": {
+        "uuid": "bf217a6e-4047-417a-b907-d024a215829a",
+        "name": "6.5mm High Velocity",
+        "attachmentSlot": "Ammunition"
+    },
+    "6.5MM_HOLLOWPOINT": {
+        "uuid": "98e6bd72-fea9-4ae7-af14-746f4463a6ca",
+        "name": "6.5mm Hollowpoint",
+        "attachmentSlot": "Ammunition"
+    },
+    "6.5MM_INCENDIARY": {
+        "uuid": "57380513-f518-40e5-976e-c9ebd9413f59",
+        "name": "6.5mm Incendiary",
+        "attachmentSlot": "Ammunition"
+    },
+    "6.5MM_OVERPRESSURED_+P": {
+        "uuid": "5bb407c7-cc3c-46ce-a391-bee689c4d56c",
+        "name": "6.5mm Overpressured +P",
+        "attachmentSlot": "Ammunition"
+    },
+    "7.62_ARMOR_PIERCING": {
+        "uuid": "94601123-b4f5-4198-81c8-aaa322ad529b",
+        "name": "7.62 Armor Piercing",
+        "attachmentSlot": "Ammunition"
+    },
+    "7.62_FRANGIBLE": {
+        "uuid": "29f485b2-5df3-443e-9cd1-fd744dad3667",
+        "name": "7.62 Frangible",
+        "attachmentSlot": "Ammunition"
+    },
+    "7.62_HIGH_VELOCITY": {
+        "uuid": "ca7e13d9-4e8f-4a33-bc5d-ef14a85c5310",
+        "name": "7.62 High Velocity",
+        "attachmentSlot": "Ammunition"
+    },
+    "7.62_HOLLOWPOINT": {
+        "uuid": "c9561f07-f0bf-42f7-a964-c1da7004c12f",
+        "name": "7.62 Hollowpoint",
+        "attachmentSlot": "Ammunition"
+    },
+    "7.62_INCENDIARY": {
+        "uuid": "4ca3904b-bd4b-45b4-8974-4c1fff9df711",
+        "name": "7.62 Incendiary",
+        "attachmentSlot": "Ammunition"
+    },
+    "7.62_OVERPRESSURED_+P": {
+        "uuid": "7e89814b-ca8b-4b73-a314-27b42e6f768e",
+        "name": "7.62 Overpressured +P",
+        "attachmentSlot": "Ammunition"
+    },
+    "9MM_ARMOR_PIERCING": {
+        "uuid": "f47fddd7-d9f8-43a6-b5af-77308b3b62c1",
+        "name": "9mm Armor Piercing",
+        "attachmentSlot": "Ammunition"
+    },
+    "9MM_FRANGIBLE": {
+        "uuid": "a9a66b7f-0398-417b-88e3-e5316067209e",
+        "name": "9mm Frangible",
+        "attachmentSlot": "Ammunition"
+    },
+    "9MM_HOLLOWPOINT": {
+        "uuid": "6c253bb7-e77c-4875-b6fe-78d73e7d2fd6",
+        "name": "9mm Hollowpoint",
+        "attachmentSlot": "Ammunition"
+    },
+    "9MM_OVERPRESSURED_+P": {
+        "uuid": "37882f06-12bd-41b0-900d-c03691d88a99",
+        "name": "9mm Overpressured +P",
+        "attachmentSlot": "Ammunition"
+    },
+    "9MM_SUB_AP": {
+        "uuid": "2f15992c-eb7d-4e4b-8970-4a5d7b91bc71",
+        "name": "9mm Sub AP",
+        "attachmentSlot": "Ammunition"
+    },
+    "9MM_SUB_FR": {
+        "uuid": "d4c4abbf-fdef-49b7-9ad9-346dd0fad479",
+        "name": "9mm Sub FR",
+        "attachmentSlot": "Ammunition"
+    },
+    "9MM_SUB_HP": {
+        "uuid": "5ee43795-0c97-42e1-9bfa-17328223c60f",
+        "name": "9mm Sub HP",
+        "attachmentSlot": "Ammunition"
+    },
+    "9MM_SUB_OP": {
+        "uuid": "5def5690-a7a7-48b1-9714-7ac3119d1b95",
+        "name": "9mm Sub OP",
+        "attachmentSlot": "Ammunition"
+    }
+}

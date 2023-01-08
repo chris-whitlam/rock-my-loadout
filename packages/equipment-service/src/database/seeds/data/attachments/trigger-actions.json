@@ -1,0 +1,67 @@
+{
+    "BASILISK_HT-7": {
+        "uuid": "86c4efa2-9a45-4604-b6cd-a523736c1d89",
+        "name": "Basilisk HT-7",
+        "attachmentSlot": "Trigger Action"
+    },
+    "BRUEN_EXPRESS": {
+        "uuid": "a2c8a3bc-30d2-471a-b107-df7845b46582",
+        "name": "Bruen Express",
+        "attachmentSlot": "Trigger Action"
+    },
+    "BRUEN_MG80_TRIGGER": {
+        "uuid": "33ad6a9e-e941-4c03-b9dc-e8851607b345",
+        "name": "Bruen MG80 Trigger",
+        "attachmentSlot": "Trigger Action"
+    },
+    "BRYSON_HTA": {
+        "uuid": "54bc2a88-78c4-4f0b-aee0-7ab80bf0d5dd",
+        "name": "Bryson HTA",
+        "attachmentSlot": "Trigger Action"
+    },
+    "BRYSON_MATCH_GRADE": {
+        "uuid": "a20cbcb9-3b21-4037-b6dc-9a0f4fa68a91",
+        "name": "Bryson Match Grade",
+        "attachmentSlot": "Trigger Action"
+    },
+    "P890_DOUBLE_ACTION": {
+        "uuid": "7d177de6-fc6e-4b8d-99b8-08130a7d67c5",
+        "name": "P890 Double Action",
+        "attachmentSlot": "Trigger Action"
+    },
+    "SA_COMPETITION_TRIGGER": {
+        "uuid": "60dd12c3-7658-456a-8595-424e0bf85994",
+        "name": "SA Competition Trigger",
+        "attachmentSlot": "Trigger Action"
+    },
+    "SA_FIFTY_TRIGGER": {
+        "uuid": "b751bb38-6ab1-4752-b0f8-ead4e25c8a41",
+        "name": "SA Fifty Trigger",
+        "attachmentSlot": "Trigger Action"
+    },
+    "SA_HARE_TRIGGER": {
+        "uuid": "ecb09660-3400-4662-b1b6-c75223638a77",
+        "name": "SA Hare Trigger",
+        "attachmentSlot": "Trigger Action"
+    },
+    "XRK_HEAVY_V3": {
+        "uuid": "e7981660-f22f-45f9-9c3b-3275b0bf67a2",
+        "name": "XRK Heavy V3",
+        "attachmentSlot": "Trigger Action"
+    },
+    "XRK_LIGHTING_FIRE": {
+        "uuid": "5af460b4-78dc-4f27-9bab-9e933d6c01ec",
+        "name": "XRK Lighting Fire",
+        "attachmentSlot": "Trigger Action"
+    },
+    "XRK_TR9_TRIGGER": {
+        "uuid": "311c7189-d4c0-4012-8103-f6f538ef35fc",
+        "name": "XRK TR9 Trigger",
+        "attachmentSlot": "Trigger Action"
+    },
+    "XRK_V6_MATCH": {
+        "uuid": "6e5f4f02-fbd4-41ea-b929-1e4354d03f17",
+        "name": "XRK V6 Match",
+        "attachmentSlot": "Trigger Action"
+    }
+}

@@ -1,0 +1,492 @@
+{
+    "AGILE_ASSAULT-7": {
+        "uuid": "2c1c33d7-978e-46b7-9cd4-e4d98fd09c14",
+        "name": "Agile Assault-7",
+        "attachmentSlot": "Stock"
+    },
+    "ASSAULT-60_STOCK_FACTORY": {
+        "uuid": "1f803d63-116e-4e2d-a598-cd8f6f0a4ea4",
+        "name": "Assault-60 Stock Factory",
+        "attachmentSlot": "Stock"
+    },
+    "BR_STOCKLESS_MOD": {
+        "uuid": "662a2547-e481-4484-876e-204591a3c502",
+        "name": "BR Stockless Mod",
+        "attachmentSlot": "Stock"
+    },
+    "BRUEN_FLASH_V4_STOCK": {
+        "uuid": "73053bb0-78d3-4fae-8617-4ba2a85095bc",
+        "name": "Bruen Flash V4 Stock",
+        "attachmentSlot": "Stock"
+    },
+    "BRUEN_HCR_56_STOCK": {
+        "uuid": "658c0848-faca-443f-85a4-73f3189bfbdc",
+        "name": "Bruen HCR 56 Stock",
+        "attachmentSlot": "Stock"
+    },
+    "BRUEN_MX9_STOCK": {
+        "uuid": "220148f5-937b-4a06-9611-faded14237f8",
+        "name": "Bruen MX9 Stock",
+        "attachmentSlot": "Stock"
+    },
+    "BRUEN_STB_556_STOCK": {
+        "uuid": "da1da23a-beaa-4110-ac2e-0528d6ad3b4f",
+        "name": "Bruen STB 556 Stock",
+        "attachmentSlot": "Stock"
+    },
+    "BRYSON_INFORCER_STOCK": {
+        "uuid": "78357237-9fe6-4352-99f7-a4a7bc58b801",
+        "name": "Bryson Inforcer Stock",
+        "attachmentSlot": "Stock"
+    },
+    "BRYSON_NATURAL_SERIES_STOCK": {
+        "uuid": "50d5d0b9-a0ca-4587-8a29-2362dde0ff38",
+        "name": "Bryson Natural Series Stock",
+        "attachmentSlot": "Stock"
+    },
+    "BRYSON_REVERB-55_STOCK": {
+        "uuid": "749febcc-1fc4-4f67-a4c2-9f44c4b7d88f",
+        "name": "Bryson Reverb-55 Stock",
+        "attachmentSlot": "Stock"
+    },
+    "BRYSON_STREAMLINE": {
+        "uuid": "8cf3cbaa-ef96-4ba7-8a2e-b06a40b833ae",
+        "name": "Bryson Streamline",
+        "attachmentSlot": "Stock"
+    },
+    "CHEETAH_STM": {
+        "uuid": "6da6d73d-701a-4f95-9234-3e97e3d0a893",
+        "name": "Cheetah STM",
+        "attachmentSlot": "Stock"
+    },
+    "CORIO_PRECIO_FACTORY": {
+        "uuid": "6cfc8fd6-fcec-40cb-93c5-263334a23ae8",
+        "name": "Corio Precio Factory",
+        "attachmentSlot": "Stock"
+    },
+    "CQB_STOCK": {
+        "uuid": "6c8b3ff6-accd-427e-86d4-196759bca85f",
+        "name": "CQB Stock",
+        "attachmentSlot": "Stock"
+    },
+    "CRONEN_LION_STOCK": {
+        "uuid": "f7d8d4fa-a73b-47b0-bd56-616b126f41c6",
+        "name": "Cronen Lion Stock",
+        "attachmentSlot": "Stock"
+    },
+    "CRONEN_LW-88_STOCK": {
+        "uuid": "2f8bf4c7-c66a-487f-8a1b-0ee5c2fb7891",
+        "name": "Cronen LW-88 Stock",
+        "attachmentSlot": "Stock"
+    },
+    "CRONEN_MARSHAL_STOCK": {
+        "uuid": "6d6817b3-960c-480e-b245-3080bbf9a14c",
+        "name": "Cronen Marshal Stock",
+        "attachmentSlot": "Stock"
+    },
+    "CUT_OFF_STOCK_MOD": {
+        "uuid": "829b456d-b67a-4b83-a41d-3e0cec19871a",
+        "name": "Cut Off Stock Mod",
+        "attachmentSlot": "Stock"
+    },
+    "DEMO_D50_BUFFER_TUBE": {
+        "uuid": "b2e42aa7-adb9-4143-b48e-5bfdd421f1f9",
+        "name": "Demo D50 Buffer Tube",
+        "attachmentSlot": "Stock"
+    },
+    "DEMO_FADE_PRO_STOCK": {
+        "uuid": "a9bab731-0b8f-479f-89c9-1f2879f3dcad",
+        "name": "Demo Fade Pro Stock",
+        "attachmentSlot": "Stock"
+    },
+    "DEMO_FOLDING_STOCK": {
+        "uuid": "b16b4231-590c-4ee0-992c-198fa8dab673",
+        "name": "Demo Folding Stock",
+        "attachmentSlot": "Stock"
+    },
+    "DEMO_H-40": {
+        "uuid": "a982551a-1e12-4605-947b-d3815bdc3d60",
+        "name": "Demo H-40",
+        "attachmentSlot": "Stock"
+    },
+    "DEMO_NIMBLE_STOCK": {
+        "uuid": "e8dac12e-9b2d-47fc-b550-32584406f77c",
+        "name": "Demo Nimble Stock",
+        "attachmentSlot": "Stock"
+    },
+    "DEMO_PRECISION_ELITE_FACTORY": {
+        "uuid": "75a07562-9e16-489f-aef5-0e4e6a5eddb5",
+        "name": "Demo Precision Elite Factory",
+        "attachmentSlot": "Stock"
+    },
+    "DEMO_QUICKSILVER_COLLAPSED": {
+        "uuid": "059e3b7a-1edd-450c-8597-41ac41fd6c3c",
+        "name": "Demo Quicksilver Collapsed",
+        "attachmentSlot": "Stock"
+    },
+    "DEMO_QUICKSILVER_STOCK": {
+        "uuid": "5c87f506-18f4-430f-a614-fabd95807562",
+        "name": "Demo Quicksilver Stock",
+        "attachmentSlot": "Stock"
+    },
+    "DEMO_RXT_STOCK": {
+        "uuid": "c4c29457-e40d-472d-ad75-b96e200aa879",
+        "name": "Demo RXT Stock",
+        "attachmentSlot": "Stock"
+    },
+    "DEMO_VX509_STOCK": {
+        "uuid": "8ffd3bcf-ef32-4b50-af04-f8c57a58835b",
+        "name": "Demo VX509 Stock",
+        "attachmentSlot": "Stock"
+    },
+    "EXF_COLONEL": {
+        "uuid": "ccd107da-c6a2-4748-a70a-cab2475a5c10",
+        "name": "EXF Colonel",
+        "attachmentSlot": "Stock"
+    },
+    "FENNEC_BULLFIGHTER": {
+        "uuid": "a24dbe90-0606-4460-931e-ee5db6855c12",
+        "name": "Fennec Bullfighter",
+        "attachmentSlot": "Stock"
+    },
+    "FSS_ECHO_STOCK": {
+        "uuid": "deb41eef-e866-428e-a699-7ff237d69cd4",
+        "name": "FSS Echo Stock",
+        "attachmentSlot": "Stock"
+    },
+    "FSS_FRAME_STOCK": {
+        "uuid": "3371743a-6eb9-4c86-a475-2fecdd27d8f8",
+        "name": "FSS Frame Stock",
+        "attachmentSlot": "Stock"
+    },
+    "FSS_GUARDIAN_STOCK": {
+        "uuid": "d90250e2-ca31-45b0-99a9-4c9dfc2c158c",
+        "name": "FSS Guardian Stock",
+        "attachmentSlot": "Stock"
+    },
+    "FSS_HEAVY_STOCK_PRO": {
+        "uuid": "f2413e55-8fd6-48d9-823b-4dc270e8fccf",
+        "name": "FSS Heavy Stock Pro",
+        "attachmentSlot": "Stock"
+    },
+    "FSS_MERC_STOCK": {
+        "uuid": "982ff5e7-cb21-4e12-9c90-a98884771fdf",
+        "name": "FSS Merc Stock",
+        "attachmentSlot": "Stock"
+    },
+    "FSS_RIOT_STOCK": {
+        "uuid": "524d6a27-f091-463a-bc00-1e0c522a00b9",
+        "name": "FSS Riot Stock",
+        "attachmentSlot": "Stock"
+    },
+    "FSS_WATCHMAN": {
+        "uuid": "599f56b6-a2fa-4bfd-aee6-8b773b78497d",
+        "name": "FSS Watchman",
+        "attachmentSlot": "Stock"
+    },
+    "FT_MOBILE_STOCK": {
+        "uuid": "73a9451b-8bb4-4802-83b5-eed711fbf8ed",
+        "name": "FT Mobile Stock",
+        "attachmentSlot": "Stock"
+    },
+    "FT_TAC-ELITE_STOCK": {
+        "uuid": "a1abe9dc-5329-4958-bc81-420effc4b954",
+        "name": "FT Tac-Elite Stock",
+        "attachmentSlot": "Stock"
+    },
+    "FTAC_APOLLO_STOCK": {
+        "uuid": "50cf120e-b15f-407b-9879-fdb43d30bcce",
+        "name": "FTac Apollo Stock",
+        "attachmentSlot": "Stock"
+    },
+    "FTAC_CONDOR": {
+        "uuid": "c3a28856-2adf-43f6-aa78-b8e262998465",
+        "name": "FTac Condor",
+        "attachmentSlot": "Stock"
+    },
+    "FTAC_EZX-PRO": {
+        "uuid": "efdcf553-5178-4669-b368-cb48e6b22642",
+        "name": "FTac EZX-Pro",
+        "attachmentSlot": "Stock"
+    },
+    "FTAC_HOMELAND": {
+        "uuid": "5b9ff7bd-aa26-4749-b97a-40c089f33e04",
+        "name": "FTac Homeland",
+        "attachmentSlot": "Stock"
+    },
+    "FTAC_INVISI-670": {
+        "uuid": "711e9bca-69e0-4db0-b119-b58aed3f665a",
+        "name": "FTac Invisi-670",
+        "attachmentSlot": "Stock"
+    },
+    "FTAC_LOCKTIGHT": {
+        "uuid": "a510038f-e0f6-4b36-b5d3-004c8f460971",
+        "name": "FTac Locktight",
+        "attachmentSlot": "Stock"
+    },
+    "FTAC_RTP-40": {
+        "uuid": "666dda39-4aaf-4810-8c30-eadbe4777a23",
+        "name": "FTac RTP-40",
+        "attachmentSlot": "Stock"
+    },
+    "FTAC_STOCK_CAP": {
+        "uuid": "6ba57e4d-8cc1-4f3d-a9f7-b8735578766c",
+        "name": "FTac Stock Cap",
+        "attachmentSlot": "Stock"
+    },
+    "FTAC_VALOR_STOCK": {
+        "uuid": "1e0b9be5-914b-4bc3-879c-8f23eecc0ab0",
+        "name": "FTac Valor Stock",
+        "attachmentSlot": "Stock"
+    },
+    "FTAC_XCOMMAND": {
+        "uuid": "9eeca0cd-3b7d-4b9b-99ba-5f08e8ed56cb",
+        "name": "FTac XCommand",
+        "attachmentSlot": "Stock"
+    },
+    "GUARD_DUTY_STOCK": {
+        "uuid": "216fb35a-0d87-4360-bc6f-d7122dd0f283",
+        "name": "Guard Duty Stock",
+        "attachmentSlot": "Stock"
+    },
+    "HEAVY_SUPPORT_STOCK": {
+        "uuid": "174092e0-d5c6-4f33-b73e-c47bea6709b6",
+        "name": "Heavy Support Stock",
+        "attachmentSlot": "Stock"
+    },
+    "HEIST_STOCK_MOD": {
+        "uuid": "583b0aa5-f213-4c02-9cfb-c55751640106",
+        "name": "Heist Stock Mod",
+        "attachmentSlot": "Stock"
+    },
+    "IVANOV_WOOD_STOCK": {
+        "uuid": "ffffa194-aec9-4220-b821-ada549687c7c",
+        "name": "Ivanov Wood Stock",
+        "attachmentSlot": "Stock"
+    },
+    "KASTOV-RAMA": {
+        "uuid": "448fea8f-ff62-4f60-a66a-144f8c3d4f9e",
+        "name": "Kastov-Rama",
+        "attachmentSlot": "Stock"
+    },
+    "KSTV-RPK_FACTORY": {
+        "uuid": "e5dd41ff-6f8d-4197-bec1-6d2ef1e59537",
+        "name": "KSTV-RPK Factory",
+        "attachmentSlot": "Stock"
+    },
+    "LACHMANN_S76_FACTORY_STOCK": {
+        "uuid": "34435697-10c6-4bba-a638-87329ddc9948",
+        "name": "Lachmann S76 Factory Stock",
+        "attachmentSlot": "Stock"
+    },
+    "LACHMANN_S9_FACTORY": {
+        "uuid": "9f9c3593-67c0-4fc4-b47e-c09dab6702ae",
+        "name": "Lachmann S9 Factory",
+        "attachmentSlot": "Stock"
+    },
+    "LM_PRECISION_STOCK": {
+        "uuid": "607d240f-bd7e-4681-a182-615d2235b7c4",
+        "name": "LM Precision Stock",
+        "attachmentSlot": "Stock"
+    },
+    "LM_STOCKLESS_MOD": {
+        "uuid": "2890ace0-75f3-47d6-b61e-6174636ee6b4",
+        "name": "LM Stockless Mod",
+        "attachmentSlot": "Stock"
+    },
+    "LM-S_FACTORY_G79_STOCK": {
+        "uuid": "6716dde4-9161-43b9-b7a9-66bfc3f3e527",
+        "name": "LM-S Factory G79 Stock",
+        "attachmentSlot": "Stock"
+    },
+    "LOCKWOOD_BULLSEYE_STOCK": {
+        "uuid": "44da5e43-819b-4317-acd0-cf6d948ddffb",
+        "name": "Lockwood Bullseye Stock",
+        "attachmentSlot": "Stock"
+    },
+    "MARKEEV_R7_STOCK": {
+        "uuid": "3f691bbc-55ec-4cef-88e8-10d138ff89c4",
+        "name": "Markeev R7 Stock",
+        "attachmentSlot": "Stock"
+    },
+    "MAX_DMR_PRECISION": {
+        "uuid": "036ac59c-5630-4bdf-a07a-e6cb33c36f24",
+        "name": "Max DMR Precision",
+        "attachmentSlot": "Stock"
+    },
+    "MEER_RECOIL-56_FACTORY_STOCK": {
+        "uuid": "20970131-ea74-44f3-a81f-d57441bc5617",
+        "name": "Meer Recoil-56 Factory Stock",
+        "attachmentSlot": "Stock"
+    },
+    "MODEL_1957": {
+        "uuid": "1ed03f92-897d-4143-bb1c-362e6c4393d2",
+        "name": "Model 1957",
+        "attachmentSlot": "Stock"
+    },
+    "OTREZAT_STOCK": {
+        "uuid": "be9764ec-2413-4406-93b7-f9f33dec6e62",
+        "name": "OTREZAT Stock",
+        "attachmentSlot": "Stock"
+    },
+    "PROLITE_TL3_STOCK": {
+        "uuid": "138048fd-9383-4ceb-8226-4c5a1a2ab4b8",
+        "name": "ProLite TL3 Stock",
+        "attachmentSlot": "Stock"
+    },
+    "PVZ-890_TAC_STOCK": {
+        "uuid": "bc3022cf-5745-4f2a-99ca-b9ffacb471fe",
+        "name": "PVZ-890 Tac Stock",
+        "attachmentSlot": "Stock"
+    },
+    "RAPP-762_FACTORY": {
+        "uuid": "80483e7d-402c-4535-8e56-42e1b4791d17",
+        "name": "RAPP-762 Factory",
+        "attachmentSlot": "Stock"
+    },
+    "RAVAGE-8": {
+        "uuid": "08400592-1a86-4b63-942f-edc85834a5df",
+        "name": "Ravage-8",
+        "attachmentSlot": "Stock"
+    },
+    "RESONANCE_STOCK_COLLAPSED": {
+        "uuid": "adf6c78b-753f-4e6e-ac67-800fb2262b8d",
+        "name": "Resonance Stock Collapsed",
+        "attachmentSlot": "Stock"
+    },
+    "SAKIN_RIPTIDE": {
+        "uuid": "910daef4-02b9-418e-b960-1a79dc44e913",
+        "name": "SAKIN Riptide",
+        "attachmentSlot": "Stock"
+    },
+    "SAWED_OFF_MOD": {
+        "uuid": "d8d11bb8-b388-4ef7-97a0-dedf77710704",
+        "name": "Sawed Off Mod",
+        "attachmentSlot": "Stock"
+    },
+    "SCHLAGER_RESONANCE": {
+        "uuid": "ae0260e8-9e66-4394-9373-e79463a61edf",
+        "name": "Schlager Resonance",
+        "attachmentSlot": "Stock"
+    },
+    "SO_INLINE_STOCK": {
+        "uuid": "253f4c82-9b01-4c5a-bb6d-d84afeec8b56",
+        "name": "SO Inline Stock",
+        "attachmentSlot": "Stock"
+    },
+    "SO_R55_ADAPTOR": {
+        "uuid": "19e03e8a-bcb2-4d42-a0f2-18c7a8ffc980",
+        "name": "SO R55 Adaptor",
+        "attachmentSlot": "Stock"
+    },
+    "SO-90_FACTORY_STOCK": {
+        "uuid": "19891a37-e3d6-44a7-a8ed-68dec22e491d",
+        "name": "SO-90 Factory Stock",
+        "attachmentSlot": "Stock"
+    },
+    "SPETSNAZ_S10_STOCK": {
+        "uuid": "ae596bd4-f2d2-4599-a2df-168b649f0b41",
+        "name": "Spetsnaz S10 Stock",
+        "attachmentSlot": "Stock"
+    },
+    "STOCKLESS_PISTOL_GRIP": {
+        "uuid": "4a046f63-1361-4bb3-b605-846be1a32970",
+        "name": "Stockless Pistol Grip",
+        "attachmentSlot": "Stock"
+    },
+    "SWEETSPOT_STOCK": {
+        "uuid": "e26bed65-3395-4f43-b815-ddd11ad9209d",
+        "name": "SweetSpot Stock",
+        "attachmentSlot": "Stock"
+    },
+    "TACTIQUE_BRUTE_STOCK": {
+        "uuid": "3780c9f9-312a-45a3-931a-7e4643819c32",
+        "name": "Tactique Brute Stock",
+        "attachmentSlot": "Stock"
+    },
+    "TEMPUS_P80_STRIKE": {
+        "uuid": "8cf94f99-a70b-481c-b759-4b24e1e5ed1b",
+        "name": "Tempus P80 Strike",
+        "attachmentSlot": "Stock"
+    },
+    "TRX-56_STOCK": {
+        "uuid": "c331656d-7486-4703-b5e9-bf4b700d204c",
+        "name": "TRX-56 Stock",
+        "attachmentSlot": "Stock"
+    },
+    "TV_BALLAST_STOCK": {
+        "uuid": "9536433d-af17-40aa-b3c6-f228e73ada9c",
+        "name": "TV Ballast Stock",
+        "attachmentSlot": "Stock"
+    },
+    "TV_CARDINAL_STOCK": {
+        "uuid": "8ab4267c-44c9-408e-bd55-cc559b6bd5e4",
+        "name": "TV Cardinal Stock",
+        "attachmentSlot": "Stock"
+    },
+    "TV_LPX-434": {
+        "uuid": "bf6b5d7e-ef84-4692-8751-8fc8c9b7477a",
+        "name": "TV LPX-434",
+        "attachmentSlot": "Stock"
+    },
+    "TV_XLINE_PRO": {
+        "uuid": "383ea093-64c8-4e4d-8f67-3e3781df044e",
+        "name": "TV XLINE Pro",
+        "attachmentSlot": "Stock"
+    },
+    "VEL_A-568_COLLAPSED": {
+        "uuid": "f0621c88-3d80-47e8-ad9a-d6dc0305b3f8",
+        "name": "VEL A-568 Collapsed",
+        "attachmentSlot": "Stock"
+    },
+    "VLK_STOCKLESS": {
+        "uuid": "85617bbf-d5e9-452c-b928-52f071d4f314",
+        "name": "VLK Stockless",
+        "attachmentSlot": "Stock"
+    },
+    "X13_COACHWHIP_STOCK": {
+        "uuid": "1ea622f2-2f7c-4730-ab58-ad8f6773b81e",
+        "name": "X13 Coachwhip Stock",
+        "attachmentSlot": "Stock"
+    },
+    "XRK_BAR_STOCK": {
+        "uuid": "d512a824-67d6-4a60-b38c-78a60051d4dd",
+        "name": "XRK Bar Stock",
+        "attachmentSlot": "Stock"
+    },
+    "XRK_BULLSEYE": {
+        "uuid": "3c325798-7f71-4a03-aed5-11de82b0081c",
+        "name": "XRK Bullseye",
+        "attachmentSlot": "Stock"
+    },
+    "XRK_DYNAMIC_PRECISION_STOCK": {
+        "uuid": "815b52cf-4abe-4a47-abbb-b3d00cec0973",
+        "name": "XRK Dynamic Precision Stock",
+        "attachmentSlot": "Stock"
+    },
+    "XRK_PISTOL_STOCK": {
+        "uuid": "db187db4-5d3d-42a2-b17a-20dec7d9c69d",
+        "name": "XRK Pistol Stock",
+        "attachmentSlot": "Stock"
+    },
+    "XRK_RISE_50": {
+        "uuid": "5b6029d9-8f77-4d87-84d9-f90123d0cfec",
+        "name": "XRK Rise 50",
+        "attachmentSlot": "Stock"
+    },
+    "XRK_SPECTER_MOD": {
+        "uuid": "a195c587-6eaa-4a78-ae3f-7e60b0456a10",
+        "name": "XRK Specter Mod",
+        "attachmentSlot": "Stock"
+    },
+    "XTEN_RIPCORD_STOCK": {
+        "uuid": "cc57c31c-a958-4ecb-8af2-56f480b6f76a",
+        "name": "XTEN Ripcord Stock",
+        "attachmentSlot": "Stock"
+    },
+    "ZLR_T70_PAD_EXTENSION": {
+        "uuid": "35d624b5-55ad-42b8-beb6-947314a658f5",
+        "name": "ZLR T70 Pad Extension",
+        "attachmentSlot": "Stock"
+    }
+}

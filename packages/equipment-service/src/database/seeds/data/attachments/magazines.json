@@ -1,0 +1,172 @@
+{
+    "10_ROUND_MAG": {
+        "uuid": "0fc3f0fa-7807-4dbb-8532-56fc88460dfa",
+        "name": "10 Round Mag",
+        "attachmentSlot": "Magazine"
+    },
+    "100_ROUND_BELT_MAG": {
+        "uuid": "d2be4275-9123-4d1d-86db-ebccd5d84717",
+        "name": "100 Round Belt Mag",
+        "attachmentSlot": "Magazine"
+    },
+    "100_ROUND_BOX_MAG": {
+        "uuid": "81fee9f3-c1e4-41ea-8a66-5ca5c9c0ebce",
+        "name": "100 Round Box Mag",
+        "attachmentSlot": "Magazine"
+    },
+    "100_ROUND_DRUM": {
+        "uuid": "38bbfc89-f553-4553-956e-8ac68b7ed23b",
+        "name": "100 Round Drum",
+        "attachmentSlot": "Magazine"
+    },
+    "100_ROUND_MAG": {
+        "uuid": "e88aca8d-fbe9-4897-b236-0a4a318d14a3",
+        "name": "100 Round Mag",
+        "attachmentSlot": "Magazine"
+    },
+    "12_ROUND_MAG": {
+        "uuid": "d302da8e-253b-4beb-9d10-028ba956f669",
+        "name": "12 Round Mag",
+        "attachmentSlot": "Magazine"
+    },
+    "12_SHELL_MAG": {
+        "uuid": "3f2a37a0-6290-4fa8-87e2-3eefd5f61c71",
+        "name": "12 Shell Mag",
+        "attachmentSlot": "Magazine"
+    },
+    "125_ROUND_BELT_MAG": {
+        "uuid": "fc08c79f-f52b-406f-9701-e8bfde84b140",
+        "name": "125 Round Belt Mag",
+        "attachmentSlot": "Magazine"
+    },
+    "13_ROUND_MAG": {
+        "uuid": "7ffdab7c-2929-4ea8-ab28-345bac24da50",
+        "name": "13 Round Mag",
+        "attachmentSlot": "Magazine"
+    },
+    "15_ROUND_MAGAZINE": {
+        "uuid": "29eac503-9f5c-4946-84cd-2c4ffbbd02ca",
+        "name": "15 Round Magazine",
+        "attachmentSlot": "Magazine"
+    },
+    "150-ROUND_BOX_MAGAZINE": {
+        "uuid": "657c7081-5ab6-48d6-8441-2d2154620049",
+        "name": "150-Round Box Magazine",
+        "attachmentSlot": "Magazine"
+    },
+    "20_ROUND_MAG": {
+        "uuid": "71ac8353-e237-4e11-91d3-5d56da1c2114",
+        "name": "20 Round Mag",
+        "attachmentSlot": "Magazine"
+    },
+    "24_ROUND_MAG": {
+        "uuid": "e65f117d-4b14-4282-92c1-9d4c2d46acbe",
+        "name": "24 Round Mag",
+        "attachmentSlot": "Magazine"
+    },
+    "25_ROUND_MAG": {
+        "uuid": "1f5aa7b5-68dc-4f43-b1a1-5d707306f7b6",
+        "name": "25 Round Mag",
+        "attachmentSlot": "Magazine"
+    },
+    "30_ROUND_MAG": {
+        "uuid": "b61f4deb-796b-463f-83f5-75b6a932f27b",
+        "name": "30 Round Mag",
+        "attachmentSlot": "Magazine"
+    },
+    "32_ROUND_MAG": {
+        "uuid": "32423e87-670a-436d-8e80-41f7a9a25011",
+        "name": "32 Round Mag",
+        "attachmentSlot": "Magazine"
+    },
+    "33_ROUND_MAG": {
+        "uuid": "e703cf1f-2447-4edc-9409-e1e8a69d655d",
+        "name": "33 Round Mag",
+        "attachmentSlot": "Magazine"
+    },
+    "40_ROUND_MAG": {
+        "uuid": "00095ad4-ba35-498e-9130-a1c4a2e507d0",
+        "name": "40 Round Mag",
+        "attachmentSlot": "Magazine"
+    },
+    "42_ROUND_MAG": {
+        "uuid": "ec733b38-c6bf-4048-a69d-5c4045174c10",
+        "name": "42 Round Mag",
+        "attachmentSlot": "Magazine"
+    },
+    "45_ROUND_MAG": {
+        "uuid": "fbb3bfbf-cc59-4f11-9cc1-270a19e757f3",
+        "name": "45 Round Mag",
+        "attachmentSlot": "Magazine"
+    },
+    "5_ROUND_MAG": {
+        "uuid": "78029f85-9eba-4823-9636-ac92fe77fc7b",
+        "name": "5 Round Mag",
+        "attachmentSlot": "Magazine"
+    },
+    "5-SHELL_MAG": {
+        "uuid": "a0188814-28d9-4626-96c3-a22b038072bd",
+        "name": "5-Shell Mag",
+        "attachmentSlot": "Magazine"
+    },
+    "50_ROUND_BELT_MAG": {
+        "uuid": "43fa6e63-3ebf-4438-b009-d767aba81ad2",
+        "name": "50 Round Belt Mag",
+        "attachmentSlot": "Magazine"
+    },
+    "50_ROUND_DRUM": {
+        "uuid": "c5daf342-5d32-469e-a577-40d9cefb45c9",
+        "name": "50 Round Drum",
+        "attachmentSlot": "Magazine"
+    },
+    "50_ROUND_MAG": {
+        "uuid": "c80d2840-041d-4777-bccb-f86885808b7c",
+        "name": "50 Round Mag",
+        "attachmentSlot": "Magazine"
+    },
+    "60_ROUND_MAG": {
+        "uuid": "87da00ed-738f-4694-8820-e37686ff3685",
+        "name": "60 Round Mag",
+        "attachmentSlot": "Magazine"
+    },
+    "7_ROUND_MAG": {
+        "uuid": "474a31ef-4cb9-4d87-864a-a16b7c89a20c",
+        "name": "7 Round Mag",
+        "attachmentSlot": "Magazine"
+    },
+    "75_ROUND_MAG": {
+        "uuid": "76251773-9cf4-4899-92c4-9eeac311359b",
+        "name": "75 Round Mag",
+        "attachmentSlot": "Magazine"
+    },
+    "8-ROUND_MAGAZINE": {
+        "uuid": "edc7773c-301f-4cc6-a2f1-eb0f23c9d752",
+        "name": "8-Round Magazine",
+        "attachmentSlot": "Magazine"
+    },
+    "9_ROUND_MAG": {
+        "uuid": "d9a57279-3888-4888-a7d9-3b01a578b35e",
+        "name": "9 Round Mag",
+        "attachmentSlot": "Magazine"
+    },
+    "FENNEC_DOUBLE_TAP_MOD": {
+        "uuid": "177d1c3e-5e00-494e-a158-784c15319718",
+        "name": "Fennec Double Tap Mod",
+        "attachmentSlot": "Magazine"
+    },
+    "FENNEC_MAG_45": {
+        "uuid": "f0bf8797-fbfd-46de-85cc-14aaf6278908",
+        "name": "Fennec Mag 45",
+        "attachmentSlot": "Magazine"
+    },
+    "MINIBAK_GRIP_MAG": {
+        "uuid": "5d772894-c7ff-4aeb-a344-cb1e67d58010",
+        "name": "Minibak Grip Mag",
+        "attachmentSlot": "Magazine"
+    },
+    "SINGLE_TAP_MOD": {
+        "uuid": "17c98202-117a-4f35-ba2d-4ee379680765",
+        "name": "Single Tap Mod",
+        "attachmentSlot": "Magazine"
+    }
+}

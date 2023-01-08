@@ -1,0 +1,67 @@
+{
+    "AZ-40_SHOTGUARD": {
+        "uuid": "c8941ee0-bcb0-4792-b896-d99f7ace7e7a",
+        "name": "AZ-40 Shotguard",
+        "attachmentSlot": "Guard"
+    },
+    "AZAROV_T15": {
+        "uuid": "26a94c20-d9fc-4d57-b434-0d8b30ee1fcd",
+        "name": "Azarov T15",
+        "attachmentSlot": "Guard"
+    },
+    "BRYSON_NATURAL_SERIES_HANDGUARD": {
+        "uuid": "33263b61-5c92-4c2b-bdc0-988bfd8b05b2",
+        "name": "Bryson Natural Series Handguard",
+        "attachmentSlot": "Guard"
+    },
+    "BUCK-PRO": {
+        "uuid": "e676aca8-74b6-4664-b183-c06f7e9a6d39",
+        "name": "Buck-Pro",
+        "attachmentSlot": "Guard"
+    },
+    "CORVUS_RESPONDER": {
+        "uuid": "41803351-5393-48fc-9ca6-662e59d6de6c",
+        "name": "Corvus Responder",
+        "attachmentSlot": "Guard"
+    },
+    "DEMO_CARBON_GUARD": {
+        "uuid": "7718a852-4399-49ea-9217-56f80f8343d3",
+        "name": "Demo Carbon Guard",
+        "attachmentSlot": "Guard"
+    },
+    "DEMO_DROPZONE_PUMP": {
+        "uuid": "ed3492b3-7e78-46ac-997b-7491dd4392a4",
+        "name": "Demo DropZone Pump",
+        "attachmentSlot": "Guard"
+    },
+    "DEMO_X50_TACTICAL_PUMP": {
+        "uuid": "cb7f5281-0f1d-4d08-a3fb-46295430d2b5",
+        "name": "Demo X50 Tactical Pump",
+        "attachmentSlot": "Guard"
+    },
+    "LOCKWOOD_COMBAT_GUARD": {
+        "uuid": "c406280f-b24a-4dc5-afff-d2119bf115f1",
+        "name": "Lockwood Combat Guard",
+        "attachmentSlot": "Guard"
+    },
+    "LOCKWOOD_COMMANDO_GUARD": {
+        "uuid": "934e7d69-f026-4e21-870e-fa60cb2f21ce",
+        "name": "Lockwood Commando Guard",
+        "attachmentSlot": "Guard"
+    },
+    "LOCKWOOD_SADDLE_GUARD": {
+        "uuid": "de0d12b1-2ba6-4ddc-8275-3bed816aabe3",
+        "name": "Lockwood Saddle Guard",
+        "attachmentSlot": "Guard"
+    },
+    "LOCKWOOD_SERIES_II": {
+        "uuid": "b53fc2e7-5aee-4e67-8021-bab4d6dee374",
+        "name": "Lockwood Series II",
+        "attachmentSlot": "Guard"
+    },
+    "TV_CF40_GUARD": {
+        "uuid": "7101af5b-1506-4620-8305-0bd4d41eb7f3",
+        "name": "TV CF40 Guard",
+        "attachmentSlot": "Guard"
+    }
+}

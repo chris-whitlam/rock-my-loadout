@@ -1,0 +1,237 @@
+{
+    "AGENT_GRIP": {
+        "uuid": "584d2232-ae21-4163-a147-f195b276b8c3",
+        "name": "Agent Grip",
+        "attachmentSlot": "Underbarrel"
+    },
+    "B052_GRIP": {
+        "uuid": "c26a4eec-7949-4f20-bd2d-1d1449f5f9d3",
+        "name": "B052 Grip",
+        "attachmentSlot": "Underbarrel"
+    },
+    "BIPOD_V9_GRIP": {
+        "uuid": "11266172-d766-43a3-a96a-f8e14b136daf",
+        "name": "Bipod V9 Grip",
+        "attachmentSlot": "Underbarrel"
+    },
+    "BRUEN_HEAVY_BIPOD": {
+        "uuid": "797f7ed1-c029-45da-b407-d3f4c9e9d097",
+        "name": "Bruen Heavy Bipod",
+        "attachmentSlot": "Underbarrel"
+    },
+    "BRUEN_SYNC_SHOT_GRIP": {
+        "uuid": "e6e8b57e-a1fe-4a3a-b8aa-697512c7fbb3",
+        "name": "Bruen Sync Shot Grip",
+        "attachmentSlot": "Underbarrel"
+    },
+    "BRUEN_TILT_GRIP": {
+        "uuid": "7a7480e6-bce4-434a-80ff-9406435ef84a",
+        "name": "Bruen Tilt Grip",
+        "attachmentSlot": "Underbarrel"
+    },
+    "BRUEN_WARRIOR_GRIP": {
+        "uuid": "963f8d5a-9aa3-4ee3-ac1e-3051657daca0",
+        "name": "Bruen Warrior Grip",
+        "attachmentSlot": "Underbarrel"
+    },
+    "COMMANDO_FOREGRIP": {
+        "uuid": "22cb2239-e2d3-429c-a6f3-0076664d2111",
+        "name": "Commando Foregrip",
+        "attachmentSlot": "Underbarrel"
+    },
+    "CORNERSTONE_BIPOD": {
+        "uuid": "b43ec5ad-1032-4f67-87ca-aa69d50d7001",
+        "name": "Cornerstone Bipod",
+        "attachmentSlot": "Underbarrel"
+    },
+    "CORVUS_MASTERKEY": {
+        "uuid": "00b6ea64-aa3e-4050-a9db-f00f367fc6b0",
+        "name": "Corvus Masterkey",
+        "attachmentSlot": "Underbarrel"
+    },
+    "CRONEN_GROOVESHOT_GRIP": {
+        "uuid": "1a9fa565-71f8-46cc-9d81-31c52a658c1c",
+        "name": "Cronen Grooveshot Grip",
+        "attachmentSlot": "Underbarrel"
+    },
+    "CRONEN_WL55": {
+        "uuid": "24e30e8e-ae52-4148-98ed-c29fd755593b",
+        "name": "Cronen WL55",
+        "attachmentSlot": "Underbarrel"
+    },
+    "DEMO_CLEANSHOT_40": {
+        "uuid": "b2afcf7a-5898-441b-9155-3b9dbd72f8fa",
+        "name": "Demo Cleanshot 40",
+        "attachmentSlot": "Underbarrel"
+    },
+    "DEMO_FIRM_GRIP": {
+        "uuid": "5d416302-36d2-42af-bcdd-983e8df121b6",
+        "name": "Demo Firm Grip",
+        "attachmentSlot": "Underbarrel"
+    },
+    "DEMO_IMP-44_GRIP": {
+        "uuid": "67317bff-cb81-4493-84a3-7491bacbbd21",
+        "name": "Demo IMP-44 Grip",
+        "attachmentSlot": "Underbarrel"
+    },
+    "DEMO_NARROW_GRIP": {
+        "uuid": "f04d4c70-1e65-48ac-8bef-963f9be08ef5",
+        "name": "Demo Narrow Grip",
+        "attachmentSlot": "Underbarrel"
+    },
+    "DI-GRIP_4.5": {
+        "uuid": "e8ea1eb3-b336-45de-a510-5775d3267995",
+        "name": "DI-Grip 4.5",
+        "attachmentSlot": "Underbarrel"
+    },
+    "EDGE-47_GRIP": {
+        "uuid": "91e8e223-b576-4391-b874-16117d64a425",
+        "name": "EDGE-47 Grip",
+        "attachmentSlot": "Underbarrel"
+    },
+    "EXF_BACKDRAFT_GRIP": {
+        "uuid": "67c51679-6d93-446d-b7fa-c16394c2b043",
+        "name": "EXF Backdraft Grip",
+        "attachmentSlot": "Underbarrel"
+    },
+    "FSS_SHARKFIN_90": {
+        "uuid": "0c24cd99-ef02-49df-b986-9ea1a8209e24",
+        "name": "FSS Sharkfin 90",
+        "attachmentSlot": "Underbarrel"
+    },
+    "FTAC_RIPPER_56": {
+        "uuid": "eaf27a5a-605c-49d8-9974-003c7e50e8dd",
+        "name": "FTac Ripper 56",
+        "attachmentSlot": "Underbarrel"
+    },
+    "FTAC_TIGER_GRIP": {
+        "uuid": "2eb44514-f95a-485a-9ebd-6f563a566af5",
+        "name": "FTac Tiger Grip",
+        "attachmentSlot": "Underbarrel"
+    },
+    "HELLSCREAM_40MM": {
+        "uuid": "51cffea7-e1c5-4b62-9878-3e5cfe51a4db",
+        "name": "Hellscream 40mm",
+        "attachmentSlot": "Underbarrel"
+    },
+    "HEX-40_GRIP": {
+        "uuid": "6b29d053-0898-4b9d-8f12-2dea262cfaeb",
+        "name": "HEX-40 Grip",
+        "attachmentSlot": "Underbarrel"
+    },
+    "HOUND-9G_GRIP": {
+        "uuid": "6d7dc502-b0b6-484c-a2cb-f91e1936d6f4",
+        "name": "Hound-9G Grip",
+        "attachmentSlot": "Underbarrel"
+    },
+    "KL40-M2": {
+        "uuid": "bfe377b7-d80d-4c45-b3a1-a7e9cc006669",
+        "name": "KL40-M2",
+        "attachmentSlot": "Underbarrel"
+    },
+    "LEVEL_AIM_BIPOD": {
+        "uuid": "fb589645-f0e0-4b10-81d3-c8150786916e",
+        "name": "Level Aim Bipod",
+        "attachmentSlot": "Underbarrel"
+    },
+    "LOCKGRIP_PRECISION-40": {
+        "uuid": "6332b8e8-717e-4d99-b68b-fb2c2082f234",
+        "name": "Lockgrip Precision-40",
+        "attachmentSlot": "Underbarrel"
+    },
+    "MERC_FOREGRIP": {
+        "uuid": "877de227-eb89-4754-9161-51354fc657d0",
+        "name": "Merc Foregrip",
+        "attachmentSlot": "Underbarrel"
+    },
+    "OP-X9_FOREGRIP": {
+        "uuid": "59b5dc0e-b2c5-4857-aab9-5eb71019355b",
+        "name": "OP-X9 Foregrip",
+        "attachmentSlot": "Underbarrel"
+    },
+    "OPERATOR_FOREGRIP": {
+        "uuid": "0f8ec022-17b9-496d-a434-2f6433cb7b45",
+        "name": "Operator Foregrip",
+        "attachmentSlot": "Underbarrel"
+    },
+    "PHASE-3_GRIP": {
+        "uuid": "9f98c1b7-31ed-4781-a422-d2a441ffcc25",
+        "name": "Phase-3 Grip",
+        "attachmentSlot": "Underbarrel"
+    },
+    "RAAL_BIPOD": {
+        "uuid": "3717b1e2-3e12-43e6-9156-138b52c26e1b",
+        "name": "RAAL Bipod",
+        "attachmentSlot": "Underbarrel"
+    },
+    "RPK_BIPOD": {
+        "uuid": "9fa1a031-a0b0-4a8b-8e3f-66ac9bb96f26",
+        "name": "RPK Bipod",
+        "attachmentSlot": "Underbarrel"
+    },
+    "SA_SIDE_GRIP": {
+        "uuid": "f3838364-de94-4f6b-a423-6464d2adfe30",
+        "name": "SA Side Grip",
+        "attachmentSlot": "Underbarrel"
+    },
+    "SAKIN_SIDE_GRIP": {
+        "uuid": "1f1b0bbb-2713-4f7c-a587-87e379cf81e6",
+        "name": "SAKIN Side Grip",
+        "attachmentSlot": "Underbarrel"
+    },
+    "SCHLAGER_TANGO": {
+        "uuid": "910f797b-a4c3-4300-aefa-1dd8254eee3c",
+        "name": "Schlager Tango",
+        "attachmentSlot": "Underbarrel"
+    },
+    "SOSHKI": {
+        "uuid": "3e124561-8a8b-408b-89d1-e5c684cf5fa0",
+        "name": "Soshki",
+        "attachmentSlot": "Underbarrel"
+    },
+    "SPW_40MM": {
+        "uuid": "0191378e-cc3b-4722-ba86-3170d9fb835c",
+        "name": "SPW 40MM",
+        "attachmentSlot": "Underbarrel"
+    },
+    "TL40_FIRE_DRAKE": {
+        "uuid": "75e1e581-c604-4929-bb8b-c7fea16d2891",
+        "name": "TL40 Fire Drake",
+        "attachmentSlot": "Underbarrel"
+    },
+    "TV_WRECKER_GRIP": {
+        "uuid": "baf717af-cb12-43fd-b14a-ac8a9da8a38f",
+        "name": "TV Wrecker Grip",
+        "attachmentSlot": "Underbarrel"
+    },
+    "VX_PINEAPPLE": {
+        "uuid": "c9d5fa06-84c0-4d24-8e1a-cbd1e326fe18",
+        "name": "VX Pineapple",
+        "attachmentSlot": "Underbarrel"
+    },
+    "XRK_DUNE_GRIP": {
+        "uuid": "628efa84-7321-4af6-9156-3cc4046fe933",
+        "name": "XRK Dune Grip",
+        "attachmentSlot": "Underbarrel"
+    },
+    "XTEN_DROP_GRIP": {
+        "uuid": "0fa61ded-96c7-4a16-99a0-117eeb4f8579",
+        "name": "XTEN Drop Grip",
+        "attachmentSlot": "Underbarrel"
+    },
+    "XTEN_GRAVEDIGGER": {
+        "uuid": "b1fd1aaa-6098-4a0f-9da9-41b45ebd4bb0",
+        "name": "XTEN Gravedigger",
+        "attachmentSlot": "Underbarrel"
+    },
+    "XTEN_NEXUS_GRIP": {
+        "uuid": "f4873c8c-ad88-44ea-b9ac-215de7e613c4",
+        "name": "XTEN Nexus Grip",
+        "attachmentSlot": "Underbarrel"
+    },
+    "XTEN_STABLE_SHOT": {
+        "uuid": "5d5c16a9-3421-4836-96b7-a9b0630639d4",
+        "name": "XTEN Stable Shot",
+        "attachmentSlot": "Underbarrel"
+    }
+}

@@ -7,7 +7,7 @@ import {
   UseInterceptors
 } from '@nestjs/common';
 import { ApiOperation, ApiTags } from '@nestjs/swagger';
-import { Weapon } from './entities';
+import { WeaponDto } from './dtos';
 import { FilterOptions, WeaponService } from './weapons.service';
 
 @Controller('weapons')
@@ -19,7 +19,7 @@ export class WeaponsController {
   @ApiOperation({ summary: 'Retrieves all weapons' })
   async getWeapons(
     @Query('weaponUUIDs') weaponUUIDs?: string
-  ): Promise<Weapon[]> {
+  ): Promise<WeaponDto[]> {
     const filterOptions: FilterOptions = {
       weaponUUIDs: weaponUUIDs ? weaponUUIDs.split(',') : []
     };
@@ -31,7 +31,7 @@ export class WeaponsController {
   @ApiOperation({ summary: `Retrieves a weapon based on it's uuid` })
   async getWeaponByUUID(
     @Param('weaponUUID') weaponUUID: string
-  ): Promise<Weapon> {
+  ): Promise<WeaponDto> {
     return this.weaponService.getWeaponByUUID(weaponUUID);
   }
 }

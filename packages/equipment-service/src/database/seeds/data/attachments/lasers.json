@@ -1,0 +1,157 @@
+{
+    "1MW_ARTEMIS_LASER": {
+        "uuid": "f0deaaaf-ef1c-4a37-bc2c-ec56cdc178ed",
+        "name": "1MW Artemis Laser",
+        "attachmentSlot": "Laser"
+    },
+    "1MW_LASER_BOX": {
+        "uuid": "3d8b35f8-3434-4471-8598-da3bb4ade916",
+        "name": "1MW Laser Box",
+        "attachmentSlot": "Laser"
+    },
+    "1MW_PISTOL_LASER": {
+        "uuid": "abb85e5c-f965-45a8-a917-5602a3f103b3",
+        "name": "1MW Pistol Laser",
+        "attachmentSlot": "Laser"
+    },
+    "1MW_QUICK_FIRE_LASER": {
+        "uuid": "b42fd01a-45c0-4132-a694-209b26e148cc",
+        "name": "1MW Quick Fire Laser",
+        "attachmentSlot": "Laser"
+    },
+    "7MW_CANTED_LASER": {
+        "uuid": "b19da22b-22ff-47f9-94a6-7048100ee296",
+        "name": "7MW Canted Laser",
+        "attachmentSlot": "Laser"
+    },
+    "ACCU-SHOT_5MW_LASER": {
+        "uuid": "51a9a41f-aeea-4c28-a267-d501670f1a01",
+        "name": "Accu-Shot 5MW Laser",
+        "attachmentSlot": "Laser"
+    },
+    "BASILISK_GRIP_LASER": {
+        "uuid": "94f78727-0c49-4bb2-86cd-2abfe115fe0d",
+        "name": "Basilisk Grip Laser",
+        "attachmentSlot": "Laser"
+    },
+    "CANTED_VIBRO-DOT_7": {
+        "uuid": "2992fd40-3900-46c6-afa9-3747729dcbdf",
+        "name": "Canted Vibro-Dot 7",
+        "attachmentSlot": "Laser"
+    },
+    "CORIO_LAZ-44_V3": {
+        "uuid": "da6275dc-667b-4fd2-837b-4a3aa1c2d95c",
+        "name": "Corio LAZ-44 V3",
+        "attachmentSlot": "Laser"
+    },
+    "CORVUS_LZR-790": {
+        "uuid": "af11a581-81aa-4f8c-92be-319a8d93c270",
+        "name": "Corvus LZR-790",
+        "attachmentSlot": "Laser"
+    },
+    "CORVUS_PEQ_BEAM-5": {
+        "uuid": "90ddbc46-7908-4ae0-add5-fb3f67bbd40a",
+        "name": "Corvus PEQ Beam-5",
+        "attachmentSlot": "Laser"
+    },
+    "DXS_FLASH_90": {
+        "uuid": "b673adcc-7378-4433-a404-804b97dec3e4",
+        "name": "DXS Flash 90",
+        "attachmentSlot": "Laser"
+    },
+    "DZM-1000_L": {
+        "uuid": "c058d5ee-1ac8-4451-a6b5-4b875f78bacb",
+        "name": "DZM-1000 L",
+        "attachmentSlot": "Laser"
+    },
+    "EXF_SOLARFLARE": {
+        "uuid": "1b9ce5c2-3d2e-4255-a4cc-c954a1d0946a",
+        "name": "EXF Solarflare",
+        "attachmentSlot": "Laser"
+    },
+    "FJX_DIOD-70": {
+        "uuid": "3ad9bf28-bb13-4ddb-b9a9-63265482337f",
+        "name": "FJX Diod-70",
+        "attachmentSlot": "Laser"
+    },
+    "FJX_ULTRABEAM_XR": {
+        "uuid": "efe7114b-7e2f-46ba-8a67-a008993884d2",
+        "name": "FJX Ultrabeam XR",
+        "attachmentSlot": "Laser"
+    },
+    "FSS_OLE-V_LASER": {
+        "uuid": "4eca6289-b2f2-45eb-a017-6995ea2c6016",
+        "name": "FSS OLE-V Laser",
+        "attachmentSlot": "Laser"
+    },
+    "FTAC_GRIMLINE_LASER": {
+        "uuid": "5586ca49-28aa-4699-a54b-deabe43d853f",
+        "name": "FTac Grimline Laser",
+        "attachmentSlot": "Laser"
+    },
+    "FTAC_VORTEX_200": {
+        "uuid": "24268607-ae99-4213-b480-b1da329ffee5",
+        "name": "FTac Vortex 200",
+        "attachmentSlot": "Laser"
+    },
+    "HIPSHOT_L20": {
+        "uuid": "043c4ac2-0dbf-42ae-ad71-2d88d6a14872",
+        "name": "Hipshot L20",
+        "attachmentSlot": "Laser"
+    },
+    "LUMINATE-44": {
+        "uuid": "1101bd37-5711-4f98-8211-70544a6c44e2",
+        "name": "Luminate-44",
+        "attachmentSlot": "Laser"
+    },
+    "POINT-G3P_04": {
+        "uuid": "307538a2-1b98-4cc3-838a-778b6b825521",
+        "name": "Point-G3P 04",
+        "attachmentSlot": "Laser"
+    },
+    "REVO-LSD_7MW": {
+        "uuid": "c4cc8fc8-92bd-446d-8849-f1203f96f780",
+        "name": "Revo-LSD 7MW",
+        "attachmentSlot": "Laser"
+    },
+    "SCHLAGER_PEQ_BOX_IV": {
+        "uuid": "1102a4ec-b84c-4941-81a5-5ce24c12ed40",
+        "name": "Schlager PEQ Box IV",
+        "attachmentSlot": "Laser"
+    },
+    "SCHLAGER_ULO-66_LASER": {
+        "uuid": "35aea728-d098-4457-8ea8-6206408d23bd",
+        "name": "Schlager ULO-66 Laser",
+        "attachmentSlot": "Laser"
+    },
+    "SERIES_710_PISTOL_LASER": {
+        "uuid": "6eeb0435-c03d-4361-b257-3c124477e4fb",
+        "name": "Series 710 Pistol Laser",
+        "attachmentSlot": "Laser"
+    },
+    "STOVL_DR_LASER_BOX": {
+        "uuid": "7baab99a-4718-408d-a881-d52825b61ee2",
+        "name": "STOVL DR Laser Box",
+        "attachmentSlot": "Laser"
+    },
+    "STOVL_TAC_LASER": {
+        "uuid": "70796377-e59b-4268-84fb-a32430ebe6e9",
+        "name": "STOVL Tac Laser",
+        "attachmentSlot": "Laser"
+    },
+    "SZ_1MW_PEQ": {
+        "uuid": "47212995-963c-4c2b-9674-14e42a4d94c5",
+        "name": "SZ 1MW PEQ",
+        "attachmentSlot": "Laser"
+    },
+    "VLK_LZR_7MW": {
+        "uuid": "32876443-cae8-4785-acbd-cae0160fdfc4",
+        "name": "VLK LZR 7MW",
+        "attachmentSlot": "Laser"
+    },
+    "XTEN_SIDEARM-L400": {
+        "uuid": "e23d07e1-25d0-4cd7-a4cf-3a2a99178389",
+        "name": "XTEN Sidearm-L400",
+        "attachmentSlot": "Laser"
+    }
+}

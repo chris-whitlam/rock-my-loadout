@@ -1,0 +1,312 @@
+{
+    "AKIMBO_.50_GS": {
+        "uuid": "b9915541-f3a7-402e-9f45-2fa251163507",
+        "name": "Akimbo .50 GS",
+        "attachmentSlot": "Rear Grip"
+    },
+    "AKIMBO_BASILISK": {
+        "uuid": "64740561-fadc-4a14-b818-0868d61e38e3",
+        "name": "Akimbo Basilisk",
+        "attachmentSlot": "Rear Grip"
+    },
+    "AKIMBO_P890": {
+        "uuid": "20e63730-c073-4dfa-8bd2-18d52e7b3014",
+        "name": "Akimbo P890",
+        "attachmentSlot": "Rear Grip"
+    },
+    "AKIMBO_X12": {
+        "uuid": "2fe7c3a7-717f-4589-b511-ae10a85cdcc4",
+        "name": "Akimbo X12",
+        "attachmentSlot": "Rear Grip"
+    },
+    "BP-GRAIN_GRIP": {
+        "uuid": "d129dd5b-72a9-481f-ab86-4ce8fdfedeee",
+        "name": "BP-Grain Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "BRUEN_ANCHOR_GRIP": {
+        "uuid": "b254a53a-4047-48bc-b1d0-e34b58d8106f",
+        "name": "Bruen Anchor Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "BRUEN_FLASH_GRIP": {
+        "uuid": "9c7a3788-d356-44c8-af56-b1af31f4189e",
+        "name": "Bruen Flash Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "BRUEN_G305_GRIP": {
+        "uuid": "359bd399-d0f5-4dab-bf4f-e927756d5cc5",
+        "name": "Bruen G305 Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "BRUEN_G305_GRIP_WRAP": {
+        "uuid": "3f613db2-3c9a-47eb-b60f-fc6adc30cde4",
+        "name": "Bruen G305 Grip Wrap",
+        "attachmentSlot": "Rear Grip"
+    },
+    "BRUEN_GR-500": {
+        "uuid": "7da0c6c9-690d-4334-a792-d73d4b720495",
+        "name": "Bruen GR-500",
+        "attachmentSlot": "Rear Grip"
+    },
+    "BRUEN_LYNX_GRIP": {
+        "uuid": "dc0f03bc-863a-401d-87d7-352ea79a0619",
+        "name": "Bruen Lynx Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "BRUEN_Q900_GRIP": {
+        "uuid": "b78c4ded-7e07-4d3b-a377-591d158e7446",
+        "name": "Bruen Q900 Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "BRUEN_Q900_GRIP_WRAP": {
+        "uuid": "c9fca035-1e5b-4a34-86c7-db0ac1bb0c2d",
+        "name": "Bruen Q900 Grip Wrap",
+        "attachmentSlot": "Rear Grip"
+    },
+    "BRUEN_RSH-80_GRIP": {
+        "uuid": "d4eac386-da11-4fde-8d64-9ad42cacce5a",
+        "name": "Bruen RSH-80 Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "BRYSON_DUEL_GRIP": {
+        "uuid": "cf5eed17-0aad-473a-b3f0-c37a5f38362d",
+        "name": "Bryson Duel Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "BRYSON_WD-85_GRIP": {
+        "uuid": "31db4d18-af1f-4e1f-bd57-d1bc720d140a",
+        "name": "Bryson WD-85 Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "CRONEN_BLOCKADE_GRIP": {
+        "uuid": "d6430fd9-ab0a-4ceb-a952-b182ef20056d",
+        "name": "Cronen Blockade Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "CRONEN_CHEETAH_GRIP": {
+        "uuid": "7286bf29-5557-41f1-ac31-ad63d4ac58dd",
+        "name": "Cronen Cheetah Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "CRONEN_EM55_GRIP": {
+        "uuid": "7050cf0d-073b-4ade-b02b-5dfc115cafb9",
+        "name": "Cronen EM55 Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "CRONEN_GRIP_WRAP": {
+        "uuid": "63c956b2-98db-4f07-b7eb-8a956d01a8b6",
+        "name": "Cronen Grip Wrap",
+        "attachmentSlot": "Rear Grip"
+    },
+    "CRONEN_LIMA-6": {
+        "uuid": "4e104eec-b8c2-40cd-9fd8-d0a768b521d5",
+        "name": "Cronen Lima-6",
+        "attachmentSlot": "Rear Grip"
+    },
+    "CRONEN_RFX-300": {
+        "uuid": "869d99e4-8681-448b-b840-c02c7bc30243",
+        "name": "Cronen RFX-300",
+        "attachmentSlot": "Rear Grip"
+    },
+    "CRONEN_ZERO_GRIP": {
+        "uuid": "da9876c4-f63e-4ec3-b0c8-f7613b466453",
+        "name": "Cronen Zero Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "D15_GRIP": {
+        "uuid": "bdd52ca6-42c5-4db0-9c34-f3a16aac29e2",
+        "name": "D15 Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "D37_GRIP": {
+        "uuid": "04249dd0-4bda-4d94-add8-d1351d4a9c37",
+        "name": "D37 Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "DEMO_CLEANSHOT_GRIP": {
+        "uuid": "983ebc06-5c1a-4ffa-bd86-93690e934870",
+        "name": "Demo Cleanshot Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "DEMO-X2_GRIP": {
+        "uuid": "9ed0fcbc-8797-40ca-bc9a-334e743fd508",
+        "name": "Demo-X2 Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "EXF_RESISTANCE_GRIP": {
+        "uuid": "aae5f42c-79ed-423b-813b-8c86dcefd78f",
+        "name": "EXF Resistance Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "EXF_SHORELINE_GRIP": {
+        "uuid": "21265834-4ca2-4d66-b9a3-71c9cc02fe42",
+        "name": "EXF Shoreline Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "FENNEC_RUBBER_GRIP": {
+        "uuid": "0134a561-d737-4207-9722-94bf75653431",
+        "name": "Fennec Rubber Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "FENNEC_STIPPLED_GRIP": {
+        "uuid": "19f29297-63c1-4b5b-a244-4c5b0893527d",
+        "name": "Fennec Stippled Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "FENNEC_TEXTURED_GRIP": {
+        "uuid": "c50529a1-d341-49de-bafa-f14e0ba5ce2f",
+        "name": "Fennec Textured Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "FJX_DVF60_GRIP": {
+        "uuid": "ddc263a2-074a-4785-b94d-e01289b3b831",
+        "name": "FJX DVF60 Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "FSS_COMBAT_GRIP": {
+        "uuid": "f7a78d3e-4cf9-4a07-9eb9-f68a999bb89b",
+        "name": "FSS Combat Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "FSS_GEN._7_GRIP": {
+        "uuid": "22b11133-c7ee-4203-8ded-7f128da75744",
+        "name": "FSS Gen. 7 Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "FSS_SPIDER_GRIP": {
+        "uuid": "71879fad-f5e6-4f35-b3cf-da4adf8464d3",
+        "name": "FSS Spider Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "FTAC_OL-Z_GRIP": {
+        "uuid": "a74a6b45-a0bd-4667-9c11-36ae46be47f6",
+        "name": "FTac OL-Z Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "GOLIATH_77_GRIP": {
+        "uuid": "4e19e1a7-929d-47e7-91d0-521de475b842",
+        "name": "Goliath 77 Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "GS_.50_WOOD_GRAIN": {
+        "uuid": "3685cdcd-feed-4c87-8e59-4eb01db18589",
+        "name": "GS .50 Wood Grain",
+        "attachmentSlot": "Rear Grip"
+    },
+    "IVANOV_ST-70_GRIP": {
+        "uuid": "4dfcd695-6761-43cf-825a-be16d0e46496",
+        "name": "Ivanov ST-70 Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "LACHMANN_TCG-10": {
+        "uuid": "785e16bb-bcf6-4630-924a-3bb250738bc1",
+        "name": "Lachmann TCG-10",
+        "attachmentSlot": "Rear Grip"
+    },
+    "LM_CRONUS_GRIP": {
+        "uuid": "d32e820e-042d-4c4e-a56d-b9da7d7e2170",
+        "name": "LM Cronus Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "LMK64_GRIP": {
+        "uuid": "0cea1160-1799-4025-b3f5-0e92de6bd6b9",
+        "name": "LMK64 Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "PHANTOM_GRIP": {
+        "uuid": "8b9c6639-f7b5-44a1-bd1d-8d929fab2568",
+        "name": "Phantom Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "S-GRIP_ZERO": {
+        "uuid": "9f1704ce-b51e-4eed-9072-c27bdc085dde",
+        "name": "S-Grip Zero",
+        "attachmentSlot": "Rear Grip"
+    },
+    "SA_FINESSE_GRIP": {
+        "uuid": "8713a9d0-678c-45ab-94d2-0ec20a0c684e",
+        "name": "SA Finesse Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "SAKIN_RUBBER_GRIP": {
+        "uuid": "c23de487-6daf-4667-9a19-5cdbfa7118c1",
+        "name": "SAKIN Rubber Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "SAKIN_ZX_GRIP": {
+        "uuid": "484f99ae-e5a3-4364-aef0-9c976c6f246f",
+        "name": "Sakin ZX Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "SCHLAGER_FANG_GRIP": {
+        "uuid": "b9c79ae9-232a-4a7b-94a2-81e357a34265",
+        "name": "Schlager Fang Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "SCHLAGER_MATCH_GRIP": {
+        "uuid": "338eab67-8a83-496d-a75e-d6f7f59c3d8a",
+        "name": "Schlager Match Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "SCHLAGER_SOLDIER_GRIP": {
+        "uuid": "7cd9b6b9-c9e3-4dd2-b457-52df0c58f332",
+        "name": "Schlager Soldier Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "SCHLAGER_VOID_GRIP": {
+        "uuid": "40df9b75-7f96-4e3b-8937-0474b8f4967c",
+        "name": "Schlager VOID Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "SO_RO-99_GRIP": {
+        "uuid": "ba6e6688-3dd9-4623-9eba-ad541daa3589",
+        "name": "SO RO-99 Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "STALWART_GRIP": {
+        "uuid": "fa1e3f7e-bf7a-4ba5-bc2f-b9a32197c9e5",
+        "name": "Stalwart Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "STIP-40_GRIP": {
+        "uuid": "60fc7a0b-efa6-4a3a-8298-8a6dc2056b73",
+        "name": "STIP-40 Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "SUPPORT_CP90_GRIP": {
+        "uuid": "798c9614-705d-419b-a709-5092f8e193cb",
+        "name": "Support CP90 Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "TRUE-TAC_GRIP": {
+        "uuid": "58c66716-9eb9-47ac-a465-f0304629788c",
+        "name": "True-TAC Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "TV_ERGO_GRIP": {
+        "uuid": "4601f8d4-58c3-4854-a7e8-f094ee7be529",
+        "name": "TV Ergo Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "XRK_FIELD_GRIP": {
+        "uuid": "1206ff4b-410f-43e5-8b3f-8af91c128f80",
+        "name": "XRK Field Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "XRK_RESPONSE_GRIP": {
+        "uuid": "450a4418-393e-49d9-8891-11ec0b15ffaa",
+        "name": "XRK Response Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "XTEN_GRIP": {
+        "uuid": "abcd0079-eabd-4ed2-b66f-b7f8dacde154",
+        "name": "XTEN Grip",
+        "attachmentSlot": "Rear Grip"
+    },
+    "ZLR_COMBAT_GRIP": {
+        "uuid": "b3fa7f21-2751-4a96-84ac-59d97e76a145",
+        "name": "ZLR Combat Grip",
+        "attachmentSlot": "Rear Grip"
+    }
+}

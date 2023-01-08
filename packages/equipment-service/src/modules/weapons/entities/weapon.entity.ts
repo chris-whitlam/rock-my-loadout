@@ -3,7 +3,9 @@ import {
   PrimaryGeneratedColumn,
   Column,
   ManyToOne,
-  Generated
+  Generated,
+  ManyToMany,
+  JoinTable
 } from 'typeorm';
 import { Attachment, AttachmentSlot } from './attachment.entity';
 import { Platform } from './platform.entity';
@@ -40,14 +42,15 @@ export class Weapon {
   })
   type!: WeaponType;
 
-  @Column({ type: 'jsonb', nullable: true })
-  attachmentSlots?: AttachmentSlot[]; // If null, will use default for that weapon type, otherwise use what's defined here
-
   @ManyToOne(() => Platform, (platform) => platform.weapons, {
     cascade: ['insert', 'update'],
     nullable: true // Because riot shield
   })
   platform: Platform;
 
-  attachments!: Record<string, Attachment[]>;
+  @ManyToMany(() => Attachment, {
+    nullable: true
+  })
+  @JoinTable({ name: 'weapon_attachments' })
+  attachments!: Attachment[];
 }

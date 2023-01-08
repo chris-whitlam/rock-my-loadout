@@ -1,0 +1,627 @@
+{
+    "AP-390_FLASH_HIDER": {
+        "uuid": "f0164192-b9f7-48ac-9d68-2e7ef9aa6363",
+        "name": "AP-390 Flash Hider",
+        "attachmentSlot": "Muzzle"
+    },
+    "AVR-T90_COMP": {
+        "uuid": "c78b242d-d0fb-4f0a-832d-027def9d339a",
+        "name": "AVR-T90 Comp",
+        "attachmentSlot": "Muzzle"
+    },
+    "BORE-490": {
+        "uuid": "6176e865-bfaf-4af6-a57f-35180283e37f",
+        "name": "Bore-490",
+        "attachmentSlot": "Muzzle"
+    },
+    "BROADHEAD-3DP": {
+        "uuid": "a93aafb5-aa77-4799-93c0-90f510aae514",
+        "name": "Broadhead-3DP",
+        "attachmentSlot": "Muzzle"
+    },
+    "BRUEN_AGENT_90": {
+        "uuid": "b80710bc-b2c9-4acd-93a1-c6c66170439c",
+        "name": "Bruen Agent 90",
+        "attachmentSlot": "Muzzle"
+    },
+    "BRUEN_COUNTER-OPS": {
+        "uuid": "d1ed7cb5-6de8-41ba-9440-9e59229d49f9",
+        "name": "Bruen Counter-OPS",
+        "attachmentSlot": "Muzzle"
+    },
+    "BRUEN_CUBIC_COMP": {
+        "uuid": "0106e267-0eca-40ee-a8fa-d968decc92da",
+        "name": "Bruen Cubic Comp",
+        "attachmentSlot": "Muzzle"
+    },
+    "BRUEN_L40_KOBRA": {
+        "uuid": "56b66be7-2354-44d8-b055-c50b82ec5d7d",
+        "name": "Bruen L40 Kobra",
+        "attachmentSlot": "Muzzle"
+    },
+    "BRUEN_PENDULUM": {
+        "uuid": "7dc8195b-c34b-4aee-8054-ff32c0bfefe9",
+        "name": "Bruen Pendulum",
+        "attachmentSlot": "Muzzle"
+    },
+    "BRUEN_TRI-PORT": {
+        "uuid": "33211fd0-d9f3-4f8c-a2d8-46935d75c732",
+        "name": "Bruen Tri-Port",
+        "attachmentSlot": "Muzzle"
+    },
+    "BRYSON_CHOKE": {
+        "uuid": "ded283e1-85af-484f-b580-836fabde16d6",
+        "name": "Bryson Choke",
+        "attachmentSlot": "Muzzle"
+    },
+    "BRYSON_IMPROVED_CHOKE": {
+        "uuid": "6a0455e3-f682-44bf-9845-5b109fd86fb9",
+        "name": "Bryson Improved Choke",
+        "attachmentSlot": "Muzzle"
+    },
+    "BRYSON_SERIES_IX_CHOKE": {
+        "uuid": "44b1ee95-cd94-49b7-81e2-df676e9eebac",
+        "name": "Bryson Series IX Choke",
+        "attachmentSlot": "Muzzle"
+    },
+    "BRYSON_SERIES_XII_CHOKE": {
+        "uuid": "d3647500-4f2b-4f3b-a7ab-c5a41a2757fb",
+        "name": "Bryson Series XII Choke",
+        "attachmentSlot": "Muzzle"
+    },
+    "BVM-338": {
+        "uuid": "04f2395c-3769-4bcb-886a-59748c71060a",
+        "name": "BVM-338",
+        "attachmentSlot": "Muzzle"
+    },
+    "C400_DOOR_KNOCKER": {
+        "uuid": "ca4217f8-5c8a-4cbc-88fd-a13f380a06c6",
+        "name": "C400 Door Knocker",
+        "attachmentSlot": "Muzzle"
+    },
+    "CN30_SUPPRESSOR": {
+        "uuid": "fbe64979-e663-4cc9-bfc6-5b075c7d2334",
+        "name": "CN30 Suppressor",
+        "attachmentSlot": "Muzzle"
+    },
+    "COMP_905F_PISTOL": {
+        "uuid": "1e36e54e-8b33-4fc5-9f09-51ce8a46e76c",
+        "name": "Comp 905F Pistol",
+        "attachmentSlot": "Muzzle"
+    },
+    "CORVUS_SERIES-D": {
+        "uuid": "91545e61-a077-4fe9-98ea-63b1d2b4b4a2",
+        "name": "Corvus Series-D",
+        "attachmentSlot": "Muzzle"
+    },
+    "CORVUS_SLASH_GEN._2": {
+        "uuid": "da53e0d7-9829-4306-90d5-94cb2b8750a5",
+        "name": "Corvus Slash Gen. 2",
+        "attachmentSlot": "Muzzle"
+    },
+    "CRONEN_DARK_KX30": {
+        "uuid": "f6ed18e9-a714-4062-9850-6f0e65d103d6",
+        "name": "Cronen Dark KX30",
+        "attachmentSlot": "Muzzle"
+    },
+    "CRONEN_DM338": {
+        "uuid": "a52f89b5-8ca2-4526-a3b5-1788bb19fe94",
+        "name": "Cronen DM338",
+        "attachmentSlot": "Muzzle"
+    },
+    "CRONEN_MAW-86": {
+        "uuid": "3fc5b7f9-f38b-4b1a-8708-a4ba69241dcc",
+        "name": "Cronen MAW-86",
+        "attachmentSlot": "Muzzle"
+    },
+    "CRONEN_OP44": {
+        "uuid": "0a6354cc-39b9-4d9c-88bf-fe895ed7044a",
+        "name": "Cronen OP44",
+        "attachmentSlot": "Muzzle"
+    },
+    "DARK_KX30": {
+        "uuid": "25f8cb80-778a-4b67-9a1d-c0214797a3af",
+        "name": "Dark KX30",
+        "attachmentSlot": "Muzzle"
+    },
+    "DARK_KX50_FLASH_HIDER": {
+        "uuid": "c9103198-98be-44a8-8d1d-cbef766e1707",
+        "name": "Dark KX50 Flash Hider",
+        "attachmentSlot": "Muzzle"
+    },
+    "DB-BIG_BORE_COMP": {
+        "uuid": "e7f6a075-647b-402e-aebd-ccb055b7e4ba",
+        "name": "DB-Big Bore Comp",
+        "attachmentSlot": "Muzzle"
+    },
+    "DB-DREAD_COMP": {
+        "uuid": "ec40acbc-e3c0-4115-abec-b273a94d7195",
+        "name": "DB-Dread Comp",
+        "attachmentSlot": "Muzzle"
+    },
+    "DEMON_HELIX_T7": {
+        "uuid": "b962ccac-6465-4cff-9473-ef3d9dffaf17",
+        "name": "Demon Helix T7",
+        "attachmentSlot": "Muzzle"
+    },
+    "DEMON_HELIX_XL": {
+        "uuid": "83f3666d-fea4-4731-a763-ee94ee4c77e0",
+        "name": "Demon Helix XL",
+        "attachmentSlot": "Muzzle"
+    },
+    "DZS_OPEN_COMP": {
+        "uuid": "3108e7b2-f925-4f8a-91ae-61b363185c52",
+        "name": "DZS Open Comp",
+        "attachmentSlot": "Muzzle"
+    },
+    "ECHOLESS-80": {
+        "uuid": "3dd1f5f1-d03d-48a9-94b5-a870b2620243",
+        "name": "Echoless-80",
+        "attachmentSlot": "Muzzle"
+    },
+    "ECHOLINE_GS-X": {
+        "uuid": "60594af0-59f3-4a96-b407-4d61645b271b",
+        "name": "Echoline GS-X",
+        "attachmentSlot": "Muzzle"
+    },
+    "EIGHT-POINT_FLASH_HIDER": {
+        "uuid": "d960351a-af51-43bb-a317-7ff1c7a8e27b",
+        "name": "Eight-Point Flash Hider",
+        "attachmentSlot": "Muzzle"
+    },
+    "EXF_FIFTY_GS": {
+        "uuid": "5b0bd308-aa87-4bff-b95b-fb819770d59f",
+        "name": "EXF Fifty GS",
+        "attachmentSlot": "Muzzle"
+    },
+    "EXF_HUNTRESS-90": {
+        "uuid": "e14cdb91-ce23-4770-b68b-883f34e467f5",
+        "name": "EXF Huntress-90",
+        "attachmentSlot": "Muzzle"
+    },
+    "EXF_RELENTLESS-40": {
+        "uuid": "1fa7d4c6-06eb-4222-8d39-82eee7743114",
+        "name": "EXF Relentless-40",
+        "attachmentSlot": "Muzzle"
+    },
+    "FJX_FULCRUM_PRO": {
+        "uuid": "d36e6ce8-d7a9-47ec-a509-a1abcf7bb778",
+        "name": "FJX Fulcrum Pro",
+        "attachmentSlot": "Muzzle"
+    },
+    "FLASH_TWIST-90": {
+        "uuid": "838a7698-1bbe-487a-b499-b839ade2bc13",
+        "name": "Flash Twist-90",
+        "attachmentSlot": "Muzzle"
+    },
+    "FORGE_DX90-F": {
+        "uuid": "4d75f04e-4ade-4680-a4d8-e832a070b9ea",
+        "name": "Forge DX90-F",
+        "attachmentSlot": "Muzzle"
+    },
+    "FOX-202_FLASH_HIDER": {
+        "uuid": "b05fb278-9f95-4c64-8036-47765d725fe1",
+        "name": "FOX-202 Flash Hider",
+        "attachmentSlot": "Muzzle"
+    },
+    "FR_TITAN_SILENCER": {
+        "uuid": "08e30ac2-079e-427b-ace9-ebb970b16e3e",
+        "name": "FR Titan Silencer",
+        "attachmentSlot": "Muzzle"
+    },
+    "FSS_COVERT_IV": {
+        "uuid": "d57757c1-efea-4bb6-b14b-defef2719906",
+        "name": "FSS Covert IV",
+        "attachmentSlot": "Muzzle"
+    },
+    "FSS_COVERT_V": {
+        "uuid": "5cab5e63-5554-4a6e-b549-cf0888724bc1",
+        "name": "FSS Covert V",
+        "attachmentSlot": "Muzzle"
+    },
+    "FSS_KL30": {
+        "uuid": "88b2562b-088a-4b1b-8136-eb73fdee754f",
+        "name": "FSS KL30",
+        "attachmentSlot": "Muzzle"
+    },
+    "FSS_VMW_FLASH_HIDER": {
+        "uuid": "056e66ec-6c41-4da0-8ace-0f28301f03e2",
+        "name": "FSS VMW Flash Hider",
+        "attachmentSlot": "Muzzle"
+    },
+    "FT_STEEL_FIRE": {
+        "uuid": "115f9a64-533b-4077-8717-328cfd3b7d6e",
+        "name": "FT Steel Fire",
+        "attachmentSlot": "Muzzle"
+    },
+    "FTAC_CASTLE_COMP": {
+        "uuid": "188d8e7a-bf78-46b3-9c6c-2909a572c2e0",
+        "name": "FTac Castle Comp",
+        "attachmentSlot": "Muzzle"
+    },
+    "FTAC_DREADNOUGHT": {
+        "uuid": "e5ebca53-1d21-4c73-af92-85a4e4d205c3",
+        "name": "FTac Dreadnought",
+        "attachmentSlot": "Muzzle"
+    },
+    "FTAC_FIFTY_COMP": {
+        "uuid": "07d5e8c5-3bca-4f66-b1a5-f80b6b2c6c97",
+        "name": "FTac Fifty Comp",
+        "attachmentSlot": "Muzzle"
+    },
+    "FTAC_H50_PORTED": {
+        "uuid": "8de261a2-67db-40e8-b4e0-cd1cd454ba72",
+        "name": "FTac H50 Ported",
+        "attachmentSlot": "Muzzle"
+    },
+    "FTAC_REAPER": {
+        "uuid": "0a00307f-cf3f-4c6b-8935-7318befe52af",
+        "name": "FTac Reaper",
+        "attachmentSlot": "Muzzle"
+    },
+    "FTAC_TRIDENTCORE": {
+        "uuid": "188ceee4-0564-4276-890f-5d285e7f52f5",
+        "name": "FTac Tridentcore",
+        "attachmentSlot": "Muzzle"
+    },
+    "GAUGE-9_MONO": {
+        "uuid": "c6c663a5-307b-4e6f-9457-4030fbbbd4ce",
+        "name": "Gauge-9 Mono",
+        "attachmentSlot": "Muzzle"
+    },
+    "GL_CLEAR_BREACH": {
+        "uuid": "1b406863-268a-4978-a729-46f15599395d",
+        "name": "GL Clear Breach",
+        "attachmentSlot": "Muzzle"
+    },
+    "GW_FLASH_FIFTY": {
+        "uuid": "315afdd9-a192-4281-9930-13ee74848705",
+        "name": "GW Flash Fifty",
+        "attachmentSlot": "Muzzle"
+    },
+    "GW_MAX-99": {
+        "uuid": "533c0ef0-0b10-4f0d-8203-93ad9c36cba2",
+        "name": "GW Max-99",
+        "attachmentSlot": "Muzzle"
+    },
+    "H26_PORTED_COMP": {
+        "uuid": "8c76cacf-fd95-46a9-abf6-abe2e2ffe11e",
+        "name": "H26 Ported Comp",
+        "attachmentSlot": "Muzzle"
+    },
+    "HARBINGER_D20": {
+        "uuid": "2a1d9951-9e79-477c-ac8a-1be21c4c8c14",
+        "name": "Harbinger D20",
+        "attachmentSlot": "Muzzle"
+    },
+    "HOLE_PUNCH_BREACHER": {
+        "uuid": "bebad5d5-6642-417d-b134-e757bfe1052b",
+        "name": "Hole Punch Breacher",
+        "attachmentSlot": "Muzzle"
+    },
+    "HUSHER-65_SILENCER": {
+        "uuid": "3efb6292-dad7-43de-ba21-018ab8779d1e",
+        "name": "Husher-65 Silencer",
+        "attachmentSlot": "Muzzle"
+    },
+    "JCZ-390_MUZZLE_DEVICE": {
+        "uuid": "9740ba94-fc3e-45a1-a2c0-b80ce601a360",
+        "name": "JCZ-390 Muzzle Device",
+        "attachmentSlot": "Muzzle"
+    },
+    "KASTOVIA_DX90": {
+        "uuid": "0822ba4d-dda6-4903-a195-83ffa2296e46",
+        "name": "Kastovia DX90",
+        "attachmentSlot": "Muzzle"
+    },
+    "KOMODO_HEAVY": {
+        "uuid": "a05b9b69-b235-40c4-9d9e-f4c11f1785ed",
+        "name": "Komodo Heavy",
+        "attachmentSlot": "Muzzle"
+    },
+    "LACERTA_COMPENSATOR": {
+        "uuid": "75b02ae7-989a-4871-bf74-d24ccb5ea0c9",
+        "name": "Lacerta Compensator",
+        "attachmentSlot": "Muzzle"
+    },
+    "LEGION_FIRE_COMP": {
+        "uuid": "dc52c2c8-3856-4b49-963e-d80a5c8de1d2",
+        "name": "Legion Fire Comp",
+        "attachmentSlot": "Muzzle"
+    },
+    "LOCKSHOT_KT85": {
+        "uuid": "28a0648d-b89d-4984-8542-2f9ad2d207be",
+        "name": "Lockshot KT85",
+        "attachmentSlot": "Muzzle"
+    },
+    "LOCKWOOD_SMOOTHFIRE_12": {
+        "uuid": "18c9c170-80fc-4294-b360-d25d821aa444",
+        "name": "Lockwood SmoothFire 12",
+        "attachmentSlot": "Muzzle"
+    },
+    "MACK8_FROST_BITE": {
+        "uuid": "3761cffb-a5f6-4335-9857-dc12e7312d77",
+        "name": "MACK8 Frost Bite",
+        "attachmentSlot": "Muzzle"
+    },
+    "MACK8_SHOTGUN_BREACH": {
+        "uuid": "ba3750c6-18a4-442c-b5cb-8c87636db736",
+        "name": "MACK8 Shotgun Breach",
+        "attachmentSlot": "Muzzle"
+    },
+    "MATUZEK_CROWN": {
+        "uuid": "a5a3f132-5152-4981-9fc0-4d1bde4f538a",
+        "name": "Matuzek Crown",
+        "attachmentSlot": "Muzzle"
+    },
+    "NILSOUND_90": {
+        "uuid": "c8098f25-ab95-4ee1-af4d-9b0d48a23769",
+        "name": "Nilsound 90",
+        "attachmentSlot": "Muzzle"
+    },
+    "OVL-70_COMP": {
+        "uuid": "fddc2e64-1aa7-4713-8531-55b9fa32d71f",
+        "name": "OVL-70 Comp",
+        "attachmentSlot": "Muzzle"
+    },
+    "POLARFIRE-S": {
+        "uuid": "24ca10a7-5537-4720-817e-85bc226c88ea",
+        "name": "Polarfire-S",
+        "attachmentSlot": "Muzzle"
+    },
+    "PORTED_DZ38": {
+        "uuid": "fcc3a4eb-8083-49f8-8a84-840b5c826177",
+        "name": "Ported DZ38",
+        "attachmentSlot": "Muzzle"
+    },
+    "POTATO_MASHER": {
+        "uuid": "7fb924e6-e144-4e3d-8468-f78f215d79f3",
+        "name": "Potato Masher",
+        "attachmentSlot": "Muzzle"
+    },
+    "RECKONER_COMP": {
+        "uuid": "32899f34-b68f-4e30-9db9-1a2da3d19e05",
+        "name": "Reckoner Comp",
+        "attachmentSlot": "Muzzle"
+    },
+    "RF_CROWN_50": {
+        "uuid": "c8c5a125-bee2-44fc-8240-f035058cb1b4",
+        "name": "RF Crown 50",
+        "attachmentSlot": "Muzzle"
+    },
+    "RMGE-7": {
+        "uuid": "3d2d261c-5b69-4c96-b782-9cf8d914496a",
+        "name": "RMGE-7",
+        "attachmentSlot": "Muzzle"
+    },
+    "RVS607_COMPENSATOR": {
+        "uuid": "d375e291-ebf6-43b6-9279-458a9823e8eb",
+        "name": "RVS607 Compensator",
+        "attachmentSlot": "Muzzle"
+    },
+    "SA_GF90_FLASH_HIDER": {
+        "uuid": "eb357063-05fc-4dda-b9be-16007c9fde3c",
+        "name": "SA GF90 Flash Hider",
+        "attachmentSlot": "Muzzle"
+    },
+    "SA_LEVELER_55": {
+        "uuid": "65c77abf-30f5-4e61-a02a-6dfd1460cb49",
+        "name": "SA Leveler 55",
+        "attachmentSlot": "Muzzle"
+    },
+    "SA_MX-50": {
+        "uuid": "6da5a8b5-8efb-480b-8952-d320cadc3935",
+        "name": "SA MX-50",
+        "attachmentSlot": "Muzzle"
+    },
+    "SA_PEAK-77": {
+        "uuid": "8cf4f016-9159-4ee9-8f72-4188351ffb8b",
+        "name": "SA Peak-77",
+        "attachmentSlot": "Muzzle"
+    },
+    "SA_SCHALLDAMPFER_99": {
+        "uuid": "85edf869-da55-4246-9e52-8d802f47918e",
+        "name": "SA Schalldampfer 99",
+        "attachmentSlot": "Muzzle"
+    },
+    "SA_SCHWEIGEN_DX": {
+        "uuid": "11762726-4d25-4085-957c-981d65a4579f",
+        "name": "SA Schweigen DX",
+        "attachmentSlot": "Muzzle"
+    },
+    "SA_SCHWEIGEN_XS": {
+        "uuid": "b9aff268-d7a4-418e-9c14-1ba999d8f7a3",
+        "name": "SA Schweigen XS",
+        "attachmentSlot": "Muzzle"
+    },
+    "SA_SHROUD_FLASH_HIDER": {
+        "uuid": "0662b083-6c13-4bbf-a3db-faa1270d5be1",
+        "name": "SA Shroud Flash Hider",
+        "attachmentSlot": "Muzzle"
+    },
+    "SAKIN_DB107": {
+        "uuid": "7520c644-740c-4cca-8b93-5ae444883f8f",
+        "name": "SAKIN DB107",
+        "attachmentSlot": "Muzzle"
+    },
+    "SAKIN_TREAD-40": {
+        "uuid": "e9e09a83-ec7b-44e2-9bb7-16ddcdc6b4ff",
+        "name": "SAKIN Tread-40",
+        "attachmentSlot": "Muzzle"
+    },
+    "SHIKRA_SILENCER": {
+        "uuid": "ef099da5-d528-469f-bee5-4764079eaca3",
+        "name": "Shikra Silencer",
+        "attachmentSlot": "Muzzle"
+    },
+    "SHRED_CP90": {
+        "uuid": "faeec49f-81d8-404c-b057-73279c2602ba",
+        "name": "Shred CP90",
+        "attachmentSlot": "Muzzle"
+    },
+    "SILENTFIRE_XG6": {
+        "uuid": "14e468ce-ae78-4be7-a7ce-4ccdee32a8b7",
+        "name": "Silentfire XG6",
+        "attachmentSlot": "Muzzle"
+    },
+    "SINGUARD_MKV": {
+        "uuid": "f47bd8d3-3aaa-40a8-8d77-606519d4adea",
+        "name": "Singuard MKV",
+        "attachmentSlot": "Muzzle"
+    },
+    "SLAB-10_COMP": {
+        "uuid": "a75a89ec-a116-4b43-a10b-a524cbf20dd1",
+        "name": "Slab-10 Comp",
+        "attachmentSlot": "Muzzle"
+    },
+    "SPIRAL_V3.5_FLASH_HIDER": {
+        "uuid": "9bbde494-197d-4078-8370-dff8e235393f",
+        "name": "Spiral V3.5 Flash Hider",
+        "attachmentSlot": "Muzzle"
+    },
+    "TA_CG76": {
+        "uuid": "2e403593-6b7d-4250-a7d1-41eb6d564394",
+        "name": "TA CG76",
+        "attachmentSlot": "Muzzle"
+    },
+    "TA_HUL-BREACH": {
+        "uuid": "921159c9-7ac8-44a9-aff2-ae38e0b91f60",
+        "name": "TA Hul-Breach",
+        "attachmentSlot": "Muzzle"
+    },
+    "TA_HUL-BREACH_KL": {
+        "uuid": "0e83002e-c618-4d49-bc5d-24483d9e7f8e",
+        "name": "TA Hul-Breach KL",
+        "attachmentSlot": "Muzzle"
+    },
+    "TALON_SIXTEEN": {
+        "uuid": "7bb037e1-b261-4857-9102-52b94476477f",
+        "name": "Talon Sixteen",
+        "attachmentSlot": "Muzzle"
+    },
+    "TALON_SIXTEEN_SILENCER": {
+        "uuid": "a8d23154-eddb-40e6-8b4f-dc07081e02bc",
+        "name": "Talon Sixteen Silencer",
+        "attachmentSlot": "Muzzle"
+    },
+    "TEMPUS_GH50": {
+        "uuid": "b0bf2381-44ee-4302-9f09-c88b80e56b85",
+        "name": "Tempus GH50",
+        "attachmentSlot": "Muzzle"
+    },
+    "TEMPUS_VOX": {
+        "uuid": "7004cdc7-e834-4e2d-8b42-f00c61b264d7",
+        "name": "Tempus Vox",
+        "attachmentSlot": "Muzzle"
+    },
+    "TY-LR8": {
+        "uuid": "eafbf3b5-0695-4151-87ed-d6be394f2938",
+        "name": "TY-LR8",
+        "attachmentSlot": "Muzzle"
+    },
+    "TZL-90_V3": {
+        "uuid": "fa619a36-b560-4ee2-9a68-228fdff4229d",
+        "name": "TZL-90 V3",
+        "attachmentSlot": "Muzzle"
+    },
+    "VIGILANTE_COMP": {
+        "uuid": "87a778b6-e62c-4e10-9709-f91d090ee6c1",
+        "name": "Vigilante Comp",
+        "attachmentSlot": "Muzzle"
+    },
+    "VLK_KOLOSS_FLASH_HIDER": {
+        "uuid": "af12d6da-5be6-45f4-af15-0b4c10acf26d",
+        "name": "VLK Koloss Flash Hider",
+        "attachmentSlot": "Muzzle"
+    },
+    "VULTURE_CLAW_BREACHER": {
+        "uuid": "f0b76991-d3a0-4581-b70e-4753ff5f9c9a",
+        "name": "Vulture Claw Breacher",
+        "attachmentSlot": "Muzzle"
+    },
+    "XRK_KNOCKOUT_BREACH": {
+        "uuid": "334e6bda-aa70-4be9-b093-a59cefc31c3c",
+        "name": "XRK KnockOut Breach",
+        "attachmentSlot": "Muzzle"
+    },
+    "XRK_KRAKEN": {
+        "uuid": "04e5df2a-ca35-4b86-a3c2-a5bda0e19059",
+        "name": "XRK Kraken",
+        "attachmentSlot": "Muzzle"
+    },
+    "XRK_QZ-105": {
+        "uuid": "086ae17d-6a62-4e35-a404-70c848042578",
+        "name": "XRK QZ-105",
+        "attachmentSlot": "Muzzle"
+    },
+    "XRK_SANDSTORM": {
+        "uuid": "f0046135-8fcc-47f4-b117-4025bb94ff60",
+        "name": "XRK Sandstorm",
+        "attachmentSlot": "Muzzle"
+    },
+    "XRK_VENTOR-900": {
+        "uuid": "e52b2a7b-4c07-470a-8c49-93f9e8e65c30",
+        "name": "XRK Ventor-900",
+        "attachmentSlot": "Muzzle"
+    },
+    "XTEN_BLACK_KITE": {
+        "uuid": "77e96acc-79d0-4c41-9a89-52ae38982321",
+        "name": "XTEN Black Kite",
+        "attachmentSlot": "Muzzle"
+    },
+    "XTEN_FULL_CHOKE": {
+        "uuid": "f8a9d5b1-f154-4efe-a7bd-cab393fcd71d",
+        "name": "XTEN Full Choke",
+        "attachmentSlot": "Muzzle"
+    },
+    "XTEN_HAVOC_90": {
+        "uuid": "45927e70-dd44-4ebd-bc7b-2672c3e96755",
+        "name": "XTEN Havoc 90",
+        "attachmentSlot": "Muzzle"
+    },
+    "XTEN_MODIFIED_CHOKE": {
+        "uuid": "6c63bcf8-665b-45fd-a8db-bef2482b1870",
+        "name": "XTEN Modified Choke",
+        "attachmentSlot": "Muzzle"
+    },
+    "XTEN_PORTED_290": {
+        "uuid": "36afbb19-4764-4a55-baa7-73d11429ff06",
+        "name": "XTEN Ported 290",
+        "attachmentSlot": "Muzzle"
+    },
+    "XTEN_QUADFLASH": {
+        "uuid": "f7570497-3572-47e4-8b62-041ddf2ff2e5",
+        "name": "XTEN Quadflash",
+        "attachmentSlot": "Muzzle"
+    },
+    "XTEN_RAZOR_COMP": {
+        "uuid": "2f60ee9e-0f40-447f-982a-9984b043f7e9",
+        "name": "XTEN Razor Comp",
+        "attachmentSlot": "Muzzle"
+    },
+    "XTEN_RR-40": {
+        "uuid": "0b532b72-7771-4721-9185-defe750ca7a2",
+        "name": "XTEN RR-40",
+        "attachmentSlot": "Muzzle"
+    },
+    "XTEN_V1.3_CHOKE": {
+        "uuid": "b1eb4555-c6fa-4c6a-8371-c6d47b082bca",
+        "name": "XTEN V1.3 Choke",
+        "attachmentSlot": "Muzzle"
+    },
+    "XTEN_V2.0_CHOKE": {
+        "uuid": "f4e10177-9927-4788-b939-c262cd349129",
+        "name": "XTEN V2.0 Choke",
+        "attachmentSlot": "Muzzle"
+    },
+    "ZLR_TALON_5": {
+        "uuid": "9efa014c-b5e6-4454-b915-39b9e43074aa",
+        "name": "ZLR Talon 5",
+        "attachmentSlot": "Muzzle"
+    },
+    "ZULU-60": {
+        "uuid": "c47cc205-7feb-4389-b957-62c89989145f",
+        "name": "ZULU-60",
+        "attachmentSlot": "Muzzle"
+    }
+}

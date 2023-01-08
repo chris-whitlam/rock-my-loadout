@@ -5,7 +5,6 @@ import {
   OneToMany,
   Generated
 } from 'typeorm';
-import { Attachment } from './attachment.entity';
 import { Weapon } from './weapon.entity';
 
 @Entity('platforms')
@@ -24,9 +23,4 @@ export class Platform {
     cascade: true
   })
   weapons!: Weapon[];
-
-  @OneToMany(() => Attachment, (attachment) => attachment.platform, {
-    cascade: true
-  })
-  attachments!: Attachment[];
 }

@@ -1,0 +1,87 @@
+{
+    "5GN_TAC-COMB": {
+        "uuid": "f0640072-8772-414b-8a56-be080b14d92d",
+        "name": "5GN Tac-Comb",
+        "attachmentSlot": "Comb"
+    },
+    "AIM-ASSIST_406": {
+        "uuid": "9384f59b-442b-402f-9218-ba6444f53499",
+        "name": "Aim-Assist 406",
+        "attachmentSlot": "Comb"
+    },
+    "BRUEN_TS-30_COMB": {
+        "uuid": "239d77db-329a-41c7-8752-c08e624b63ac",
+        "name": "Bruen TS-30 Comb",
+        "attachmentSlot": "Comb"
+    },
+    "CRONEN_GI40_CHEEK_RISER": {
+        "uuid": "0d331dce-cbdb-4c03-9a37-5e1bc4ff2562",
+        "name": "Cronen GI40 Cheek Riser",
+        "attachmentSlot": "Comb"
+    },
+    "FSS_AMMO_SLEEVE": {
+        "uuid": "2bd3a0c1-20ec-4327-bc2f-a8bf75590803",
+        "name": "FSS Ammo Sleeve",
+        "attachmentSlot": "Comb"
+    },
+    "FSS_EL-T_POUCH": {
+        "uuid": "5dfee398-8cb5-4a58-9627-7e5754258a3f",
+        "name": "FSS EL-T Pouch",
+        "attachmentSlot": "Comb"
+    },
+    "FSS_LS-3_COMB": {
+        "uuid": "e6597d33-b761-47a0-9e02-fce2b4d6d1bd",
+        "name": "FSS LS-3 Comb",
+        "attachmentSlot": "Comb"
+    },
+    "FTAC_C11_RISER": {
+        "uuid": "10aa49dd-8926-4d61-9c54-91331ed66766",
+        "name": "FTac C11 Riser",
+        "attachmentSlot": "Comb"
+    },
+    "FTAC_H86_CHEEK_REST": {
+        "uuid": "80c83729-9726-4be1-8972-df4c16830f97",
+        "name": "FTac H86 Cheek Rest",
+        "attachmentSlot": "Comb"
+    },
+    "LOCKWOOD_DEFENDER_COMB": {
+        "uuid": "460f48a0-059f-4876-979a-0ff7e03f8088",
+        "name": "Lockwood Defender Comb",
+        "attachmentSlot": "Comb"
+    },
+    "LOCKWOOD_MERCILESS": {
+        "uuid": "e09523a2-4c62-463e-8dd0-c7eff15de15d",
+        "name": "Lockwood Merciless",
+        "attachmentSlot": "Comb"
+    },
+    "MACK_8_ONTRACK_COMB": {
+        "uuid": "6f640ba9-0d04-47c6-87ec-19531c818d1c",
+        "name": "Mack 8 OnTrack Comb",
+        "attachmentSlot": "Comb"
+    },
+    "PADDED_SHOTGUN_COMB": {
+        "uuid": "48a0405f-ff72-4b21-b786-a0de56407508",
+        "name": "Padded Shotgun Comb",
+        "attachmentSlot": "Comb"
+    },
+    "PD-A40_SLEEVE": {
+        "uuid": "05e03c7d-0d68-4118-a33e-9586d77b5c1a",
+        "name": "PD-A40 Sleeve",
+        "attachmentSlot": "Comb"
+    },
+    "SCHLAGER_TTF3_RISER": {
+        "uuid": "0d4c7823-8bbe-469a-bf74-4cc4194224e8",
+        "name": "Schlager TTF3 Riser",
+        "attachmentSlot": "Comb"
+    },
+    "TV_TACCOMB": {
+        "uuid": "b9c3cb46-0a1a-4d8f-8288-1a5551392ec4",
+        "name": "TV TacComb",
+        "attachmentSlot": "Comb"
+    },
+    "WINGMAN_COMB": {
+        "uuid": "17e7b30d-3058-454f-bf7c-4d8cc1f98613",
+        "name": "Wingman Comb",
+        "attachmentSlot": "Comb"
+    }
+}

@@ -1,16 +1,14 @@
 import fs from 'fs';
 import path from 'path';
 
-const getAttachmentsFromDirectory = async (directoryPath: string) => {
+export const getAttachmentsData = async () => {
   const jsonsInDir = fs
-    .readdirSync(__dirname + directoryPath)
+    .readdirSync(__dirname)
     .filter((file) => path.extname(file) === '.json');
 
   let attachments = {};
   jsonsInDir.forEach((file) => {
-    const fileData = fs.readFileSync(
-      path.join(__dirname + directoryPath, file)
-    );
+    const fileData = fs.readFileSync(path.join(__dirname, file));
     const json = JSON.parse(fileData.toString());
     attachments = {
       ...attachments,
@@ -18,12 +16,5 @@ const getAttachmentsFromDirectory = async (directoryPath: string) => {
     };
   });
 
-  return attachments;
-};
-
-export const getAttachmentsData = async () => {
-  const platformAttachments = await getAttachmentsFromDirectory('/platform');
-  // const universalAttachments = await getAttachmentsFromDirectory('/universal');
-  const attachments = { ...platformAttachments };
   return attachments;
 };

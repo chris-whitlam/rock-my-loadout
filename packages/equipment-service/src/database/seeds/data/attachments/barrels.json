@@ -1,0 +1,722 @@
+{
+    "10.5\"_BRUEN_TYPHON": {
+        "uuid": "9ce44211-b72f-465a-8472-d51fa5dd92ef",
+        "name": "10.5\" Bruen Typhon",
+        "attachmentSlot": "Barrel"
+    },
+    "10.5\"_FTAC_ARROW": {
+        "uuid": "eed675e1-e101-42f4-8ea6-c80242b43f4b",
+        "name": "10.5\" FTac Arrow",
+        "attachmentSlot": "Barrel"
+    },
+    "10.6\"_LACHSTRIKE_BARREL": {
+        "uuid": "39a39c34-d84f-4ce9-a1c4-29407a4ba347",
+        "name": "10.6\" Lachstrike Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "10\"_SA_PHOENIX": {
+        "uuid": "6d65f7d7-8366-40e7-89c8-624a584dd1fe",
+        "name": "10\" SA Phoenix",
+        "attachmentSlot": "Barrel"
+    },
+    "11.5\"_CARBINE_SHROUD": {
+        "uuid": "fa36dfa0-4608-42f9-abf9-6234a314acbc",
+        "name": "11.5\" Carbine Shroud",
+        "attachmentSlot": "Barrel"
+    },
+    "11.5\"_T-H4_BARREL": {
+        "uuid": "c3d1de2b-f772-4c95-bfaa-b69d5f64502a",
+        "name": "11.5\" T-H4 Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "11\"_BRYSON_SPECIAL": {
+        "uuid": "80d61942-48fe-410e-b877-8b198ca3b8b6",
+        "name": "11\" Bryson Special",
+        "attachmentSlot": "Barrel"
+    },
+    "12.5\"_CARBON_BARREL": {
+        "uuid": "7f34c9ff-4a9d-4b12-8ded-55777a0c8f58",
+        "name": "12.5\" Carbon Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "12\"_BRUEN_SZ-36": {
+        "uuid": "5b7bc4c6-6b71-4ba3-be2c-e2a57034b1ec",
+        "name": "12\" Bruen SZ-36",
+        "attachmentSlot": "Barrel"
+    },
+    "12\"_TACSHORT_BARREL": {
+        "uuid": "f0536a4a-fe5e-479b-999e-46901144aac8",
+        "name": "12\" TacShort Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "13.5\"_LONESTAR_BARREL": {
+        "uuid": "47321e63-599b-4e1c-866b-5e0c0509ae73",
+        "name": "13.5\" Lonestar Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "14.5\"_TUNDRA_PRO_BARREL": {
+        "uuid": "09afb34f-7386-4061-9d62-139d07c75664",
+        "name": "14.5\" Tundra Pro Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "14\"_BRUEN_ECHELON": {
+        "uuid": "08c73f46-87a0-4f67-b000-3a91b7712aa1",
+        "name": "14\" Bruen Echelon",
+        "attachmentSlot": "Barrel"
+    },
+    "14\"_CARBINE_SHROUD": {
+        "uuid": "9bc35dc2-de9f-48b6-b309-70328d20ceb5",
+        "name": "14\" Carbine Shroud",
+        "attachmentSlot": "Barrel"
+    },
+    "14\"_POLARIZE_BARREL": {
+        "uuid": "ad6e6dd8-9619-4152-a305-476e2123d33d",
+        "name": "14\" Polarize Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "14\"_SHORTY_BARREL": {
+        "uuid": "2ae70912-456e-4356-a826-2163dff8b6e1",
+        "name": "14\" Shorty Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "15.5\"_THETA-X13": {
+        "uuid": "feef2230-000c-4c2a-a256-282b04997145",
+        "name": "15.5\" Theta-X13",
+        "attachmentSlot": "Barrel"
+    },
+    "15.9\"_LACHMANN_RAPP_BARREL": {
+        "uuid": "2b24f1e3-5fc0-4528-a755-56924988354f",
+        "name": "15.9\" Lachmann RAPP Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "16.5\"_BRUEN_S901_BARREL": {
+        "uuid": "1c30de41-d1c9-4998-8b67-77d1816155c5",
+        "name": "16.5\" Bruen S901 Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "16\"_BRYSON_FACTORY_BARREL": {
+        "uuid": "dfda5fb7-283c-4a55-94d6-24feac146b6c",
+        "name": "16\" Bryson Factory Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "16\"_BRYSON_SHOCKWAVE": {
+        "uuid": "ad7704b0-d375-474b-937b-177a1cdeecfe",
+        "name": "16\" Bryson Shockwave",
+        "attachmentSlot": "Barrel"
+    },
+    "16\"_CHROME-LINED_RFX40": {
+        "uuid": "ef258873-8350-4607-abaa-b7552afa7743",
+        "name": "16\" Chrome-Lined RFX40",
+        "attachmentSlot": "Barrel"
+    },
+    "16\"_CLOAK_90": {
+        "uuid": "3f583a04-6bfd-4aac-9be0-f19013236dc2",
+        "name": "16\" Cloak 90",
+        "attachmentSlot": "Barrel"
+    },
+    "16\"_ZLR_EXECUTOR_80_BARREL": {
+        "uuid": "42a62528-3477-4a8b-ad18-ce6acc809b14",
+        "name": "16\" ZLR Executor 80 Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "17.5\"_ORCA_BARREL": {
+        "uuid": "8d7e969e-508e-4181-82e1-c7eea7858fa9",
+        "name": "17.5\" Orca Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "17\"_CORVUS_PRORANGE": {
+        "uuid": "9f0c054a-0246-4c0e-9f6a-5b1d589c0bc0",
+        "name": "17\" Corvus Prorange",
+        "attachmentSlot": "Barrel"
+    },
+    "18.5\"_BATTLEMASTER": {
+        "uuid": "9e22865f-bf81-4e86-ac45-e2f324fd7b7b",
+        "name": "18.5\" Battlemaster",
+        "attachmentSlot": "Barrel"
+    },
+    "18.5\"_BRYSON_LR_FACTORY": {
+        "uuid": "6bb3d910-e2a4-4bed-b932-70fdb638fcce",
+        "name": "18.5\" Bryson LR Factory",
+        "attachmentSlot": "Barrel"
+    },
+    "18.5\"_EMPEROR_BARREL": {
+        "uuid": "eb8bbf7b-d0c7-481a-82e1-bd035e47e03b",
+        "name": "18.5\" Emperor Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "18.5\"_XRK_RESONATE": {
+        "uuid": "e507013b-d11a-4faa-a925-58ddb4d066fb",
+        "name": "18.5\" XRK Resonate",
+        "attachmentSlot": "Barrel"
+    },
+    "18.75\"_CLOAK_90": {
+        "uuid": "5b9c1e38-e576-403a-8ea8-04df6bfdcf64",
+        "name": "18.75\" Cloak 90",
+        "attachmentSlot": "Barrel"
+    },
+    "18\"_BRUEN_GUERILLA": {
+        "uuid": "212940e5-7826-4dd2-abd9-605d48ed5f21",
+        "name": "18\" Bruen Guerilla",
+        "attachmentSlot": "Barrel"
+    },
+    "18\"_DEMO_FIREWALL": {
+        "uuid": "290e2bd3-c9e0-42b8-bae9-ddc1605f39e8",
+        "name": "18\" Demo Firewall",
+        "attachmentSlot": "Barrel"
+    },
+    "18\"_PRECISION-6_BARREL": {
+        "uuid": "11ec85e4-bed3-400e-bec1-7d1858d97aff",
+        "name": "18\" Precision-6 Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "18\"_T300": {
+        "uuid": "ab51d1c4-c3e9-4d24-b2d5-168a6e11f449",
+        "name": "18\" T300",
+        "attachmentSlot": "Barrel"
+    },
+    "19\"_SILENTFIRE_BARREL": {
+        "uuid": "923a33d2-d4d9-4a22-a20b-7a55dc552fe8",
+        "name": "19\" Silentfire Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "20\"_BRUEN_SILVER_SERIES": {
+        "uuid": "aeb2dc6c-7181-49ee-b663-1877994f1113",
+        "name": "20\" Bruen Silver Series",
+        "attachmentSlot": "Barrel"
+    },
+    "21.5\"_BRYSON_SHREDDER": {
+        "uuid": "b0c2bf38-ecfc-46d1-93a4-b6b82529e1d1",
+        "name": "21.5\" Bryson Shredder",
+        "attachmentSlot": "Barrel"
+    },
+    "21.5\"_BRYSON_TACFIRE": {
+        "uuid": "a0bea2a2-f7e7-4974-a44e-00c322941c3e",
+        "name": "21.5\" Bryson TacFire",
+        "attachmentSlot": "Barrel"
+    },
+    "21.5\"_FLUTED_FIFTY": {
+        "uuid": "efe82046-3a54-42ec-a427-8a361ff1e3ec",
+        "name": "21.5\" Fluted Fifty",
+        "attachmentSlot": "Barrel"
+    },
+    "21.5\"_RECOURSE": {
+        "uuid": "170310d5-e87b-4f23-9004-1158d8648b35",
+        "name": "21.5\" Recourse",
+        "attachmentSlot": "Barrel"
+    },
+    "21\"_COYOTE_BARREL": {
+        "uuid": "fd808ad9-92c5-45e7-984e-2fd521ec410a",
+        "name": "21\" Coyote Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "21\"_EXF_RHINO": {
+        "uuid": "424408a9-078a-4613-a46b-060a7e987e43",
+        "name": "21\" EXF Rhino",
+        "attachmentSlot": "Barrel"
+    },
+    "22.5\"_ELEVATE-11": {
+        "uuid": "db4999f3-2b77-4a5d-8990-0129391d85a5",
+        "name": "22.5\" Elevate-11",
+        "attachmentSlot": "Barrel"
+    },
+    "22.5\"_EXF_ALAMO": {
+        "uuid": "9d4f9b7d-c9a3-4228-87f5-f353a20de45c",
+        "name": "22.5\" EXF Alamo",
+        "attachmentSlot": "Barrel"
+    },
+    "22\"_BOREMASTER": {
+        "uuid": "d4c314dd-270a-40ce-89e7-6f0c84b613ff",
+        "name": "22\" Boremaster",
+        "attachmentSlot": "Barrel"
+    },
+    "22\"_CAVALRY_BARREL": {
+        "uuid": "90b299f1-6e9e-473e-a0e1-7106344e7fc7",
+        "name": "22\" Cavalry Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "22\"_FACTORY_FOURTEEN": {
+        "uuid": "58f2dacc-6ba9-4770-a7af-76cd38251cd5",
+        "name": "22\" Factory Fourteen",
+        "attachmentSlot": "Barrel"
+    },
+    "22\"_OMX-456": {
+        "uuid": "f33f68e4-df9c-414a-a697-0964e741eaaf",
+        "name": "22\" OMX-456",
+        "attachmentSlot": "Barrel"
+    },
+    "23.5\"_FLUTED_R-67": {
+        "uuid": "91bd6647-ab7e-45c0-906d-4e5c565f467b",
+        "name": "23.5\" Fluted R-67",
+        "attachmentSlot": "Barrel"
+    },
+    "23.5\"_SA_FIFTY-H7": {
+        "uuid": "b4389871-eda3-47ee-b32b-4328df6df8e2",
+        "name": "23.5\" SA Fifty-H7",
+        "attachmentSlot": "Barrel"
+    },
+    "24.4\"_BRUEN_S-620": {
+        "uuid": "37e5cfad-e5b8-4c79-8d02-db57e03208b3",
+        "name": "24.4\" Bruen S-620",
+        "attachmentSlot": "Barrel"
+    },
+    "25\"_BUFFALO_BARREL": {
+        "uuid": "11ed653b-9455-4fd4-9c67-a151d49812be",
+        "name": "25\" Buffalo Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "26.5\"_DEMO_FIELD_PRO": {
+        "uuid": "c255937e-0e9f-44dd-8116-268db86a914e",
+        "name": "26.5\" Demo Field Pro",
+        "attachmentSlot": "Barrel"
+    },
+    "26\"_MAMMOTH_HB50": {
+        "uuid": "868af8d0-3243-41ee-900a-852d5fe76a5a",
+        "name": "26\" Mammoth HB50",
+        "attachmentSlot": "Barrel"
+    },
+    "29.5\"_RIFLED_BARREL": {
+        "uuid": "b7811b1a-a72d-41fa-82c8-7dc80ea60e13",
+        "name": "29.5\" Rifled Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "29\"_TV_KILO-50": {
+        "uuid": "646fa55d-1364-4133-80a8-c4689865c1b8",
+        "name": "29\" TV Kilo-50",
+        "attachmentSlot": "Barrel"
+    },
+    "342MM_SAKIN_KL": {
+        "uuid": "ee78be35-1d83-4e43-a46c-cb1af990f08a",
+        "name": "342mm SAKIN KL",
+        "attachmentSlot": "Barrel"
+    },
+    "355MM_HGS-55": {
+        "uuid": "cfc591be-39cc-4ef5-b6aa-24c75a106aea",
+        "name": "355mm HGS-55",
+        "attachmentSlot": "Barrel"
+    },
+    "4\"_THUNDERFIRE": {
+        "uuid": "2eddd9b1-bf81-4147-9ffd-9724e101d30b",
+        "name": "4\" Thunderfire",
+        "attachmentSlot": "Barrel"
+    },
+    "419MM_EXF_BARREL": {
+        "uuid": "a52a47cf-fe16-4200-8011-945436e6eac7",
+        "name": "419mm EXF Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "419MM_SCHLAGER_SALVO": {
+        "uuid": "fd7cf34a-3398-46b6-bcb4-66f0b655e552",
+        "name": "419mm Schlager Salvo",
+        "attachmentSlot": "Barrel"
+    },
+    "5.5\"_FENNEC_MINITAC": {
+        "uuid": "644229a8-8397-432a-b53a-67f6ac9ce9e7",
+        "name": "5.5\" Fennec Minitac",
+        "attachmentSlot": "Barrel"
+    },
+    "508MM_REAR_GUARD": {
+        "uuid": "3caec4cd-55ec-4230-bd6c-c5483bc4d446",
+        "name": "508mm Rear Guard",
+        "attachmentSlot": "Barrel"
+    },
+    "597MM_MATUZEK_INFERNO": {
+        "uuid": "bd9766af-9e5c-4129-8165-640683755eb4",
+        "name": "597mm Matuzek Inferno",
+        "attachmentSlot": "Barrel"
+    },
+    "6.5\"_BRUEN_DRAKE": {
+        "uuid": "d6b81428-9cb7-4f18-828d-7106afd8fa90",
+        "name": "6.5\" Bruen Drake",
+        "attachmentSlot": "Barrel"
+    },
+    "6.5\"_EXF_OP-40": {
+        "uuid": "e19a4b2f-b148-4108-bfa1-68f9b7cf0b0d",
+        "name": "6.5\" EXF OP-40",
+        "attachmentSlot": "Barrel"
+    },
+    "6.5\"_EXF_VORPAL": {
+        "uuid": "14ad3abc-cf28-4d05-a13f-4ca9ceb376e1",
+        "name": "6.5\" EXF Vorpal",
+        "attachmentSlot": "Barrel"
+    },
+    "6.75\"_CORVUS_COUGAR_500": {
+        "uuid": "f7d1280c-dcad-4d97-bc07-853e5be25946",
+        "name": "6.75\" Corvus Cougar 500",
+        "attachmentSlot": "Barrel"
+    },
+    "7.5\"_TEMPUS_FIREBRAND": {
+        "uuid": "1a23dbcc-8d2a-43f6-b73e-d1daa694d785",
+        "name": "7.5\" Tempus Firebrand",
+        "attachmentSlot": "Barrel"
+    },
+    "7\"_BRUEN_B-M20": {
+        "uuid": "04bae73b-3d3e-4314-aa64-ed3ff478a0f9",
+        "name": "7\" Bruen B-M20",
+        "attachmentSlot": "Barrel"
+    },
+    "711MM_MATUZEK_D50": {
+        "uuid": "7d46dc34-a67b-4c13-ba0d-54f8364ffb84",
+        "name": "711mm Matuzek D50",
+        "attachmentSlot": "Barrel"
+    },
+    "8\"_XRK_CQB_BARREL": {
+        "uuid": "152970c3-4aca-4597-ab67-a51a7555edc7",
+        "name": "8\" XRK CQB Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "9.5\"_DUKE-30": {
+        "uuid": "3f587664-b723-4454-aa5e-1a530f6e6bab",
+        "name": "9.5\" Duke-30",
+        "attachmentSlot": "Barrel"
+    },
+    "9\"_TAC-CB_55": {
+        "uuid": "a1e106fc-5784-4606-beb8-d464b2e27979",
+        "name": "9\" Tac-CB 55",
+        "attachmentSlot": "Barrel"
+    },
+    "BAK-9_279MM_BARREL": {
+        "uuid": "95b6b577-b3f9-41c9-afea-0566ff0c09c0",
+        "name": "BAK-9 279mm Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "BR209_BARREL": {
+        "uuid": "c9dabbe8-0792-4496-922a-c3ef041fa20b",
+        "name": "BR209 Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "BRUEN_TURACO_686MM": {
+        "uuid": "eb14cf80-0dd2-4075-9a56-3e32e7a69bb0",
+        "name": "Bruen Turaco 686mm",
+        "attachmentSlot": "Barrel"
+    },
+    "BRYSON_SNUBBY": {
+        "uuid": "4f116b4c-c0bc-41b1-9d17-3c345bb304f8",
+        "name": "Bryson Snubby",
+        "attachmentSlot": "Barrel"
+    },
+    "BULL_RIDER_16.5\"": {
+        "uuid": "3982cc29-4602-468c-bd83-62f60d88edbe",
+        "name": "Bull Rider 16.5\"",
+        "attachmentSlot": "Barrel"
+    },
+    "DEMO_501_FACTORY": {
+        "uuid": "8e97175b-65e2-4b8e-918b-539e849bfe9a",
+        "name": "Demo 501 Factory",
+        "attachmentSlot": "Barrel"
+    },
+    "EXECUTOR_546": {
+        "uuid": "32f32f4b-b322-4ead-a17e-4f2456dd499d",
+        "name": "Executor 546",
+        "attachmentSlot": "Barrel"
+    },
+    "EXF_GULF-16_BARREL": {
+        "uuid": "eac7f729-66ed-4675-9df9-065b22a90579",
+        "name": "EXF Gulf-16 Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "FENNEC_COVERT_FORCE": {
+        "uuid": "8430d400-0c85-4952-a5f8-e148d76d47fa",
+        "name": "Fennec Covert Force",
+        "attachmentSlot": "Barrel"
+    },
+    "FORGE_TAC_NINJA": {
+        "uuid": "4759d29e-a53e-468b-b5ea-b3fb5bc02cbc",
+        "name": "Forge Tac Ninja",
+        "attachmentSlot": "Barrel"
+    },
+    "FSS_CANNONADE_16\"": {
+        "uuid": "45c61422-b907-4c0c-96ac-d4cf99fc6d77",
+        "name": "FSS Cannonade 16\"",
+        "attachmentSlot": "Barrel"
+    },
+    "FSS_JETSTREAM": {
+        "uuid": "bdcc7636-ec06-4234-9b00-9038c717c8b3",
+        "name": "FSS Jetstream",
+        "attachmentSlot": "Barrel"
+    },
+    "FSS-X7_BARREL": {
+        "uuid": "2d4026b2-d70a-4988-b1dd-0ae6c318de3e",
+        "name": "FSS-X7 Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "FTAC_8.5\"_RECON": {
+        "uuid": "074ed69d-a45a-487a-99f5-c1c8273240ab",
+        "name": "FTac 8.5\" Recon",
+        "attachmentSlot": "Barrel"
+    },
+    "FTAC_CARNIVORA_7\"": {
+        "uuid": "c5136ee5-8a3f-4d83-9e68-082297bd1fa2",
+        "name": "FTac Carnivora 7\"",
+        "attachmentSlot": "Barrel"
+    },
+    "FTAC_COLDFORGE_16\"_BARREL": {
+        "uuid": "6ee8ec58-660c-4ee5-a8b7-f8886f11345d",
+        "name": "FTac Coldforge 16\" Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "FTAC_DEFENSE_14.5\"": {
+        "uuid": "7e99d216-a6dc-455d-998e-ef38e1ef281a",
+        "name": "FTac Defense 14.5\"",
+        "attachmentSlot": "Barrel"
+    },
+    "FTAC_FANG_PORTED": {
+        "uuid": "a5725c2c-d4a3-4182-9500-2465fa7e9f71",
+        "name": "FTac Fang Ported",
+        "attachmentSlot": "Barrel"
+    },
+    "FTAC_FB20": {
+        "uuid": "b4b99341-cf67-4024-8a66-1a817869840c",
+        "name": "FTac FB20",
+        "attachmentSlot": "Barrel"
+    },
+    "FTAC_HORNET_20\"_BARREL": {
+        "uuid": "f8addd89-5819-42f1-b77e-0f2dc8d3953b",
+        "name": "FTac Hornet 20\" Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "FTAC_M-SUB_12\"": {
+        "uuid": "83310caf-b57e-4090-93ad-2290225e65d2",
+        "name": "FTac M-Sub 12\"",
+        "attachmentSlot": "Barrel"
+    },
+    "FTAC_SB": {
+        "uuid": "de98f016-e26a-4160-bdbd-0bb394e36479",
+        "name": "FTac SB",
+        "attachmentSlot": "Barrel"
+    },
+    "FTAC_SERIES_IX_14.5\"": {
+        "uuid": "636835f9-fa45-477e-8341-9088f27dafe1",
+        "name": "FTac Series IX 14.5\"",
+        "attachmentSlot": "Barrel"
+    },
+    "HIGHTOWER_20\"_BARREL": {
+        "uuid": "813e23d8-158b-4492-84b6-bcfb61a7c7ac",
+        "name": "Hightower 20\" Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "IG-K30_406MM": {
+        "uuid": "fa00ca28-6b9f-4401-bc93-4303bdc519cc",
+        "name": "IG-K30 406mm",
+        "attachmentSlot": "Barrel"
+    },
+    "IMPACT_POINT": {
+        "uuid": "8c3d1862-19af-4bba-a164-00847cdb9c33",
+        "name": "Impact Point",
+        "attachmentSlot": "Barrel"
+    },
+    "KAS-1_381MM": {
+        "uuid": "11185224-590f-47c6-abe2-d00d1b094d35",
+        "name": "KAS-1 381mm",
+        "attachmentSlot": "Barrel"
+    },
+    "KAS-10_584MM_BARREL": {
+        "uuid": "09c2fcc3-8b20-4c4b-bda1-2eae518132e6",
+        "name": "KAS-10 584mm Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "KAS-7_406MM": {
+        "uuid": "8e9e70b9-a270-4d65-a22b-b9add1336aa1",
+        "name": "KAS-7 406mm",
+        "attachmentSlot": "Barrel"
+    },
+    "KASTOVIA_343": {
+        "uuid": "0bafb7b8-84a6-4145-9747-a894c0a013c4",
+        "name": "Kastovia 343",
+        "attachmentSlot": "Barrel"
+    },
+    "KASTOVIA_406": {
+        "uuid": "bb657fd8-c6b5-4d2a-8b9e-68b4c671a4b8",
+        "name": "Kastovia 406",
+        "attachmentSlot": "Barrel"
+    },
+    "KYZYL_DAWN": {
+        "uuid": "941a4885-71a6-48ab-ba88-2b5a161cc44b",
+        "name": "KYZYL Dawn",
+        "attachmentSlot": "Barrel"
+    },
+    "L38_FALCON_226MM": {
+        "uuid": "d99380ff-0cef-4b1e-988e-ae3ac79b462f",
+        "name": "L38 Falcon 226mm",
+        "attachmentSlot": "Barrel"
+    },
+    "LACH-12_BARREL": {
+        "uuid": "65f56cc3-f13d-4162-9529-64389e91da8b",
+        "name": "Lach-12 Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "LACH-165_ZULU": {
+        "uuid": "02714c3a-6865-4396-84de-84c996f73639",
+        "name": "Lach-165 Zulu",
+        "attachmentSlot": "Barrel"
+    },
+    "LACH-DX_203MM": {
+        "uuid": "3f3f3585-4c72-4e7d-8a8d-aaa0486a4922",
+        "name": "Lach-DX 203mm",
+        "attachmentSlot": "Barrel"
+    },
+    "LACHMANN_DART_165MM": {
+        "uuid": "69a3d572-cfb6-43b7-afca-158a1a86e659",
+        "name": "Lachmann Dart 165mm",
+        "attachmentSlot": "Barrel"
+    },
+    "LACHMANN_NOVA": {
+        "uuid": "e8375cef-287e-468b-8fff-bd82026b7e5d",
+        "name": "Lachmann Nova",
+        "attachmentSlot": "Barrel"
+    },
+    "LACHMANN_PULSAR": {
+        "uuid": "3fda75d0-5342-45eb-8368-a779b8de9cbf",
+        "name": "Lachmann Pulsar",
+        "attachmentSlot": "Barrel"
+    },
+    "LANCE-50_12\"_BARREL": {
+        "uuid": "14558025-738b-486d-8f1b-5fb51b8520b6",
+        "name": "Lance-50 12\" Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "LM_AURORA_90_BARREL": {
+        "uuid": "12f932a7-caac-4329-ad0b-587d6040461d",
+        "name": "LM Aurora 90 Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "LM_SERIES-7": {
+        "uuid": "ed80d6be-51f3-48d4-9a83-5d0b8e3b4b9a",
+        "name": "LM Series-7",
+        "attachmentSlot": "Barrel"
+    },
+    "LOCKWOOD_FRONTIERSMAN": {
+        "uuid": "30b022e7-0e6e-48bf-9a11-fb477b099cb5",
+        "name": "Lockwood Frontiersman",
+        "attachmentSlot": "Barrel"
+    },
+    "LR1:7_20.5\"_BARREL": {
+        "uuid": "3f4db3f4-8058-4652-980b-ebda26e39171",
+        "name": "LR1:7 20.5\" Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "MACK_8_21.5_SHORT": {
+        "uuid": "3b981f00-942c-4ca7-930c-646a0c1f0e84",
+        "name": "MACK 8 21.5 Short",
+        "attachmentSlot": "Barrel"
+    },
+    "MACK_8_33.5_SUPER": {
+        "uuid": "f77c2cf3-b384-4b44-b1b3-04fd7d1496c8",
+        "name": "MACK 8 33.5 Super",
+        "attachmentSlot": "Barrel"
+    },
+    "MATUZEK_812_BARREL": {
+        "uuid": "5a786e36-8b90-4da0-80fa-0e846bce6f94",
+        "name": "Matuzek 812 Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "MATUZEK_COTTONMOUTH_BARREL": {
+        "uuid": "46caafa7-d5d1-45e7-9e2d-a2d33a997d8b",
+        "name": "Matuzek Cottonmouth Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "MATUZEK_VENOM": {
+        "uuid": "6002fa75-9c6f-4f98-8687-944aee50c322",
+        "name": "Matuzek Venom",
+        "attachmentSlot": "Barrel"
+    },
+    "MEER-56_11\"_FACTORY": {
+        "uuid": "39dd70c4-0833-46de-8cf7-f155fa0a6e6c",
+        "name": "Meer-56 11\" Factory",
+        "attachmentSlot": "Barrel"
+    },
+    "MEER-76_449MM_FACTORY": {
+        "uuid": "dd605fa1-5c77-47d1-a452-4e7e2d5636f4",
+        "name": "Meer-76 449mm Factory",
+        "attachmentSlot": "Barrel"
+    },
+    "ROMEO_FT_16\"_BARREL": {
+        "uuid": "61c5e43e-a65c-43e4-9028-4be358b1954d",
+        "name": "Romeo FT 16\" Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "SA_BRAKE_BARREL": {
+        "uuid": "33bcdb77-8377-4b2b-992b-37cf2d32c1a0",
+        "name": "SA Brake Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "SA_COMP_BARREL": {
+        "uuid": "df5a805d-fc8d-45da-ba1b-703f6b86966c",
+        "name": "SA Comp Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "SA_LONGSHOT-50": {
+        "uuid": "76ec5001-4283-42d9-9b4c-13643bf2e5ab",
+        "name": "SA LongShot-50",
+        "attachmentSlot": "Barrel"
+    },
+    "SA_RESPONSE_III": {
+        "uuid": "67d4b558-cefd-4113-9251-b5d4d7e54a83",
+        "name": "SA Response III",
+        "attachmentSlot": "Barrel"
+    },
+    "SA_TYRANT_FIFTY": {
+        "uuid": "a25b6a22-6290-4172-9da7-e02956e0985e",
+        "name": "SA Tyrant Fifty",
+        "attachmentSlot": "Barrel"
+    },
+    "SA_ULTRA_III": {
+        "uuid": "2659b034-7b04-4b02-8aa3-b11dc848541c",
+        "name": "SA Ultra III",
+        "attachmentSlot": "Barrel"
+    },
+    "SCHLAGER_L203_BARREL": {
+        "uuid": "25feaa78-449d-448c-844a-1fdaf8c0c9c0",
+        "name": "Schlager L203 Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "SCHLAGER_RV-B": {
+        "uuid": "1d5afc23-a506-4e4e-b649-abe987c41be8",
+        "name": "Schlager RV-B",
+        "attachmentSlot": "Barrel"
+    },
+    "SHORTTAC_330MM": {
+        "uuid": "5dc87e07-2c80-4be4-9418-04630200ff6b",
+        "name": "ShortTac 330mm",
+        "attachmentSlot": "Barrel"
+    },
+    "TAC_597_BARREL": {
+        "uuid": "8d6e9d54-8af1-4060-a7c0-9659bef432d0",
+        "name": "TAC 597 Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "TANGO_228_BARREL": {
+        "uuid": "879063bc-5d34-49bc-ad61-340e5fa7161b",
+        "name": "Tango 228 Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "TEMPUS_TRENCH_PRO": {
+        "uuid": "1f6d160c-aa0f-4fdd-8d41-a95cdeb86e27",
+        "name": "Tempus Trench Pro",
+        "attachmentSlot": "Barrel"
+    },
+    "XRK_LUC-9": {
+        "uuid": "6972d156-a438-4d47-b44d-9b9f8063952b",
+        "name": "XRK Luc-9",
+        "attachmentSlot": "Barrel"
+    },
+    "XRK_SIDEWINDER-6_SLIDE": {
+        "uuid": "16a71cec-63a7-4886-b928-863d183586c4",
+        "name": "XRK Sidewinder-6 Slide",
+        "attachmentSlot": "Barrel"
+    },
+    "XRK_TACOPS_BARREL": {
+        "uuid": "16077ec8-c5ac-4974-8b9e-e3033a147873",
+        "name": "XRK Tacops Barrel",
+        "attachmentSlot": "Barrel"
+    },
+    "XTEN_HARBINGER": {
+        "uuid": "f2eea38d-2b11-40d6-9ccb-948a0af3ee66",
+        "name": "XTEN Harbinger",
+        "attachmentSlot": "Barrel"
+    },
+    "ZLR_16.5\"_IGNITION": {
+        "uuid": "f5350bcd-3080-4806-bbba-54cab560cfdd",
+        "name": "ZLR 16.5\" Ignition",
+        "attachmentSlot": "Barrel"
+    }
+}

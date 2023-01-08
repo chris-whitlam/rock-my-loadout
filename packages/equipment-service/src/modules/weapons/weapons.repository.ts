@@ -18,7 +18,10 @@ export const customWeaponRepositoryMethods: Pick<
     this: Repository<Weapon>,
     { weaponUUIDs }
   ): Promise<Weapon[]> {
-    const query = this.createQueryBuilder('weapons');
+    const query = this.createQueryBuilder('weapons').leftJoinAndSelect(
+      'weapons.attachments',
+      'attachments'
+    );
 
     if (weaponUUIDs.length) {
       query.andWhere('weapons.uuid IN (:...weaponUUIDs)', { weaponUUIDs });
@@ -32,11 +35,7 @@ export const customWeaponRepositoryMethods: Pick<
   ): Promise<Weapon> {
     const query = this.createQueryBuilder('weapons')
       .leftJoinAndSelect('weapons.platform', 'platform')
-      .leftJoinAndSelect(
-        'platform.attachments',
-        'attachments',
-        'attachments.platformId = platform.id OR attachments.platformId IS NULL'
-      )
+      .leftJoinAndSelect('weapons.attachments', 'attachments')
       .where('weapons.uuid = :uuid', { uuid });
 
     return query.getOne();

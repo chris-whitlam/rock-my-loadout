@@ -1,0 +1,312 @@
+{
+    "3X_RFL-OPTIC": {
+        "uuid": "1989b7af-10d5-4ec5-9198-08cb64ca43b3",
+        "name": "3X RFL-Optic",
+        "attachmentSlot": "Optic"
+    },
+    "AIM_OP-V4": {
+        "uuid": "d9966f47-d5ba-4991-b27a-6d67d29b5166",
+        "name": "Aim OP-V4",
+        "attachmentSlot": "Optic"
+    },
+    "ANGEL-40_4.8X": {
+        "uuid": "79fa2a7e-235b-4e57-a994-5f60fbecb9eb",
+        "name": "Angel-40 4.8x",
+        "attachmentSlot": "Optic"
+    },
+    "ARES_CLEAR_SHOT": {
+        "uuid": "7b71fb33-4bda-4c37-9d9a-cdaa058c37c4",
+        "name": "Ares Clear Shot",
+        "attachmentSlot": "Optic"
+    },
+    "BPZ40_HYBRID": {
+        "uuid": "d80e2d67-62e0-4f85-a2b0-6783aa96b3f0",
+        "name": "BPZ40 Hybrid",
+        "attachmentSlot": "Optic"
+    },
+    "CORIO_13X_VRS": {
+        "uuid": "6da74467-993f-4e6b-9542-ff3f05e81c74",
+        "name": "Corio 13x VRS",
+        "attachmentSlot": "Optic"
+    },
+    "CORIO_CQC_SCOPE": {
+        "uuid": "819d728c-1b1b-466e-9a43-57ad8969f8d9",
+        "name": "Corio CQC Scope",
+        "attachmentSlot": "Optic"
+    },
+    "CORIO_ENFORCER_OPTIC": {
+        "uuid": "bcb14342-91c6-4667-be69-b41c6bd24465",
+        "name": "Corio Enforcer Optic",
+        "attachmentSlot": "Optic"
+    },
+    "CORIO_RE-X_PRO": {
+        "uuid": "eb2613ea-72ff-4acc-a6ac-17314ee0bd25",
+        "name": "Corio RE-X Pro",
+        "attachmentSlot": "Optic"
+    },
+    "CORIO_RV500_OPTIC": {
+        "uuid": "02b8df2f-0dea-40e8-943e-ebf20ed35faf",
+        "name": "Corio RV500 Optic",
+        "attachmentSlot": "Optic"
+    },
+    "CORVUS_DOWNRANGE-00": {
+        "uuid": "d7e7ac9a-7a0d-43c6-9abd-612439ada9ad",
+        "name": "Corvus Downrange-00",
+        "attachmentSlot": "Optic"
+    },
+    "CORVUS_SOL-76": {
+        "uuid": "d221eab6-b9f8-4164-b219-0d1aa34c27fd",
+        "name": "Corvus SOL-76",
+        "attachmentSlot": "Optic"
+    },
+    "CRONEN_IRONS": {
+        "uuid": "6d82b7cd-8846-4217-8715-9806a8513b83",
+        "name": "Cronen Irons",
+        "attachmentSlot": "Optic"
+    },
+    "CRONEN_MINI_PRO": {
+        "uuid": "819570a8-f8a4-47bf-b18e-7e210ef160f5",
+        "name": "Cronen Mini Pro",
+        "attachmentSlot": "Optic"
+    },
+    "CRONEN_MINI_RED_DOT": {
+        "uuid": "737d265e-4f3c-4093-bfdc-377dc8fad825",
+        "name": "Cronen Mini Red Dot",
+        "attachmentSlot": "Optic"
+    },
+    "CRONEN_ZERO-P_OPTIC": {
+        "uuid": "cf35ca3e-e655-41f0-8156-06f95ed10a74",
+        "name": "Cronen Zero-P Optic",
+        "attachmentSlot": "Optic"
+    },
+    "DAUNT-C80": {
+        "uuid": "d05d978d-b895-48e5-bb54-1f491167cb10",
+        "name": "Daunt-C80",
+        "attachmentSlot": "Optic"
+    },
+    "DF105_REFLEX_SIGHT": {
+        "uuid": "8506d14e-5bab-4e6e-bb31-77de2ac05976",
+        "name": "DF105 Reflex Sight",
+        "attachmentSlot": "Optic"
+    },
+    "DR582_HYBRID_SIGHT": {
+        "uuid": "2055b425-05c9-4927-a23d-134ef91b2b4d",
+        "name": "DR582 Hybrid Sight",
+        "attachmentSlot": "Optic"
+    },
+    "DREXSOM_PRIME-90": {
+        "uuid": "4c9a3d79-ee16-4cc5-a06a-a4638125db5c",
+        "name": "Drexsom Prime-90",
+        "attachmentSlot": "Optic"
+    },
+    "DS_FARSIGHT_11": {
+        "uuid": "a2fbed43-95c3-4291-a8c9-414b818e73dc",
+        "name": "DS Farsight 11",
+        "attachmentSlot": "Optic"
+    },
+    "DXS_CORIOLIS_V4": {
+        "uuid": "365744fc-aadf-4cbc-b934-c09be8e8dc96",
+        "name": "DXS Coriolis V4",
+        "attachmentSlot": "Optic"
+    },
+    "FORGE_TAC_DELTA_4": {
+        "uuid": "91a37abb-e9d4-4ef7-84bc-18b83377d761",
+        "name": "Forge Tac Delta 4",
+        "attachmentSlot": "Optic"
+    },
+    "FTAC_CHARLIE_7": {
+        "uuid": "ec34902f-84e8-4e0d-85d7-5d2466f09dd5",
+        "name": "FTac Charlie 7",
+        "attachmentSlot": "Optic"
+    },
+    "FTAC_LOCUS_SP": {
+        "uuid": "30af20a7-c506-43c8-8f17-267beaf4ad09",
+        "name": "FTac Locus SP",
+        "attachmentSlot": "Optic"
+    },
+    "HMW-20": {
+        "uuid": "8fa0b133-f955-40c8-8e8e-3f87058a90b9",
+        "name": "HMW-20",
+        "attachmentSlot": "Optic"
+    },
+    "HYBRID_FIREPOINT": {
+        "uuid": "89d2c479-414e-4bf4-94f0-cbedcec8f0ee",
+        "name": "Hybrid Firepoint",
+        "attachmentSlot": "Optic"
+    },
+    "KAZAN-HOLO": {
+        "uuid": "e6cddb1d-4a53-4e3d-a1ea-2f3048790833",
+        "name": "Kazan-Holo",
+        "attachmentSlot": "Optic"
+    },
+    "LACHMANN_IMPACT_9": {
+        "uuid": "69dd9d67-8ad9-494f-8cae-d41dac26b727",
+        "name": "Lachmann Impact 9",
+        "attachmentSlot": "Optic"
+    },
+    "LUCA_BANDERA_SCOPE": {
+        "uuid": "0c304231-267b-4ebd-a95c-cc1bda53e514",
+        "name": "Luca Bandera Scope",
+        "attachmentSlot": "Optic"
+    },
+    "LUCA_CANIS_4X_OPTIC": {
+        "uuid": "7bfd7e80-6ed0-46d1-9d14-7722223893ae",
+        "name": "Luca Canis 4x Optic",
+        "attachmentSlot": "Optic"
+    },
+    "MCPR-300_9.5X": {
+        "uuid": "f3c85fef-bcf7-4324-817c-ec9877c399b5",
+        "name": "MCPR-300 9.5x",
+        "attachmentSlot": "Optic"
+    },
+    "MONOCLE_CT90": {
+        "uuid": "5d325b08-6306-4acb-b1d3-fb07b0b3672a",
+        "name": "Monocle CT90",
+        "attachmentSlot": "Optic"
+    },
+    "RAPTOR-FVM40": {
+        "uuid": "95d3a726-b2ac-4ea5-9ecb-1b710e1c6b1a",
+        "name": "Raptor-FVM40",
+        "attachmentSlot": "Optic"
+    },
+    "SCHLAGER_3.4X": {
+        "uuid": "e6d7af92-9fef-4959-a2c8-c39cbac4b68e",
+        "name": "Schlager 3.4x",
+        "attachmentSlot": "Optic"
+    },
+    "SCHLAGER_NIGHT_VIEW": {
+        "uuid": "bd017988-32e9-4f02-a589-102a25192186",
+        "name": "Schlager Night View",
+        "attachmentSlot": "Optic"
+    },
+    "SIGHTMAX_CLEAR_SHOT": {
+        "uuid": "4eded3a3-47eb-4e07-a91d-394169ad2e17",
+        "name": "Sightmax Clear Shot",
+        "attachmentSlot": "Optic"
+    },
+    "SIGNAL_50_8X": {
+        "uuid": "fd42b01d-43db-4c5b-b6c8-7a7397a43224",
+        "name": "Signal 50 8x",
+        "attachmentSlot": "Optic"
+    },
+    "SLIMLINE_PRO": {
+        "uuid": "36c7ad31-56d0-4357-80aa-d45d9f048566",
+        "name": "Slimline Pro",
+        "attachmentSlot": "Optic"
+    },
+    "SP-X_80_6.6X": {
+        "uuid": "ba447802-3a2b-497d-9085-a1e64c42f5d0",
+        "name": "SP-X 80 6.6x",
+        "attachmentSlot": "Optic"
+    },
+    "SZ_AGGRESSOR-IR": {
+        "uuid": "89709957-186f-4b1a-abb2-ca7b9cb04ff9",
+        "name": "SZ Aggressor-IR",
+        "attachmentSlot": "Optic"
+    },
+    "SZ_BATTLE_OPTIC": {
+        "uuid": "4a41798d-196a-4c17-a842-70c7fc93bdab",
+        "name": "SZ Battle Optic",
+        "attachmentSlot": "Optic"
+    },
+    "SZ_BULLSEYE_OPTIC": {
+        "uuid": "2825a4f8-7985-4269-a670-9c6c53ae4003",
+        "name": "SZ Bullseye Optic",
+        "attachmentSlot": "Optic"
+    },
+    "SZ_HEATSOURCE_800": {
+        "uuid": "c4d43ac6-0147-47fb-afae-ca5edc826707",
+        "name": "SZ Heatsource 800",
+        "attachmentSlot": "Optic"
+    },
+    "SZ_HOLOTHERM": {
+        "uuid": "aef166ed-8c77-4c1b-8521-c77e8590389a",
+        "name": "SZ Holotherm",
+        "attachmentSlot": "Optic"
+    },
+    "SZ_LONEWOLF_OPTIC": {
+        "uuid": "82b8ff2a-5f1a-4d54-adcc-65cead11845d",
+        "name": "SZ Lonewolf Optic",
+        "attachmentSlot": "Optic"
+    },
+    "SZ_MINI": {
+        "uuid": "3d6f38f9-5dca-4922-ace8-e6d445ed9e64",
+        "name": "SZ Mini",
+        "attachmentSlot": "Optic"
+    },
+    "SZ_MINITAC-40": {
+        "uuid": "79ebffe5-92f8-4b89-a0cf-6eb120e83d1c",
+        "name": "SZ Minitac-40",
+        "attachmentSlot": "Optic"
+    },
+    "SZ_OSCAR-9": {
+        "uuid": "e7923f9b-b244-419c-a158-b98b4336772b",
+        "name": "SZ Oscar-9",
+        "attachmentSlot": "Optic"
+    },
+    "SZ_RECHARGE-DX": {
+        "uuid": "1a7422bb-4dc2-496d-8f1e-8e0e14799469",
+        "name": "SZ Recharge-DX",
+        "attachmentSlot": "Optic"
+    },
+    "SZ_SIGMA-IV": {
+        "uuid": "a0aa4437-42c5-4181-988b-63cdfaaf89e6",
+        "name": "SZ Sigma-IV",
+        "attachmentSlot": "Optic"
+    },
+    "SZ_SRO-7": {
+        "uuid": "442c1d9c-1eed-4dc3-ad35-d539cb6ff611",
+        "name": "SZ SRO-7",
+        "attachmentSlot": "Optic"
+    },
+    "SZ_ULTRA_11.5X": {
+        "uuid": "a32602cf-3a17-4a09-b54b-81ff069cb31b",
+        "name": "SZ Ultra 11.5X",
+        "attachmentSlot": "Optic"
+    },
+    "SZ_VORTEX-90": {
+        "uuid": "9f7212cc-4a55-4ed1-ae69-f891e35958c5",
+        "name": "SZ Vortex-90",
+        "attachmentSlot": "Optic"
+    },
+    "TEPLO_CLEAR_SHOT": {
+        "uuid": "7251b40c-a289-4fdb-8709-c4f65cd40742",
+        "name": "Teplo Clear Shot",
+        "attachmentSlot": "Optic"
+    },
+    "TEPLO-OP3_SCOPE": {
+        "uuid": "3b95cecb-7eba-4869-8bb4-289a76a1c4c0",
+        "name": "Teplo-OP3 Scope",
+        "attachmentSlot": "Optic"
+    },
+    "THERMO-OPTIC_X9": {
+        "uuid": "9d59f45c-19c9-4748-96c8-550c1894b836",
+        "name": "Thermo-Optic x9",
+        "attachmentSlot": "Optic"
+    },
+    "VICTUS_13X": {
+        "uuid": "61630eae-dd47-420b-9bb7-a0bdbd24981f",
+        "name": "Victus 13x",
+        "attachmentSlot": "Optic"
+    },
+    "VLK_4.0": {
+        "uuid": "3d3a619a-d037-4c0a-b048-ac7a6aba4b4e",
+        "name": "VLK 4.0",
+        "attachmentSlot": "Optic"
+    },
+    "VX350_THERMAL": {
+        "uuid": "36deae7b-2146-492b-8851-3775a67402a2",
+        "name": "VX350 Thermal",
+        "attachmentSlot": "Optic"
+    },
+    "XRK_ON-POINT": {
+        "uuid": "519cb7f8-b851-457f-b284-2c858d1acdcf",
+        "name": "XRK On-Point",
+        "attachmentSlot": "Optic"
+    },
+    "XTEN_ANGEL-40": {
+        "uuid": "ee0386eb-bff4-4b7e-9497-6f80eb107c78",
+        "name": "XTEN Angel-40",
+        "attachmentSlot": "Optic"
+    }
+}
