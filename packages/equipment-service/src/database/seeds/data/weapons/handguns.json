@@ -3,7 +3,68 @@
     "uuid": "8c811ec7-eb92-4430-9d5f-e7848e2d2089",
     "name": "P890",
     "type": "Handgun",
-    "platform": "BRUEN_890"
+    "platform": "BRUEN_890",
+    "attachments": {
+      "Muzzle": [
+        "SLAB-10_COMP",
+        "XRK_VENTOR-900",
+        "COMP_905F_PISTOL",
+        "SA_GF90_FLASH_HIDER",
+        "HOLE_PUNCH_BREACHER",
+        "CN30_SUPPRESSOR",
+        "FORGE_DX90-F",
+        "FT_STEEL_FIRE",
+        "FORGE_DX90-F",
+        "DZS_OPEN_COMP",
+        "BRUEN_TRI-PORT",
+        "CORVUS_SERIES-D",
+        "XRK_QZ-105"
+      ],
+      "Barrel": [
+        "MATUZEK_COTTONMOUTH_BARREL",
+        "XRK_TACOPS_BARREL",
+        "MATUZEK_VENOM",
+        "XTEN_HARBINGER"
+      ],
+      "Laser": [
+        "SERIES_710_PISTOL_LASER",
+        "FJX_DIOD-70",
+        "1MW_PISTOL_LASER",
+        "FTAC_VORTEX_200",
+        "XTEN_SIDEARM-L400",
+        "DZM-1000_L"
+      ],
+      "Optic": [
+        "SLIMLINE_PRO",
+        "SZ_MINI",
+        "CRONEN_MINI_RED_DOT",
+        "CRONEN_MINI_PRO",
+        "SZ_SIGMA-IV",
+        "SZ_MINITAC-40"
+      ],
+      "Rear Grip": [
+        "BRUEN_ANCHOR_GRIP",
+        "FJX_DVF60_GRIP",
+        "BP-GRAIN_GRIP",
+        "AKIMBO_P890"
+      ],
+      "Magazine": [
+        "10_ROUND_MAG",
+        "12_ROUND_MAG"
+      ],
+      "Ammunition": [
+        ".45_AUTO_FRANGIBLE",
+        ".45_AUTO_HOLLOWPOINT",
+        ".45_AUTO_ARMOR_PIERCING",
+        ".45_AUTO_OVERPRESSURED_+P"
+      ],
+      "Trigger Action": [
+        "XRK_HEAVY_V3",
+        "BRUEN_EXPRESS",
+        "P890_DOUBLE_ACTION",
+        "BRUEN_MG80_TRIGGER"
+      ]
+    }
   },
   ".50_GS": {
     "uuid": "4010e543-d642-48fa-a61a-65890f9c342e",

@@ -34,6 +34,11 @@
         "name": "Bruen STB 556 Stock",
         "attachmentSlot": "Stock"
     },
+    "BRYSON_800_FACTORY_STOCK": {
+        "uuid": "2a955bff-ee0c-47e9-b960-40cb4b0d307f",
+        "name": "Bryson 800 Factory Stock",
+        "attachmentSlot": "Stock"
+    },
     "BRYSON_INFORCER_STOCK": {
         "uuid": "78357237-9fe6-4352-99f7-a4a7bc58b801",
         "name": "Bryson Inforcer Stock",
