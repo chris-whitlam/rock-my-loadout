@@ -49,6 +49,11 @@
         "name": "Corio RV500 Optic",
         "attachmentSlot": "Optic"
     },
+    "CORIO_SZ-HS_800": {
+        "uuid": "991efbd4-5b06-4591-9951-9028273b41e1",
+        "name": "Corio SZ-HS 800",
+        "attachmentSlot": "Optic"
+    },
     "CORVUS_DOWNRANGE-00": {
         "uuid": "d7e7ac9a-7a0d-43c6-9abd-612439ada9ad",
         "name": "Corvus Downrange-00",

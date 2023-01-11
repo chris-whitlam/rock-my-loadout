@@ -4,33 +4,581 @@
     "name": "MCPR-300",
     "type": "Sniper Rifle",
     "attachmentSlots": ["Muzzle", "Barrel", "Laser", "Optic", "Stock", "Rear Grip", "Bolt", "Magazine", "Ammunition", "Underbarrel"],
-    "platform": "M4"
+    "platform": "M4",
+    "attachments": {
+      "Muzzle": [
+        "NILSOUND_90",
+        "FTAC_DREADNOUGHT",
+        "FTAC_REAPER",
+        "BRUEN_AGENT_90",
+        "TALON_SIXTEEN",
+        "CRONEN_DM338",
+        "SHRED_CP90",
+        "XRK_KRAKEN",
+        "AP-390_FLASH_HIDER",
+        "PORTED_DZ38",
+        "DEMON_HELIX_T7",
+        "EXF_RELENTLESS-40",
+        "BVM-338",
+        "TA_CG76",
+        "DARK_KX50_FLASH_HIDER"
+      ],
+      "Barrel": [
+        "22\"_OMX-456",
+        "17.5\"_ORCA_BARREL",
+        "19\"_SILENTFIRE_BARREL"
+      ],
+      "Laser": [
+        "SZ_1MW_PEQ",
+        "SCHLAGER_PEQ_BOX_IV",
+        "CORIO_LAZ-44_V3",
+        "FSS_OLE-V_LASER",
+        "CANTED_VIBRO-DOT_7",
+        "1MW_LASER_BOX",
+        "STOVL_DR_LASER_BOX",
+        "CORVUS_PEQ_BEAM-5",
+        "FTAC_GRIMLINE_LASER",
+        "DXS_FLASH_90",
+        "LUMINATE-44"
+      ],
+      "Optic": [
+        "CRONEN_IRONS",
+        "VLK_4.0",
+        "SCHLAGER_3.4X",
+        "FORGE_TAC_DELTA_4",
+        "CRONEN_ZERO-P_OPTIC",
+        "SZ_BULLSEYE_OPTIC",
+        "SCHLAGER_NIGHT_VIEW",
+        "VX350_THERMAL",
+        "TEPLO-OP3_SCOPE",
+        "HYBRID_FIREPOINT",
+        "BPZ40_HYBRID",
+        "ANGEL-40_4.8X",
+        "THERMO-OPTIC_X9",
+        "FTAC_CHARLIE_7",
+        "HMW-20",
+        "LUCA_BANDERA_SCOPE",
+        "3X_RFL-OPTIC",
+        "DREXSOM_PRIME-90",
+        "ARES_CLEAR_SHOT",
+        "DXS_CORIOLIS_V4",
+        "LACHMANN_IMPACT_9",
+        "SP-X_80_6.6X",
+        "FTAC_LOCUS_SP",
+        "SZ_HEATSOURCE_800",
+        "SZ_ULTRA_11.5X",
+        "VICTUS_13X",
+        "SIGHTMAX_CLEAR_SHOT",
+        "SIGNAL_50_8X",
+        "CORIO_13X_VRS",
+        "CORIO_SZ-HS_800",
+        "RAPTOR-FVM40",
+        "SZ_VORTEX-90",
+        "SZ_OSCAR-9",
+        "TEPLO_CLEAR_SHOT",
+        "DS_FARSIGHT_11"
+      ],
+      "Stock": [
+        "CRONEN_LION_STOCK",
+        "CRONEN_LW-88_STOCK",
+        "FSS_MERC_STOCK"
+      ],
+      "Rear Grip": [
+        "CRONEN_ZERO_GRIP",
+        "CRONEN_RFX-300",
+        "CRONEN_CHEETAH_GRIP"
+      ],
+      "Bolt": [
+        "CRONEN_B85_BOLT",
+        "CRONEN_SMOOTH_BOLT"
+      ],
+      "Magazine": [
+        "5_ROUND_MAG",
+        "15_ROUND_MAGAZINE"
+      ],
+      "Ammunition": [
+        ".300_ARMOR_PIERCING",
+        ".300_INCENDIARY",
+        ".300_FRANGIBLE",
+        ".300_HOLLOWPOINT",
+        ".300_HIGH_VELOCITY",
+        ".300_BLK_OVERPRESSURED_+P"
+      ],
+      "Underbarrel": [
+        "LEVEL_AIM_BIPOD",
+        "CORNERSTONE_BIPOD",
+        "XTEN_STABLE_SHOT"
+      ]
+    }
   },
   "VICTUS_XMR": {
     "uuid": "1ad5eb92-e493-4c48-906f-60a61499eece",
     "name": "Victus XMR",
     "type": "Sniper Rifle",
     "attachmentSlots": ["Muzzle", "Barrel", "Laser", "Optic", "Stock", "Guard", "Rear Grip", "Magazine", "Ammunition", "Underbarrel"],
-    "platform": "IMPERATORIUM"
+    "platform": "IMPERATORIUM",
+    "attachments": {
+      "Muzzle": [
+        "BRUEN_L40_KOBRA",
+        "TALON_SIXTEEN_SILENCER",
+        "BRUEN_AGENT_90",
+        "NILSOUND_90",
+        "BRUEN_COUNTER-OPS",
+        "H26_PORTED_COMP",
+        "VIGILANTE_COMP",
+        "LEGION_FIRE_COMP"
+      ],
+      "Barrel": [
+        "MACK_8_33.5_SUPER",
+        "MACK_8_21.5_SHORT",
+        "26\"_MAMMOTH_HB50",
+        "EXECUTOR_546"
+      ],
+       "Laser": [
+        "1MW_ARTEMIS_LASER",
+        "1MW_QUICK_FIRE_LASER",
+        "ACCU-SHOT_5MW_LASER",
+        "VLK_LZR_7MW",
+        "SCHLAGER_ULO-66_LASER",
+        "STOVL_TAC_LASER",
+        "POINT-G3P_04",
+        "FJX_ULTRABEAM_XR",
+        "EXF_SOLARFLARE",
+        "HIPSHOT_L20"
+      ],
+      "Optic": [
+        "CORIO_ENFORCER_OPTIC",
+        "SZ_LONEWOLF_OPTIC",
+        "KAZAN-HOLO",
+        "XTEN_ANGEL-40",
+        "VLK_4.0",
+        "SCHLAGER_3.4X",
+        "FORGE_TAC_DELTA_4",
+        "CRONEN_ZERO-P_OPTIC",
+        "SZ_BULLSEYE_OPTIC",
+        "SCHLAGER_NIGHT_VIEW",
+        "VX350_THERMAL",
+        "TEPLO-OP3_SCOPE",
+        "HYBRID_FIREPOINT",
+        "BPZ40_HYBRID",
+        "ANGEL-40_4.8X",
+        "THERMO-OPTIC_X9",
+        "FTAC_CHARLIE_7",
+        "HMW-20",
+        "LUCA_BANDERA_SCOPE",
+        "3X_RFL-OPTIC",
+        "DREXSOM_PRIME-90",
+        "ARES_CLEAR_SHOT",
+        "DXS_CORIOLIS_V4",
+        "LACHMANN_IMPACT_9",
+        "SP-X_80_6.6X",
+        "FTAC_LOCUS_SP",
+        "SZ_HEATSOURCE_800",
+        "SZ_ULTRA_11.5X",
+        "MCPR-300_9.5X",
+        "SIGHTMAX_CLEAR_SHOT",
+        "SIGNAL_50_8X",
+        "CORIO_13X_VRS",
+        "CORIO_SZ-HS_800",
+        "RAPTOR-FVM40",
+        "SZ_BATTLE_OPTIC",
+        "CORVUS_DOWNRANGE-00",
+        "SZ_HOLOTHERM",
+        "DR582_HYBRID_SIGHT",
+        "SZ_VORTEX-90",
+        "SZ_OSCAR-9",
+        "TEPLO_CLEAR_SHOT",
+        "DS_FARSIGHT_11"
+      ],
+      "Stock": [
+        "FTAC_HOMELAND",
+        "XRK_BULLSEYE",
+        "XRK_RISE_50",
+        "EXF_COLONEL"
+      ],
+      "Guard": [
+        "CORVUS_RESPONDER"
+      ],
+      "Rear Grip": [
+        "BRUEN_G305_GRIP",
+        "STIP-40_GRIP",
+        "BRUEN_Q900_GRIP"
+      ],
+      "Magazine": [
+        "7_ROUND_MAG",
+        "9_ROUND_MAG"
+      ],
+      "Ammunition": [
+        ".50_CAL_FRANGIBLE",
+        ".50_CAL_ARMOR_PIERCING",
+        ".50_CAL_HIGH_VELOCITY",
+        ".50_CAL_INCENDIARY",
+        ".50_CAL_EXPLOSIVE"
+      ],
+      "Underbarrel": [
+        "LEVEL_AIM_BIPOD",
+        "CORNERSTONE_BIPOD",
+        "XTEN_STABLE_SHOT"
+      ]
+    }
   },
   "SIGNAL_50": {
     "uuid": "ac08722a-4386-40a9-a849-11c6c8a8714f",
     "name": "Signal 50",
     "type": "Sniper Rifle",
-    "platform": "SIGNAL"
+    "platform": "SIGNAL",
+    "attachments": {
+      "Muzzle": [
+        "BRUEN_L40_KOBRA",
+        "TALON_SIXTEEN_SILENCER",
+        "BRUEN_AGENT_90",
+        "NILSOUND_90",
+        "BRUEN_COUNTER-OPS",
+        "H26_PORTED_COMP",
+        "VIGILANTE_COMP",
+        "LEGION_FIRE_COMP",
+        "SA_SHROUD_FLASH_HIDER",
+        "DEMON_HELIX_XL"
+      ],
+      "Barrel": [
+        "29\"_TV_KILO-50",
+        "FSS_JETSTREAM",
+        "23.5\"_SA_FIFTY-H7",
+        "21.5\"_FLUTED_FIFTY"
+      ],
+      "Laser": [
+        "SZ_1MW_PEQ",
+        "SCHLAGER_PEQ_BOX_IV",
+        "CORIO_LAZ-44_V3",
+        "FSS_OLE-V_LASER",
+        "1MW_LASER_BOX",
+        "STOVL_DR_LASER_BOX",
+        "CORVUS_PEQ_BEAM-5",
+        "FTAC_GRIMLINE_LASER",
+        "DXS_FLASH_90",
+        "LUMINATE-44"
+      ],
+      "Optic": [
+        "XRK_ON-POINT",
+        "DF105_REFLEX_SIGHT",
+        "MONOCLE_CT90",
+        "CORVUS_SOL-76",
+        "SZ_RECHARGE-DX",
+        "SZ_SRO-7", 
+        "CORIO_RE-X_PRO", 
+        "CORIO_ENFORCER_OPTIC",
+        "SZ_LONEWOLF_OPTIC",
+        "KAZAN-HOLO",
+        "XTEN_ANGEL-40",
+        "VLK_4.0",
+        "SCHLAGER_3.4X",
+        "FORGE_TAC_DELTA_4",
+        "CRONEN_ZERO-P_OPTIC",
+        "SZ_BULLSEYE_OPTIC",
+        "SCHLAGER_NIGHT_VIEW",
+        "VX350_THERMAL",
+        "TEPLO-OP3_SCOPE",
+        "HYBRID_FIREPOINT",
+        "BPZ40_HYBRID",
+        "ANGEL-40_4.8X",
+        "THERMO-OPTIC_X9",
+        "FTAC_CHARLIE_7",
+        "HMW-20",
+        "LUCA_BANDERA_SCOPE",
+        "3X_RFL-OPTIC",
+        "DREXSOM_PRIME-90",
+        "ARES_CLEAR_SHOT",
+        "DXS_CORIOLIS_V4",
+        "LACHMANN_IMPACT_9",
+        "SP-X_80_6.6X",
+        "FTAC_LOCUS_SP",
+        "SZ_HEATSOURCE_800",
+        "SZ_ULTRA_11.5X",
+        "MCPR-300_9.5X",
+        "VICTUS_13X",
+        "SIGHTMAX_CLEAR_SHOT",
+        "CORIO_13X_VRS",
+        "CORIO_SZ-HS_800",
+        "RAPTOR-FVM40",
+        "AIM_OP-V4",
+        "SZ_BATTLE_OPTIC",
+        "CORVUS_DOWNRANGE-00",
+        "SZ_HOLOTHERM",
+        "DR582_HYBRID_SIGHT",
+        "SZ_VORTEX-90",
+        "SZ_OSCAR-9",
+        "TEPLO_CLEAR_SHOT",
+        "DS_FARSIGHT_11"
+      ],
+      "Stock": [
+        "FSS_ECHO_STOCK",
+        "SO_INLINE_STOCK",
+        "FTAC_INVISI-670"
+      ],
+      "Rear Grip": [
+        "STALWART_GRIP",
+        "CRONEN_BLOCKADE_GRIP",
+        "SA_FINESSE_GRIP"
+      ],
+      "Magazine": [
+        "7_ROUND_MAG"
+      ],
+      "Ammunition": [
+        ".50_CAL_FRANGIBLE",
+        ".50_CAL_ARMOR_PIERCING",
+        ".50_CAL_HIGH_VELOCITY",
+        ".50_CAL_INCENDIARY",
+        ".50_CAL_EXPLOSIVE"
+      ],
+      "Underbarrel": [
+        "LEVEL_AIM_BIPOD",
+        "CORNERSTONE_BIPOD",
+        "XTEN_STABLE_SHOT",
+        "DEMO_FIRM_GRIP",
+        "XTEN_GRAVEDIGGER",
+        "FTAC_RIPPER_56",
+        "DEMO_CLEANSHOT_40",
+        "DEMO_IMP-44_GRIP",
+        "FTAC_TIGER_GRIP",
+        "FSS_SHARKFIN_90",
+        "XTEN_DROP_GRIP",
+        "MERC_FOREGRIP",
+        "LOCKGRIP_PRECISION-40",
+        "SCHLAGER_TANGO",
+        "VX_PINEAPPLE",
+        "OP-X9_FOREGRIP",
+        "OPERATOR_FOREGRIP",
+        "BRUEN_TILT_GRIP",
+        "CRONEN_GROOVESHOT_GRIP",
+        "BRUEN_WARRIOR_GRIP",
+        "COMMANDO_FOREGRIP",
+        "EDGE-47_GRIP",
+        "AGENT_GRIP",
+        "BRUEN_SYNC_SHOT_GRIP",
+        "HEX-40_GRIP",
+        "TV_WRECKER_GRIP",
+        "EXF_BACKDRAFT_GRIP"
+      ]
+    }
   },
   "LA-B_330": {
     "uuid": "88c1da09-3bc3-45eb-b7ef-8ff29319e030",
     "name": "LA-B 330",
     "type": "Sniper Rifle",
     "attachmentSlots": ["Muzzle", "Barrel", "Laser", "Optic", "Stock", "Comb", "Bolt", "Magazine", "Ammunition", "Underbarrel"],
-    "platform": "BRYSON_LONG_RIFLE"
+    "platform": "BRYSON_LONG_RIFLE",
+    "attachments": {
+      "Muzzle": [
+        "NILSOUND_90",
+        "FTAC_DREADNOUGHT",
+        "FTAC_REAPER",
+        "BRUEN_AGENT_90",
+        "TALON_SIXTEEN",
+        "CRONEN_DM338",
+        "SHRED_CP90",
+        "XRK_KRAKEN",
+        "AP-390_FLASH_HIDER",
+        "PORTED_DZ38",
+        "DEMON_HELIX_T7",
+        "EXF_RELENTLESS-40",
+        "BVM-338",
+        "TA_CG76",
+        "DARK_KX50_FLASH_HIDER"
+      ],
+      "Barrel": [
+        "22\"_CAVALRY_BARREL",
+        "23.5\"_FLUTED_R-67",
+        "18.5\"_BRYSON_LR_FACTORY",
+        "16\"_ZLR_EXECUTOR_80_BARREL"
+      ],
+      "Laser": [
+        "SZ_1MW_PEQ",
+        "SCHLAGER_PEQ_BOX_IV",
+        "CORIO_LAZ-44_V3",
+        "FSS_OLE-V_LASER",
+        "1MW_LASER_BOX",
+        "STOVL_DR_LASER_BOX",
+        "CORVUS_PEQ_BEAM-5",
+        "FTAC_GRIMLINE_LASER",
+        "DXS_FLASH_90",
+        "LUMINATE-44"
+      ],
+      "Optic": [
+        "VLK_4.0",
+        "SCHLAGER_3.4X",
+        "FORGE_TAC_DELTA_4",
+        "CRONEN_ZERO-P_OPTIC",
+        "SZ_BULLSEYE_OPTIC",
+        "SCHLAGER_NIGHT_VIEW",
+        "VX350_THERMAL",
+        "TEPLO-OP3_SCOPE",
+        "HYBRID_FIREPOINT",
+        "BPZ40_HYBRID",
+        "ANGEL-40_4.8X",
+        "THERMO-OPTIC_X9",
+        "FTAC_CHARLIE_7",
+        "HMW-20",
+        "LUCA_BANDERA_SCOPE",
+        "3X_RFL-OPTIC",
+        "DREXSOM_PRIME-90",
+        "ARES_CLEAR_SHOT",
+        "DXS_CORIOLIS_V4",
+        "LACHMANN_IMPACT_9",
+        "FTAC_LOCUS_SP",
+        "SZ_HEATSOURCE_800",
+        "SZ_ULTRA_11.5X",
+        "MCPR-300_9.5X",
+        "VICTUS_13X",
+        "SIGHTMAX_CLEAR_SHOT",
+        "SIGNAL_50_8X",
+        "CORIO_13X_VRS",
+        "CORIO_SZ-HS_800",
+        "RAPTOR-FVM40",
+        "DR582_HYBRID_SIGHT",
+        "SZ_VORTEX-90",
+        "SZ_OSCAR-9",
+        "TEPLO_CLEAR_SHOT",
+        "DS_FARSIGHT_11"
+      ],
+      "Stock": [
+        "BRYSON_STREAMLINE",
+        "ZLR_T70_PAD_EXTENSION"
+      ],
+      "Comb": [
+        "FSS_EL-T_POUCH",
+        "CRONEN_GI40_CHEEK_RISER",
+        "AIM-ASSIST_406"
+      ],
+      "Bolt": [
+        "ZLR_REINFORCED_LOCKBOLT",
+        "FSS_ST87_BOLT"
+      ],
+      "Magazine": [
+        "8-ROUND_MAGAZINE"
+      ],
+      "Ammunition": [
+        ".300_ARMOR_PIERCING",
+        ".300_INCENDIARY",
+        ".300_FRANGIBLE",
+        ".300_HOLLOWPOINT",
+        ".300_HIGH_VELOCITY",
+        ".300_BLK_OVERPRESSURED_+P"
+      ],
+      "Underbarrel": [
+        "LEVEL_AIM_BIPOD",
+        "CORNERSTONE_BIPOD",
+        "XTEN_STABLE_SHOT"
+      ]
+    }
   },
   "SP-X_80": {
     "uuid": "199a434d-65e6-4eeb-955d-bcceb2c98fd9",
     "name": "SP-X 80",
     "type": "Sniper Rifle",
     "attachmentSlots": ["Muzzle", "Barrel", "Laser", "Optic", "Stock", "Rear Grip", "Bolt", "Magazine", "Ammunition", "Underbarrel"],
-    "platform": "BRYSON_LONG_RIFLE"
+    "platform": "BRYSON_LONG_RIFLE",
+    "attachments": {
+      "Muzzle": [
+        "NILSOUND_90",
+        "FTAC_DREADNOUGHT",
+        "FTAC_REAPER",
+        "BRUEN_AGENT_90",
+        "TALON_SIXTEEN",
+        "CRONEN_DM338",
+        "SHRED_CP90",
+        "XRK_KRAKEN",
+        "AP-390_FLASH_HIDER",
+        "PORTED_DZ38",
+        "DEMON_HELIX_T7",
+        "EXF_RELENTLESS-40",
+        "BVM-338",
+        "TA_CG76",
+        "DARK_KX50_FLASH_HIDER"
+      ],
+      "Barrel": [
+        "22\"_CAVALRY_BARREL",
+        "22.5\"_ELEVATE-11",
+        "18.5\"_BRYSON_LR_FACTORY",
+        "16\"_ZLR_EXECUTOR_80_BARREL"
+      ],
+      "Laser": [
+        "SZ_1MW_PEQ",
+        "SCHLAGER_PEQ_BOX_IV",
+        "CORIO_LAZ-44_V3",
+        "FSS_OLE-V_LASER",
+        "1MW_LASER_BOX",
+        "STOVL_DR_LASER_BOX",
+        "CORVUS_PEQ_BEAM-5",
+        "FTAC_GRIMLINE_LASER",
+        "DXS_FLASH_90",
+        "LUMINATE-44"
+      ],
+      "Optic": [
+        "VLK_4.0",
+        "SCHLAGER_3.4X",
+        "FORGE_TAC_DELTA_4",
+        "CRONEN_ZERO-P_OPTIC",
+        "SZ_BULLSEYE_OPTIC",
+        "SCHLAGER_NIGHT_VIEW",
+        "VX350_THERMAL",
+        "TEPLO-OP3_SCOPE",
+        "HYBRID_FIREPOINT",
+        "BPZ40_HYBRID",
+        "ANGEL-40_4.8X",
+        "THERMO-OPTIC_X9",
+        "FTAC_CHARLIE_7",
+        "HMW-20",
+        "LUCA_BANDERA_SCOPE",
+        "3X_RFL-OPTIC",
+        "DREXSOM_PRIME-90",
+        "ARES_CLEAR_SHOT",
+        "DXS_CORIOLIS_V4",
+        "LACHMANN_IMPACT_9",
+        "FTAC_LOCUS_SP",
+        "SZ_HEATSOURCE_800",
+        "SZ_ULTRA_11.5X",
+        "MCPR-300_9.5X",
+        "VICTUS_13X",
+        "SIGHTMAX_CLEAR_SHOT",
+        "SIGNAL_50_8X",
+        "CORIO_13X_VRS",
+        "CORIO_SZ-HS_800",
+        "RAPTOR-FVM40",
+        "DR582_HYBRID_SIGHT",
+        "SZ_VORTEX-90",
+        "SZ_OSCAR-9",
+        "TEPLO_CLEAR_SHOT",
+        "DS_FARSIGHT_11"
+      ],
+      "Stock": [
+        "MAX_DMR_PRECISION",
+        "PVZ-890_TAC_STOCK"
+      ],
+      "Rear Grip": [
+        "BRUEN_LYNX_GRIP",
+        "CRONEN_GRIP_WRAP",
+        "SCHLAGER_MATCH_GRIP"
+      ],
+      "Bolt": [
+        "ZLR_REINFORCED_LOCKBOLT",
+        "FSS_ST87_BOLT"
+      ],
+      "Magazine": [
+        "8-ROUND_MAGAZINE"
+      ],
+      "Ammunition": [
+        ".300_FRANGIBLE",
+        ".300_HOLLOWPOINT",
+        ".300_ARMOR_PIERCING",
+        ".300_BLK_OVERPRESSURED_+P",
+        ".300_HIGH_VELOCITY",
+        ".300_INCENDIARY"
+      ],
+      "Underbarrel": [
+        "LEVEL_AIM_BIPOD",
+        "CORNERSTONE_BIPOD",
+        "XTEN_STABLE_SHOT"
+      ]
+    }
   }
 }
