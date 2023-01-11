@@ -7,7 +7,7 @@ import {
   ManyToMany,
   JoinTable
 } from 'typeorm';
-import { Attachment, AttachmentSlot } from './attachment.entity';
+import { Attachment } from './attachment.entity';
 import { Platform } from './platform.entity';
 
 export enum WeaponType {
