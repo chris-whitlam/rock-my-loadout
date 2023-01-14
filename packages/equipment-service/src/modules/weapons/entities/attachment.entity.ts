@@ -1,4 +1,4 @@
-import { Exclude } from 'class-transformer';
+import { Exclude, Expose } from 'class-transformer';
 import { Entity, PrimaryGeneratedColumn, Column, Generated } from 'typeorm';
 
 export enum AttachmentSlot {
@@ -57,13 +57,16 @@ export class Attachment {
   @PrimaryGeneratedColumn({ type: 'int' })
   id!: number;
 
+  @Expose()
   @Column({ type: 'varchar', unique: true, nullable: false })
   @Generated('uuid')
   uuid!: string;
 
+  @Expose()
   @Column({ type: 'varchar', nullable: false })
   name!: string;
 
+  @Expose()
   @Column({
     type: 'enum',
     enum: AttachmentSlot,
@@ -71,6 +74,7 @@ export class Attachment {
   })
   attachmentSlot!: AttachmentSlot;
 
+  @Expose()
   @Column({
     type: 'jsonb',
     nullable: true

@@ -22,13 +22,14 @@ export class WeaponService {
       ];
     });
 
-    return plainToClass(WeaponDto, {
-      uuid: weapon.uuid,
-      name: weapon.name,
-      type: weapon.type,
-      attachments: attachments,
-      attachmentSlots: Object.keys(attachments)
-    });
+    return plainToClass(
+      WeaponDto,
+      {
+        ...weapon,
+        attachments: attachments
+      },
+      { excludeExtraneousValues: true }
+    );
   }
 
   async getAllWeapons(getWeaponsDto: GetWeaponsDto): Promise<Weapon[]> {
