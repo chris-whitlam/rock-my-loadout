@@ -1,4 +1,24 @@
 {
+  "VANGUARD": {
+    "uuid": "84a57d6e-745f-45d4-8c29-22382628e5cf",
+    "name": "Vanguard",
+    "perks": [
+      "DOUBLE_TIME",
+      "BOMB_SQUAD",
+      "RESUPPLY",
+      "HIGH_ALERT"
+    ]
+  },
+  "COMMANDO": {
+    "uuid": "0a5e8fb1-bd3b-43fe-aeb0-4de0e6401cf2",
+    "name": "Commando",
+    "perks": [
+      "SCAVENGER",
+      "STRONG_ARM",
+      "FAST_HANDS",
+      "HIGH_ALERT"
+    ]
+  },
   "SPECTER": {
     "uuid": "aa298253-6888-4562-8238-4b33eaae6904",
     "name": "Specter",
@@ -7,6 +27,56 @@
       "TRACKER",
       "SPOTTER",
       "GHOST"
+    ]
+  },
+  "SCOUT": {
+    "uuid": "bff28a0f-004f-4cc0-90e3-2ce61cf3ecfb",
+    "name": "Scout",
+    "perks": [
+      "SCAVENGER",
+      "STRONG_ARM",
+      "FOCUS",
+      "GHOST"
+    ]
+  },
+  "SENTINEL": {
+    "uuid": "52eeaff1-dfb0-46ff-b4c2-2d848058e406",
+    "name": "Sentinel",
+    "perks": [
+      "BATTLE_HARDENED",
+      "BOMB_SQUAD",
+      "COLD_BLOODED",
+      "QUICK_FIX"
+    ]
+  },
+  "WARDEN": {
+    "uuid": "d05ea203-ef66-4a23-b3de-3d465a3548e3",
+    "name": "Warden",
+    "perks": [
+      "DOUBLE_TIME",
+      "STRONG_ARM",
+      "FAST_HANDS",
+      "QUICK_FIX"
+    ]
+  },
+  "WEAPON_SPECIALIST": {
+    "uuid": "0d3ace19-ddef-4005-b4d7-646c0f66d075",
+    "name": "Weapon Specialist",
+    "perks": [
+      "OVERKILL",
+      "STRONG_ARM",
+      "SPOTTER",
+      "SURVIVOR"
+    ]
+  },
+  "RECON": {
+    "uuid": "59a1eb27-c15e-48be-b30f-49c1197fda10",
+    "name": "Recon",
+    "perks": [
+      "DOUBLE_TIME",
+      "TRACKER",
+      "FOCUS",
+      "BIRDSEYE"
     ]
   }
 }

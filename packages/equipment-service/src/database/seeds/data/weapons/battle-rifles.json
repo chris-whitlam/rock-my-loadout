@@ -106,7 +106,7 @@
         "LMK64_GRIP"
       ],
       "Magazine": [
-        "15_ROUND_MAGAZINE",
+        "15_ROUND_MAG",
         "10_ROUND_MAG",
         "50_ROUND_DRUM",
         "30_ROUND_MAG"
@@ -556,7 +556,7 @@
       ],
       "Magazine": [
         "5_ROUND_MAG",
-        "15_ROUND_MAGAZINE"
+        "15_ROUND_MAG"
       ],
       "Ammunition": [
         ".458_FRANGIBLE",

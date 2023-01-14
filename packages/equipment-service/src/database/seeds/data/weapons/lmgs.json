@@ -9,7 +9,6 @@
     "uuid": "dd69947d-ac4b-4728-9942-173dfdc52f4d",
     "name": "HCR 56",
     "type": "LMG",
-    "attachmentSlots": ["Muzzle", "Barrel", "Laser", "Optic", "Stock", "Comb", "Magazine", "Ammunition", "Underbarrel"],
     "platform": "BRUEN_BULLPUP"
   },
   "556_ICARUS": {

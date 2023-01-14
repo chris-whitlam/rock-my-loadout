@@ -565,7 +565,7 @@
         "LMK64_GRIP"
       ],
       "Magazine": [
-        "15_ROUND_MAGAZINE",
+        "15_ROUND_MAG",
         "40_ROUND_MAG",
         "60_ROUND_MAG"
       ],
@@ -614,7 +614,6 @@
     "uuid": "12412024-df94-4cc1-9905-56a5ddc9f5d9",
     "name": "STB 556",
     "type": "Assault Rifle",
-    "attachmentSlots": ["Muzzle", "Barrel", "Underbarrel", "Ammunition", "Magazine", "Laser", "Optic", "Stock", "Comb", "Rear Grip"],
     "platform": "BRUEN_BULLPUP",
     "attachments": {
       "Muzzle": [
@@ -877,7 +876,7 @@
         "SUPPORT_CP90_GRIP"
       ],
       "Magazine": [
-        "15_ROUND_MAGAZINE",
+        "15_ROUND_MAG",
         "45_ROUND_MAG",
         "60_ROUND_MAG"
       ],

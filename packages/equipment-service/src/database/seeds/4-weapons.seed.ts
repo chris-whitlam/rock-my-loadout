@@ -15,6 +15,8 @@ export default class CreateWeapons implements Seeder {
 
     const resolvedWeapons: Weapon[] = await Promise.all(
       Object.values(weaponsData).map(async (weapon: any) => {
+        console.log('IMPORTING WEAPON:', weapon.name);
+
         const weaponPlatformUUID = platformsData[weapon.platform]?.uuid;
         if (weaponPlatformUUID) {
           const platform = await connection
@@ -33,8 +35,6 @@ export default class CreateWeapons implements Seeder {
               attachmentUUIDs.push(attachmentsData[reference].uuid);
             })
           );
-
-          console.log(attachmentUUIDs);
 
           const attachments = await connection.getRepository(Attachment).find({
             where: {

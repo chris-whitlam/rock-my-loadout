@@ -1,0 +1,32 @@
+{
+  "GHOST": {
+    "uuid": "ce96e744-b47d-4908-9a2c-ead99a25d3de",
+    "name": "Ghost",
+    "description": "Undetectable by UAVs, Portable Radars and Heartbeat Sensors",
+    "type": "Ultimate"
+  },
+  "HIGH_ALERT": {
+    "uuid": "041a48e3-3125-42ee-adbb-bf887f106d86",
+    "name": "High Alert",
+    "description": "Vision pulses when spotted by an enemy player outside of view",
+    "type": "Ultimate"
+  },
+  "QUICK_FIX": {
+    "uuid": "786cc7f2-f2af-4fd0-8526-1175d3ff12cd",
+    "name": "Quick Fix",
+    "description": "Killing players or inserting a plate immediately start health regeneration. Capturing and holding objectives increases the player's health regeneration rate",
+    "type": "Ultimate"
+  },
+  "SURVIVOR": {
+    "uuid": "2b3627f7-25bd-4c9a-baaa-d70122663635",
+    "name": "Survivor",
+    "description": "Enemies that down you get automatically pinged. Get revived faster by allies",
+    "type": "Ultimate"
+  },
+  "BIRDSEYE": {
+    "uuid": "d88d56ce-6b27-4779-9d05-cd74e604412b",
+    "name": "Birdseye",
+    "description": "UAV and radar pings reveal the enemy's direction",
+    "type": "Ultimate"
+  }
+}

@@ -64,7 +64,7 @@
         "name": ".308 High Velocity",
         "attachmentSlot": "Ammunition"
     },
-    ".308_HOLLOW_POINT": {
+    ".308_HOLLOWPOINT": {
         "uuid": "41e382ed-7bdb-40bc-b911-21836a9e5413",
         "name": ".308 Hollow Point",
         "attachmentSlot": "Ammunition"

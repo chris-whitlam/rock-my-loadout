@@ -1,11 +1,12 @@
-import type { Repository } from 'typeorm';
-import { Attachment, Weapon } from './entities';
-import { FilterOptions } from './weapons.service';
+import { hasWhitespace } from '@utils';
+import { Brackets, Repository } from 'typeorm';
+import { GetWeaponsDto } from './dtos';
+import { Weapon } from './entities';
 
 export interface WeaponsRepository extends Repository<Weapon> {
   this: Repository<Weapon>;
 
-  getWeapons(filterOptions: FilterOptions): Promise<Weapon[]>;
+  getWeapons(getWeaponsDto: GetWeaponsDto): Promise<Weapon[]>;
 
   getWeaponByUUID(uuid: string): Promise<Weapon>;
 }
@@ -16,15 +17,23 @@ export const customWeaponRepositoryMethods: Pick<
 > = {
   async getWeapons(
     this: Repository<Weapon>,
-    { weaponUUIDs }
+    { type, platform }
   ): Promise<Weapon[]> {
     const query = this.createQueryBuilder('weapons').leftJoinAndSelect(
-      'weapons.attachments',
-      'attachments'
+      'weapons.platform',
+      'platform'
     );
 
-    if (weaponUUIDs.length) {
-      query.andWhere('weapons.uuid IN (:...weaponUUIDs)', { weaponUUIDs });
+    if (type) {
+      query.andWhere('weapons.type = :type', { type });
+    }
+
+    if (platform) {
+      if (hasWhitespace(platform)) {
+        query.andWhere('platform.name = :platform', { platform });
+      } else {
+        query.andWhere('platform.uuid = :platform', { platform });
+      }
     }
 
     return query.getMany();

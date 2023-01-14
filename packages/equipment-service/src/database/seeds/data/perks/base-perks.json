@@ -1,0 +1,44 @@
+{
+  "DOUBLE_TIME": {
+    "uuid": "c834c929-7399-45f5-830a-d0fb8303b47c",
+    "name": "Double Time",
+    "description": "Double the duration of Tactical Sprint, increase crouch movement speed by 30%",
+    "type": "Base"
+  },
+  "BOMB_SQUAD": {
+    "uuid": "92b8ce7e-acfc-4210-8c77-5bc8cfd572de",
+    "name": "Bomb Squad",
+    "description": "Take reduced damage from non-Killstreak explosives. Reset fuse timers when picking up live grenades",
+    "type": "Base"
+  },
+  "TRACKER": {
+    "uuid": "0595809d-dd5e-4bf0-bae3-9ce386a8ee0d",
+    "name": "Tracker",
+    "description": "Enemies leave behind a footprint trail and enemy death markers are visible. Eliminations are hidden from the enemy team",
+    "type": "Base"
+  },
+  "SCAVENGER": {
+    "uuid": "1a96bf3c-f9ed-4d3e-a782-13c587ed14c7",
+    "name": "Scavenger",
+    "description": "Resupply ammo and an extra plate from dead players",
+    "type": "Base"
+  },
+  "STRONG_ARM": {
+    "uuid": "72e19b54-b940-4ba1-86c6-b933977bd745",
+    "name": "Strong Arm",
+    "description": "Throw equipment father, and see a preview of the trajectory",
+    "type": "Base"
+  },
+  "BATTLE_HARDENED": {
+    "uuid": "3fc54244-2e8c-49d6-a365-380f53bea9ba",
+    "name": "Battle Hardened",
+    "description": "Reduce the effect of enemy Flash, Stun, EMP, Gas Grenades, and Shock Sticks. Immune to Snapshot grenades",
+    "type": "Base"
+  },
+  "OVERKILL": {
+    "uuid": "06c52b4b-3f1e-4f7f-ba23-9b5a5dc99e23",
+    "name": "Overkill",
+    "description": "Carry two primary weapons",
+    "type": "Base"
+  }
+}

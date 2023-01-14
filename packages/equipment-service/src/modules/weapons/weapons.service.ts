@@ -1,14 +1,10 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { plainToClass } from 'class-transformer';
-import { WeaponDto } from './dtos';
+import { GetWeaponsDto, WeaponDto } from './dtos';
 
 import { Attachment, AttachmentSlot, Weapon } from './entities';
 import { WeaponsRepository } from './weapons.repository';
-
-export interface FilterOptions {
-  weaponUUIDs: string[];
-}
 
 @Injectable()
 export class WeaponService {
@@ -35,9 +31,8 @@ export class WeaponService {
     });
   }
 
-  async getAllWeapons(filterOptions: FilterOptions): Promise<WeaponDto[]> {
-    const weapons = await this.weaponsRepository.getWeapons(filterOptions);
-    return weapons.map(this.transformWeapon);
+  async getAllWeapons(getWeaponsDto: GetWeaponsDto): Promise<Weapon[]> {
+    return this.weaponsRepository.getWeapons(getWeaponsDto);
   }
 
   async getWeaponByUUID(uuid: string): Promise<WeaponDto> {

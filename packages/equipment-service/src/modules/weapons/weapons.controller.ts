@@ -1,14 +1,8 @@
-import {
-  ClassSerializerInterceptor,
-  Controller,
-  Get,
-  Param,
-  Query,
-  UseInterceptors
-} from '@nestjs/common';
+import { Controller, Get, Param, Query } from '@nestjs/common';
 import { ApiOperation, ApiTags } from '@nestjs/swagger';
-import { WeaponDto } from './dtos';
-import { FilterOptions, WeaponService } from './weapons.service';
+import { GetWeaponsDto, WeaponDto } from './dtos';
+import { Weapon } from './entities';
+import { WeaponService } from './weapons.service';
 
 @Controller('weapons')
 @ApiTags('Weapons')
@@ -17,14 +11,8 @@ export class WeaponsController {
 
   @Get()
   @ApiOperation({ summary: 'Retrieves all weapons' })
-  async getWeapons(
-    @Query('weaponUUIDs') weaponUUIDs?: string
-  ): Promise<WeaponDto[]> {
-    const filterOptions: FilterOptions = {
-      weaponUUIDs: weaponUUIDs ? weaponUUIDs.split(',') : []
-    };
-
-    return this.weaponService.getAllWeapons(filterOptions);
+  async getWeapons(@Query() queryParams?: GetWeaponsDto): Promise<Weapon[]> {
+    return this.weaponService.getAllWeapons(queryParams);
   }
 
   @Get(':weaponUUID')

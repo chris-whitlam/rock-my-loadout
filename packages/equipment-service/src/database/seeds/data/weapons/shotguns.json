@@ -127,7 +127,6 @@
     "uuid": "368ad59c-bd93-4591-8ba5-aed82eb1163c",
     "name": "Expedite 12",
     "type": "Shotgun",
-    "attachmentSlots": ["Muzzle", "Barrel", "Laser", "Optic", "Stock", "Bolt", "Rear Grip", "Guard", "Ammunition", "Underbarrel"],
     "platform": "EXPEDITE",
     "attachments": {
       "Muzzle": [
@@ -401,7 +400,6 @@
     "uuid": "1a2cdd2e-15c9-4ef8-a213-3a8d611a8bc8",
     "name": "Bryson 890",
     "type": "Shotgun",
-    "attachmentSlots": ["Muzzle", "Barrel", "Laser", "Optic", "Stock", "Guard", "Magazine", "Ammunition", "Underbarrel"],
     "platform": "BRYSON_800_SERIES",
     "attachments": {
       "Muzzle": [

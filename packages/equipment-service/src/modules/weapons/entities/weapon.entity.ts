@@ -1,3 +1,4 @@
+import { Exclude } from 'class-transformer';
 import {
   Entity,
   PrimaryGeneratedColumn,
@@ -25,6 +26,7 @@ export enum WeaponType {
 
 @Entity('weapons')
 export class Weapon {
+  @Exclude()
   @PrimaryGeneratedColumn({ type: 'int' })
   id!: number;
 

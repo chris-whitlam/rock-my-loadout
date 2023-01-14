@@ -18,6 +18,25 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@": ["src"],
+      "@/*": ["src/*"],
+      "@database": ["src/database"],
+      "@database/*": ["src/database/*"],
+      "@modules": ["src/modules"],
+      "@modules/*": ["src/modules/*"],
+      "@loadouts": ["src/modules/loadouts"],
+      "@loadouts/*": ["src/modules/loadouts/*"],
+      "@perks": ["src/modules/perks"],
+      "@perks/*": ["src/modules/perks/*"],
+      "@weapons": ["src/modules/weapons"],
+      "@weapons/*": ["src/modules/weapons/*"],
+      "@services": ["src/services"],
+      "@services/*": ["src/services/*"],
+      "@utils": ["src/utils"],
+      "@utils/*": ["src/utils/*"],
+ 
+    }
   }
 }

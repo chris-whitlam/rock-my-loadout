@@ -3,7 +3,6 @@
     "uuid": "e1da6690-be0f-4c72-9141-7ce4d3ef8fd5",
     "name": "MCPR-300",
     "type": "Sniper Rifle",
-    "attachmentSlots": ["Muzzle", "Barrel", "Laser", "Optic", "Stock", "Rear Grip", "Bolt", "Magazine", "Ammunition", "Underbarrel"],
     "platform": "M4",
     "attachments": {
       "Muzzle": [
@@ -94,7 +93,7 @@
       ],
       "Magazine": [
         "5_ROUND_MAG",
-        "15_ROUND_MAGAZINE"
+        "15_ROUND_MAG"
       ],
       "Ammunition": [
         ".300_ARMOR_PIERCING",
@@ -115,7 +114,6 @@
     "uuid": "1ad5eb92-e493-4c48-906f-60a61499eece",
     "name": "Victus XMR",
     "type": "Sniper Rifle",
-    "attachmentSlots": ["Muzzle", "Barrel", "Laser", "Optic", "Stock", "Guard", "Rear Grip", "Magazine", "Ammunition", "Underbarrel"],
     "platform": "IMPERATORIUM",
     "attachments": {
       "Muzzle": [
@@ -365,7 +363,6 @@
     "uuid": "88c1da09-3bc3-45eb-b7ef-8ff29319e030",
     "name": "LA-B 330",
     "type": "Sniper Rifle",
-    "attachmentSlots": ["Muzzle", "Barrel", "Laser", "Optic", "Stock", "Comb", "Bolt", "Magazine", "Ammunition", "Underbarrel"],
     "platform": "BRYSON_LONG_RIFLE",
     "attachments": {
       "Muzzle": [
@@ -475,7 +472,6 @@
     "uuid": "199a434d-65e6-4eeb-955d-bcceb2c98fd9",
     "name": "SP-X 80",
     "type": "Sniper Rifle",
-    "attachmentSlots": ["Muzzle", "Barrel", "Laser", "Optic", "Stock", "Rear Grip", "Bolt", "Magazine", "Ammunition", "Underbarrel"],
     "platform": "BRYSON_LONG_RIFLE",
     "attachments": {
       "Muzzle": [

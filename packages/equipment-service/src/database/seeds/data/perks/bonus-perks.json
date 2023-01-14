@@ -1,0 +1,32 @@
+{
+  "SPOTTER": {
+    "uuid": "4cdc831b-b756-43bd-898d-4a9d31be3cc3",
+    "name": "Spotter",
+    "description": "Spot enemy equipment through walls. Aiming down sights highlights them for your team. Hack enemy Claymore, Proximity Mines, C4 and Trophy Systems",
+    "type": "Bonus"
+  },
+  "RESUPPLY": {
+    "uuid": "53f6cd0d-3528-468d-b645-8f13a84abecf",
+    "name": "Resupply",
+    "description": "Start with an additional Lethal. Recharge equipment over 30 seconds",
+    "type": "Bonus"
+  },
+  "FAST_HANDS": {
+    "uuid": "d4b76e53-af6b-4aa4-bc40-756ca3cc5ec4",
+    "name": "Fast Hands",
+    "description": "Reload, use equipment, and swap weapons faster",
+    "type": "Bonus"
+  },
+  "FOCUS": {
+    "uuid": "f27f8f0b-e3fe-49cf-801f-b33b11093572",
+    "name": "Focus",
+    "description": "Reduce flinch when aiming down sights and extend Hold Breath duration",
+    "type": "Bonus"
+  },
+  "COLD_BLOODED": {
+    "uuid": "861740fb-0bf3-4ffa-9408-c940c91e7015",
+    "name": "Cold Blooded",
+    "description": "Undetectable by AI targeting systems, and thermal optics. Does not trigger High Alert warning. Does not highlight in enemy Tactical Camera, Recon Drones, and Spotter Scopes",
+    "type": "Bonus"
+  }
+}

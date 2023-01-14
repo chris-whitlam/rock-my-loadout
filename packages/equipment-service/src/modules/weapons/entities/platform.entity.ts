@@ -1,3 +1,4 @@
+import { Exclude } from 'class-transformer';
 import {
   Entity,
   PrimaryGeneratedColumn,
@@ -9,6 +10,7 @@ import { Weapon } from './weapon.entity';
 
 @Entity('platforms')
 export class Platform {
+  @Exclude()
   @PrimaryGeneratedColumn({ type: 'int' })
   id!: number;
 

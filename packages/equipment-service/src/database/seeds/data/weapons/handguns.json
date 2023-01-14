@@ -76,21 +76,18 @@
     "uuid": "48c11ce7-3f96-4bdf-9a7e-8fdd66069da3",
     "name": "X12",
     "type": "Handgun",
-    "attachmentSlots": ["Muzzle", "Barrel", "Laser", "Optic", "Stock", "Rear Grip", "Magazine", "Ammunition", "Trigger Action"],
     "platform": "XRK"
   },
   "BASILISK": {
     "uuid": "6e31b359-73da-44eb-a86d-79a2f2d16e8e",
     "name": "Basilisk",
     "type": "Handgun",
-    "attachmentSlots": ["Muzzle", "Barrel", "Laser", "Optic", "Rear Grip", "Loader", "Ammunition", "Trigger Action"],
     "platform": "BASILISK_500"
   },
   "X13_AUTO": {
     "uuid": "25a87592-caa2-4cd0-846e-78fc96b50f7e",
     "name": "X13 Auto",
     "type": "Handgun",
-    "attachmentSlots": ["Muzzle", "Barrel", "Laser", "Optic", "Stock", "Rear Grip", "Magazine", "Ammunition", "Underbarrel"],
     "platform": "XRK"
   }
 }

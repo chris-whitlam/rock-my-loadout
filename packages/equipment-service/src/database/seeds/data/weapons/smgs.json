@@ -9,7 +9,6 @@
     "uuid": "47ef304b-8059-48b5-a336-c242404d0537",
     "name": "MX9",
     "type": "SMG",
-    "attachmentSlots": ["Muzzle", "Barrel", "Laser", "Optic", "Stock", "Comb", "Rear Grip", "Magazine", "Ammunition"],
     "platform": "BRUEN_BULLPUP"
   },
   "LACHMANN_SUB": {
@@ -34,7 +33,6 @@
     "uuid": "022f8071-6bbf-42d8-9615-fc77de37b9f0",
     "name": "Minibak",
     "type": "SMG",
-    "attachmentSlots": ["Muzzle", "Barrel", "Laser", "Optic", "Stock", "Rear Grip", "Magazine", "Ammunition"],
     "platform": "KASTOVIA"
   },
   "BAS-P": {
@@ -47,7 +45,6 @@
     "uuid": "cb2e36e8-2255-4a24-8b2b-02302ccb7470",
     "name": "PDSW 528",
     "type": "SMG",
-    "attachmentSlots": ["Muzzle", "Barrel", "Laser", "Optic", "Stock", "Comb", "Rear Grip", "Rail", "Ammunition", "Underbarrel"],
     "platform": "TACTIQUE_DEFENSE"
   },
   "FENNEC_45": {

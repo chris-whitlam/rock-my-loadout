@@ -409,6 +409,11 @@
         "name": "Tactique Brute Stock",
         "attachmentSlot": "Stock"
     },
+    "TACVERTE_CORE_STOCK": {
+        "uuid": "b24d2152-f87a-4d14-9275-f56a5d828dc3",
+        "name": "Tacverte Core Stock",
+        "attachmentSlot": "Stock"
+    },
     "TEMPUS_P80_STRIKE": {
         "uuid": "8cf94f99-a70b-481c-b759-4b24e1e5ed1b",
         "name": "Tempus P80 Strike",

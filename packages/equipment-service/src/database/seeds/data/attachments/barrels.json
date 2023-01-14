@@ -49,11 +49,6 @@
         "name": "12\" TacShort Barrel",
         "attachmentSlot": "Barrel"
     },
-    "13.5\"_LONESTAR_BARREL": {
-        "uuid": "47321e63-599b-4e1c-866b-5e0c0509ae73",
-        "name": "13.5\" Lonestar Barrel",
-        "attachmentSlot": "Barrel"
-    },
     "14\"_BRUEN_ECHELON": {
         "uuid": "08c73f46-87a0-4f67-b000-3a91b7712aa1",
         "name": "14\" Bruen Echelon",
@@ -127,6 +122,11 @@
     "17\"_CORVUS_PRORANGE": {
         "uuid": "9f0c054a-0246-4c0e-9f6a-5b1d589c0bc0",
         "name": "17\" Corvus Prorange",
+        "attachmentSlot": "Barrel"
+    },
+    "18\"_LONESTAR_BARREL": {
+        "uuid": "47321e63-599b-4e1c-866b-5e0c0509ae73",
+        "name": "18\" Lonestar Barrel",
         "attachmentSlot": "Barrel"
     },
     "18.5\"_BATTLEMASTER": {
