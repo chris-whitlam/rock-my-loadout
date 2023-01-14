@@ -1,3 +1,4 @@
+import { Exclude } from 'class-transformer';
 import { Entity, PrimaryGeneratedColumn, Column, Generated } from 'typeorm';
 
 export enum AttachmentSlot {
@@ -52,6 +53,7 @@ interface Tuning {
 
 @Entity('attachments')
 export class Attachment {
+  @Exclude()
   @PrimaryGeneratedColumn({ type: 'int' })
   id!: number;
 
