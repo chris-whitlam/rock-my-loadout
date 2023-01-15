@@ -49,6 +49,11 @@
         "name": "12\" TacShort Barrel",
         "attachmentSlot": "Barrel"
     },
+    "13.5\"_LONESTAR_BARREL": {
+        "uuid": "4f8ca207-204d-4d1e-9233-3e63a104ba62",
+        "name": "13.5 Lonestar Barrel",
+        "attachmentSlot": "Barrel"
+    },
     "14\"_BRUEN_ECHELON": {
         "uuid": "08c73f46-87a0-4f67-b000-3a91b7712aa1",
         "name": "14\" Bruen Echelon",

@@ -1,5 +1,6 @@
-import { Controller, Get, Param } from '@nestjs/common';
+import { Controller, Get, Param, Query } from '@nestjs/common';
 import { ApiOperation, ApiTags } from '@nestjs/swagger';
+import { GetPerksDto } from './dtos';
 import { Perk, PerkPackage } from './entities';
 import { PerksService } from './perks.service';
 
@@ -10,8 +11,8 @@ export class PerksController {
 
   @Get()
   @ApiOperation({ summary: 'Retrieves all perks' })
-  async getPerks(): Promise<Perk[]> {
-    return this.perksService.getAllPerks();
+  async getPerks(@Query() getPerksDto: GetPerksDto): Promise<Perk[]> {
+    return this.perksService.getAllPerks(getPerksDto);
   }
 
   @Get('packages')

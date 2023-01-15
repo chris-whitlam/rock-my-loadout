@@ -1,3 +1,4 @@
+import { Exclude, Expose } from 'class-transformer';
 import {
   Entity,
   PrimaryGeneratedColumn,
@@ -5,29 +6,29 @@ import {
   Generated,
   ManyToMany
 } from 'typeorm';
+import { PerkType } from '../types';
 import { PerkPackage } from './perk-package.entity';
-
-enum PerkType {
-  BASE = 'Base',
-  BONUS = 'Bonus',
-  ULTIMATE = 'Ultimate'
-}
 
 @Entity('perks')
 export class Perk {
+  @Exclude()
   @PrimaryGeneratedColumn({ type: 'int' })
   id!: number;
 
+  @Expose()
   @Column({ type: 'varchar', unique: true, nullable: false })
   @Generated('uuid')
   uuid!: string;
 
+  @Expose()
   @Column({ type: 'varchar', nullable: false })
   name!: string;
 
+  @Expose()
   @Column({ type: 'varchar', nullable: false })
   description!: string;
 
+  @Expose()
   @Column({ type: 'enum', enum: PerkType, nullable: false })
   type!: PerkType;
 

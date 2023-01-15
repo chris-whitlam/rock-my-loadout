@@ -34,6 +34,11 @@
         "name": "Bruen STB 556 Stock",
         "attachmentSlot": "Stock"
     },
+    "BRUEN_R90_FACTORY": {
+        "uuid": "231becd4-bd9d-4402-82be-7ea79baa1a36",
+        "name": "Bruen R90 Factory",
+        "attachmentSlot": "Stock"
+    },
     "BRYSON_800_FACTORY_STOCK": {
         "uuid": "2a955bff-ee0c-47e9-b960-40cb4b0d307f",
         "name": "Bryson 800 Factory Stock",

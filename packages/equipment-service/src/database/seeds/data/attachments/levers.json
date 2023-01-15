@@ -1,0 +1,12 @@
+{
+  "STALLION_LEVER": {
+    "uuid": "10a905a0-b34a-4d94-bce2-303c1e3c29f6",
+    "name": "Stallion Lever",
+    "attachmentSlot": "Lever"
+  },
+  "LONGHORN_LEVER": {
+    "uuid": "3681dad6-5af9-45d4-a8e2-0fdc005a6b4b",
+    "name": "Longhorn Lever",
+    "attachmentSlot": "Lever"
+  }
+}

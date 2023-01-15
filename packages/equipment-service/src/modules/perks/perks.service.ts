@@ -1,6 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
+import { GetPerksDto } from './dtos';
 
 import { Perk, PerkPackage } from './entities';
 
@@ -13,8 +14,9 @@ export class PerksService {
     private readonly perkPackagesRepository: Repository<PerkPackage>
   ) {}
 
-  getAllPerks(): Promise<Perk[]> {
+  getAllPerks(getPerksDto: GetPerksDto): Promise<Perk[]> {
     return this.perksRepository.find({
+      where: getPerksDto,
       relations: {
         perkPackages: false
       }
@@ -24,7 +26,7 @@ export class PerksService {
   getPerkByUUID(uuid: string): Promise<Perk> {
     return this.perksRepository.findOne({
       relations: {
-        perkPackages: false
+        perkPackages: true
       },
       where: { uuid }
     });
