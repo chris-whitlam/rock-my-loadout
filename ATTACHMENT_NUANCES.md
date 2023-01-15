@@ -9,16 +9,9 @@ EBR-14
   Comb slot not usable unless using SO-90 Factory stock. If using S0-90 stock, Rear grip slot if blocked.
 
 Lockwood MK2
-  Underbarrel slot not usable unless 
+  Underbarrel slot not usable unless....
 
-Weapons Attachments skipped as haven't unlocked
-  Assault Rifles
-    Chimera
-    M13
-
-  Marksman Rifles
-    Lockwood
-  
+Weapons Attachments skipped as haven't unlocked 
   Handguns
     .50 GS
     X12
