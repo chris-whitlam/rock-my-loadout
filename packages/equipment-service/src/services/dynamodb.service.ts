@@ -6,7 +6,6 @@ import {
 import { DynamoDB } from 'aws-sdk';
 import { DocumentClient } from 'aws-sdk/clients/dynamodb';
 import { LoadoutDto } from 'src/modules/loadouts/dto';
-import { v4 as uuid } from 'uuid';
 
 @Injectable()
 export class DynamoDBService {
@@ -18,38 +17,70 @@ export class DynamoDBService {
     });
   }
 
-  public async getLoadoutByUUID(uuid: string): Promise<LoadoutDto> {
+  public async getByKey(tableName: string, uuid: string) {
     try {
       const { Item } = await this.client
         .get({
-          TableName: 'loadouts',
+          TableName: tableName,
           Key: { uuid }
         })
         .promise();
 
-      return Item as LoadoutDto;
+      return Item;
     } catch (e) {
       console.error(e);
       throw new NotFoundException(e);
     }
   }
 
-  public async saveLoadout(loadout: LoadoutDto): Promise<{ uuid: string }> {
+  public async getAllByAttributes(
+    tableName: string,
+    attributes: any,
+    limit = undefined
+  ) {
     try {
-      const loadoutObject = {
-        ...loadout,
-        uuid: uuid(),
-        createdAt: new Date().toISOString()
-      };
+      let filterExpression = '';
+      let expressionAttributeNames = {};
+      let expressionAttributeValues = {};
 
-      await this.client
-        .put({
-          TableName: 'loadouts',
-          Item: loadoutObject
+      Object.entries(attributes).map(([key, value]) => {
+        filterExpression = filterExpression.concat(`#${key} = :${key}`);
+        expressionAttributeNames = {
+          ...expressionAttributeNames,
+          [`#${key}`]: key
+        };
+        expressionAttributeValues = {
+          ...expressionAttributeValues,
+          [`:${key}`]: value
+        };
+      });
+
+      const { Items } = await this.client
+        .scan({
+          TableName: tableName,
+          FilterExpression: filterExpression,
+          ExpressionAttributeNames: expressionAttributeNames,
+          ExpressionAttributeValues: expressionAttributeValues,
+          Limit: limit
         })
         .promise();
+      return Items;
+    } catch (e) {
+      console.error(e);
+      throw new NotFoundException(e);
+    }
+  }
 
-      return { uuid: loadoutObject.uuid };
+  public async save(tableName: string, data: any) {
+    try {
+      console.log(tableName);
+
+      return this.client
+        .put({
+          TableName: tableName,
+          Item: data
+        })
+        .promise();
     } catch (e) {
       console.error(e);
       throw new InternalServerErrorException(e);

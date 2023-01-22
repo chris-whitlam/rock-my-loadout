@@ -28,6 +28,7 @@ import { LoadoutsService } from './loadouts.service';
           .extend(customWeaponRepositoryMethods);
       }
     }
-  ]
+  ],
+  exports: [LoadoutsService]
 })
 export class LoadoutsModule {}

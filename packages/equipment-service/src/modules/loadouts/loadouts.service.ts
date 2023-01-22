@@ -4,9 +4,12 @@ import { WeaponService } from '../weapons';
 import { Weapon } from '../weapons/entities';
 import { AttachmentDto, LoadoutDto, WeaponDto } from './dto';
 import { Loadout } from './entities';
+import { v4 as uuid } from 'uuid';
 
 @Injectable()
 export class LoadoutsService {
+  tableName = 'loadouts';
+
   constructor(
     private readonly dynamoDBService: DynamoDBService,
     private readonly weaponService: WeaponService
@@ -57,8 +60,10 @@ export class LoadoutsService {
   }
 
   public async getLoadoutByUUID(uuid: string): Promise<Loadout> {
-    const storedLoadout: LoadoutDto =
-      await this.dynamoDBService.getLoadoutByUUID(uuid);
+    const storedLoadout = (await this.dynamoDBService.getByKey(
+      this.tableName,
+      uuid
+    )) as LoadoutDto;
 
     if (!storedLoadout) {
       throw new NotFoundException(`Couldn't find loadout with id ${uuid}`);
@@ -70,6 +75,14 @@ export class LoadoutsService {
   public async createLoadout(data: LoadoutDto): Promise<{ uuid: string }> {
     await this.validateLoadout(data);
 
-    return this.dynamoDBService.saveLoadout(data);
+    const loadoutObject = {
+      ...data,
+      uuid: uuid(),
+      createdAt: new Date().toISOString()
+    };
+
+    await this.dynamoDBService.save(this.tableName, data);
+
+    return loadoutObject.uuid;
   }
 }

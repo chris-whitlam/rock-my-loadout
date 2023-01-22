@@ -1,9 +1,16 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule, ConfigService } from '@nestjs/config';
+import { APP_GUARD } from '@nestjs/core';
 import { TypeOrmModule } from '@nestjs/typeorm';
 
 import { AppController } from './app.controller';
-import { WeaponsModule, LoadoutsModule, PerksModule } from './modules';
+import {
+  WeaponsModule,
+  LoadoutsModule,
+  PerksModule,
+  AuthModule
+} from './modules';
+import { JwtAuthGuard } from './modules/auth/guards';
 
 @Module({
   imports: [
@@ -29,9 +36,15 @@ import { WeaponsModule, LoadoutsModule, PerksModule } from './modules';
     }),
     WeaponsModule,
     PerksModule,
-    LoadoutsModule
+    LoadoutsModule,
+    AuthModule
   ],
   controllers: [AppController],
-  providers: []
+  providers: [
+    {
+      provide: APP_GUARD,
+      useClass: JwtAuthGuard
+    }
+  ]
 })
 export class AppModule {}
