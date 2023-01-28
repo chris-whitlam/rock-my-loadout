@@ -5,7 +5,7 @@ import {
 } from '@nestjs/common';
 import { DynamoDB } from 'aws-sdk';
 import { DocumentClient } from 'aws-sdk/clients/dynamodb';
-import { LoadoutDto } from 'src/modules/loadouts/dto';
+import { CreateLoadoutDto } from 'src/modules/loadouts/dto';
 
 @Injectable()
 export class DynamoDBService {
@@ -73,8 +73,6 @@ export class DynamoDBService {
 
   public async save(tableName: string, data: any) {
     try {
-      console.log(tableName);
-
       return this.client
         .put({
           TableName: tableName,

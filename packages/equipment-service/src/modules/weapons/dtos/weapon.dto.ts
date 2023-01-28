@@ -1,7 +1,7 @@
 import { Expose } from 'class-transformer';
 import { Attachment, AttachmentSlot, Platform, WeaponType } from '../entities';
 
-export class WeaponDto {
+export class BaseWeaponDto {
   @Expose()
   uuid: string;
 
@@ -13,7 +13,9 @@ export class WeaponDto {
 
   @Expose()
   platform: Platform;
+}
 
+export class WeaponDto extends BaseWeaponDto {
   @Expose()
   attachments?: Record<AttachmentSlot, Attachment[]>;
 }

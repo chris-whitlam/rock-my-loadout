@@ -1,5 +1,6 @@
 import { Controller, Get, Param, Query } from '@nestjs/common';
 import { ApiOperation, ApiTags } from '@nestjs/swagger';
+import { Public } from '../auth/decorators';
 import { GetWeaponsDto, WeaponDto } from './dtos';
 import { Weapon } from './entities';
 import { WeaponService } from './weapons.service';
@@ -9,12 +10,14 @@ import { WeaponService } from './weapons.service';
 export class WeaponsController {
   constructor(private readonly weaponService: WeaponService) {}
 
+  @Public()
   @Get()
   @ApiOperation({ summary: 'Retrieves all weapons' })
   async getWeapons(@Query() queryParams?: GetWeaponsDto): Promise<Weapon[]> {
     return this.weaponService.getAllWeapons(queryParams);
   }
 
+  @Public()
   @Get(':weaponUUID')
   @ApiOperation({ summary: `Retrieves a weapon based on it's uuid` })
   async getWeaponByUUID(

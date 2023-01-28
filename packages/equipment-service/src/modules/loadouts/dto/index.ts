@@ -1,1 +1,1 @@
-export * from './loadout.dto';
+export * from './create-loadout.dto';

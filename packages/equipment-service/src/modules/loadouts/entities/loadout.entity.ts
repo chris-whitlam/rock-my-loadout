@@ -1,27 +1,23 @@
+import { BaseWeaponDto } from '@/modules/weapons/dtos';
+import { Attachment, AttachmentSlot } from '@weapons/entities';
 import { Exclude, Expose } from 'class-transformer';
 import { PerkPackage } from '../../perks/entities';
-import { WeaponDto } from '../../weapons/dtos';
+
+export class LoadoutWeaponDto extends BaseWeaponDto {
+  @Expose()
+  attachments?: Record<AttachmentSlot, Attachment>;
+}
 
 @Exclude()
 export class Loadout {
-  constructor(
-    uuid: string,
-    primaryWeapon: WeaponDto,
-    secondaryWeapon: WeaponDto
-  ) {
-    this.uuid = uuid;
-    this.primaryWeapon = primaryWeapon;
-    this.secondaryWeapon = secondaryWeapon;
-  }
-
   @Expose()
   uuid!: string;
 
   @Expose()
-  primaryWeapon!: WeaponDto;
+  primaryWeapon!: LoadoutWeaponDto;
 
   @Expose()
-  secondaryWeapon!: WeaponDto;
+  secondaryWeapon!: LoadoutWeaponDto;
 
   @Expose()
   perkPackage?: PerkPackage;

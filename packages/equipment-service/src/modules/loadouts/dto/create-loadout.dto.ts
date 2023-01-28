@@ -9,7 +9,7 @@ import {
   ValidateNested
 } from 'class-validator';
 
-export class TuningDto {
+export class CreateLoadoutTuningDto {
   @IsOptional()
   @IsNumber()
   x?: number;
@@ -19,35 +19,35 @@ export class TuningDto {
   y?: number;
 }
 
-export class AttachmentDto {
+export class CreateLoadoutAttachmentDto {
   @IsUUID()
   @IsNotEmpty()
   uuid: string;
 
   @IsOptional()
-  tuning?: TuningDto;
+  tuning?: CreateLoadoutTuningDto;
 }
 
-export class WeaponDto {
+export class CreateLoadoutWeaponDto {
   @IsUUID()
   @IsNotEmpty()
   uuid: string;
 
-  @Type(() => AttachmentDto)
+  @Type(() => CreateLoadoutAttachmentDto)
   @IsNotEmpty()
-  attachments: AttachmentDto[];
+  attachments: CreateLoadoutAttachmentDto[];
 }
 
-export class LoadoutDto {
+export class CreateLoadoutDto {
   @IsDefined()
   @IsNotEmptyObject()
   @ValidateNested()
-  @Type(() => WeaponDto)
-  primaryWeapon: WeaponDto;
+  @Type(() => CreateLoadoutWeaponDto)
+  primaryWeapon: CreateLoadoutWeaponDto;
 
   @IsDefined()
   @IsNotEmptyObject()
   @ValidateNested()
-  @Type(() => WeaponDto)
-  secondaryWeapon: WeaponDto;
+  @Type(() => CreateLoadoutWeaponDto)
+  secondaryWeapon: CreateLoadoutWeaponDto;
 }
