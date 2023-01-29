@@ -102,6 +102,12 @@ export class LoadoutsService {
       throw new BadRequestException(`Weapon with id ${weapon.uuid} not found`);
     }
 
+    if (weapon.attachments.length > 5) {
+      throw new BadRequestException(
+        `No more than 5 attachments allowed per weapon`
+      );
+    }
+
     const validAttachments = this.getFlatAttachments(weaponData);
 
     const selectedAttachmentSlots = [];

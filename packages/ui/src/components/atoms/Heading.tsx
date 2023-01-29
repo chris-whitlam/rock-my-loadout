@@ -6,6 +6,6 @@ interface Props {
 
 export const PageTitle: FC<Props> = ({ children }) => {
   return (
-    <h1 className="font-medium leading-tight text-5xl mt-0 mb-2">{children}</h1>
+    <h1 className="font-bold leading-tight text-5xl mt-0 mb-2">{children}</h1>
   );
 };

@@ -2,7 +2,7 @@ import { Button, PageTitle } from '@atoms';
 import { useAppDispatch, useAppSelector, useLoadout } from '@hooks';
 import { Gunsmith, WeaponSelect } from '@organisms';
 import { FC, useState } from 'react';
-import { setPrimaryWeapon, setSecondaryWeapon } from '@store';
+import { setPrimaryWeapon, setSecondaryWeapon, clearLoadout } from '@store';
 import { WeaponSlot } from '@molecules';
 import { BaseWeapon, Loadout, WeaponSlot as WeaponSlotT } from '@types';
 
@@ -47,13 +47,28 @@ export const CreateLoadout: FC = () => {
     }
   };
 
+  const onClear = () => {
+    setCurrentSlot(null);
+    setCurrentMenu(null);
+    dispatch(clearLoadout());
+  };
+
   return (
     <>
       <div className="flex justify-between">
         <PageTitle>Create a Loadout</PageTitle>
-        <Button onClick={saveLoadout} isLoading={isLoading} className="w-32">
-          Save
-        </Button>
+        <div>
+          <Button onClick={onClear} className="w-32 bg-gray-400">
+            Clear
+          </Button>
+          <Button
+            onClick={saveLoadout}
+            isLoading={isLoading}
+            className="w-32 bg-primary ml-5"
+          >
+            Save
+          </Button>
+        </div>
       </div>
       <div className="my-5 grid grid-cols-5 gap-10">
         <WeaponSlot

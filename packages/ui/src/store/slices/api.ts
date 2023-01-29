@@ -1,21 +1,27 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 import { Weapon } from '@types';
 
-export const equipmentApi = createApi({
-  reducerPath: 'equipment',
-  baseQuery: fetchBaseQuery({ baseUrl: 'http://localhost:4001/equipment/v1' }),
+interface Response {
+  payload: any;
+}
+
+export const api = createApi({
+  reducerPath: 'api',
+  baseQuery: fetchBaseQuery({ baseUrl: 'http://localhost:4001/api/v1' }),
   endpoints: (builder) => ({
     fetchWeapons: builder.query<Weapon[], number | void>({
       query: (limit = 10) => {
         return `/weapons?limit=${limit}`;
-      }
+      },
+      transformResponse: (response: Response) => response.payload
     }),
     fetchWeapon: builder.query<Weapon, string>({
       query: (uuid: string) => {
         return `/weapons/${uuid}`;
-      }
+      },
+      transformResponse: (response: Response) => response.payload
     })
   })
 });
 
-export const { useFetchWeaponsQuery, useFetchWeaponQuery } = equipmentApi;
+export const { useFetchWeaponsQuery, useFetchWeaponQuery } = api;

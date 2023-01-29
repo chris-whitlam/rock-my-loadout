@@ -1,8 +1,10 @@
 import { Logo } from '@atoms';
+import { useLogin } from '@hooks';
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
 
 export const Header: FC = () => {
+  const { isLoggedIn, signOut } = useLogin();
   return (
     <header>
       <nav className="flex items-center justify-between flex-wrap bg-secondary-background p-6">
@@ -40,12 +42,21 @@ export const Header: FC = () => {
             </Link>
           </div>
           <div>
-            <Link
-              to="/login"
-              className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0"
-            >
-              Login
-            </Link>
+            {isLoggedIn ? (
+              <button
+                onClick={signOut}
+                className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0"
+              >
+                Sign Out
+              </button>
+            ) : (
+              <Link
+                to="/login"
+                className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0"
+              >
+                Login
+              </Link>
+            )}
           </div>
         </div>
       </nav>

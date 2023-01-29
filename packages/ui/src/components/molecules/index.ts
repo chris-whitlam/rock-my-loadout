@@ -4,3 +4,4 @@ export * from './WeaponSlot';
 export * from './AttachmentSlot';
 export * from './Modal';
 export * from './Attachment';
+export * from './RemoveAttachment';

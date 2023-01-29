@@ -1,14 +1,14 @@
 import { configureStore } from '@reduxjs/toolkit';
-import { equipmentApi } from './slices/equipment-api';
+import { api } from './slices/api';
 import loadoutReducer from './slices/loadout-slice';
 
 const store = configureStore({
   reducer: {
-    [equipmentApi.reducerPath]: equipmentApi.reducer,
+    [api.reducerPath]: api.reducer,
     loadout: loadoutReducer
   },
   middleware: (getDefaultMiddleware) => {
-    return getDefaultMiddleware().concat(equipmentApi.middleware);
+    return getDefaultMiddleware().concat(api.middleware);
   },
   devTools: process.env.NODE_ENV !== 'production'
 });

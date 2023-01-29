@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { useLocalStorage } from './useLocalStorage';
+import { ACCESS_TOKEN_LOCAL_STORAGE_KEY } from './useLogin';
 
 const initialState = {
   isLoading: false,
@@ -12,11 +14,11 @@ export type FetchState<T> = {
   error?: unknown;
 };
 
-export type FetchCallback = (url: string, data: any) => Promise<void>;
+export type FetchCallback<T> = (url: string, data: any) => Promise<T>;
 
 export type FetchHook<T> = (
   options?: FetchOptions
-) => [FetchState<T>, FetchCallback];
+) => [FetchState<T>, FetchCallback<T>];
 
 export type FetchOptions = {
   method: 'POST' | 'GET';
@@ -26,8 +28,11 @@ const useFetch: FetchHook<any> = (
   { method = 'GET' }: FetchOptions = { method: 'GET' }
 ) => {
   const [state, setState] = useState(initialState);
+  const { getItem } = useLocalStorage();
 
   const makeRequest = async (url: string, body: unknown) => {
+    const token = getItem(ACCESS_TOKEN_LOCAL_STORAGE_KEY);
+
     try {
       setState({ ...initialState, isLoading: true });
 
@@ -35,16 +40,21 @@ const useFetch: FetchHook<any> = (
         method,
         headers: {
           Accept: 'application/json',
-          'Content-Type': 'application/json'
+          'Content-Type': 'application/json',
+          ...(token && { Authorization: `Bearer ${token}` })
         },
         body: JSON.stringify(body)
       });
 
-      const data = await response.json();
+      const { payload } = await response.json();
 
-      setState({ ...initialState, data });
+      setState({ ...initialState, data: payload });
+
+      return payload;
     } catch (error: any) {
       setState({ ...initialState, error });
+
+      throw error;
     }
   };
 

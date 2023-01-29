@@ -4,15 +4,15 @@ x-shared-volumes: &shared-volumes
   - ./:/app:rw
   - workspace_modules:/app/node_modules
   - workspace_yarn_cache:/home/node/.cache/yarn
-  - equipment_service_modules:/app/packages/equipment-service/node_modules
+  - api_modules:/app/packages/api/node_modules
   - loadout_service_modules:/app/packages/loadout-service/node_modules
 
 services:
-  equipment-service:
+  api:
     build: .
     volumes:
       - ./:/app
-    command: yarn --cwd packages/equipment-service start:dev
+    command: yarn --cwd packages/api start:dev
     working_dir: /app
     ports:
       - 4001:4001
@@ -37,7 +37,7 @@ services:
     environment:
       PORT: 4000
     depends_on:
-      - equipment-service
+      - api
 
   db:
     image: postgres:10.7-alpine
@@ -70,7 +70,7 @@ services:
 volumes:
   workspace_modules:
   workspace_yarn_cache:
-  equipment_service_modules:
+  api_modules:
   loadout_service_modules:
   postgres_data:
   dynamodb_data:

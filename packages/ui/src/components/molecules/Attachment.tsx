@@ -9,7 +9,7 @@ interface Props {
 export const Attachment: FC<Props> = ({ attachment, onClick }) => {
   return (
     <button
-      className="bg-tertiary p-10 text-center"
+      className="bg-tertiary p-10 text-center text-2xl font-bold"
       onClick={() => onClick(attachment)}
     >
       {attachment.name}

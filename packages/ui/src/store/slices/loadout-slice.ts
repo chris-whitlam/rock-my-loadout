@@ -12,9 +12,14 @@ const loadoutSlice = createSlice({
     },
     setSecondaryWeapon(state, action: PayloadAction<LoadoutWeapon>) {
       state.secondary = action.payload;
+    },
+    clearLoadout(state) {
+      state.primary = undefined;
+      state.secondary = undefined;
     }
   }
 });
 
-export const { setPrimaryWeapon, setSecondaryWeapon } = loadoutSlice.actions;
+export const { setPrimaryWeapon, setSecondaryWeapon, clearLoadout } =
+  loadoutSlice.actions;
 export default loadoutSlice.reducer;

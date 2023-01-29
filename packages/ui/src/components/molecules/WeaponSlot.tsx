@@ -23,16 +23,19 @@ export const WeaponSlot: FC<Props> = ({
 
   return (
     <div className="w-full">
-      <span>{label}</span>
+      <span className="text-xl font-bold">{label.toUpperCase()}</span>
       <button
-        className="bg-tertiary p-10 mt-2 text-center w-full"
+        className="bg-tertiary p-4 mt-2 text-center w-full text-3xl font-bold"
         onClick={() => onClick(name)}
       >
         {loadoutWeapon?.name || 'None'}
       </button>
       {!!loadoutWeapon && (
-        <Button onClick={() => onClickGunsmith(name)} className="w-full">
-          Gunsmith
+        <Button
+          onClick={() => onClickGunsmith(name)}
+          className="w-full bg-primary font-bold"
+        >
+          GUNSMITH
         </Button>
       )}
     </div>

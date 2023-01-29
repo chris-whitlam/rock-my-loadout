@@ -1,2 +1,2 @@
-export { useFetchWeaponsQuery } from './equipment-api';
+export { useFetchWeaponsQuery } from './api';
 export * from './loadout-slice';
